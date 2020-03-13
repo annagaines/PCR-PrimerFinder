@@ -14,27 +14,32 @@ import logging
 import shutil
 from multiprocessing import Pool
 
-__group_1_file__ = open(sys.argv[1],"r")
+__group_1_file__ = sys.argv[1]
 
+filelist = [line.rstrip('\n') for line in open(__group_1_file__)]
+print(filelist)
 
-def get_genome_kmers(__group_1_file__):
-	if os.path.isdir(group1):
-		shutil.rmtree(group1)	
-	os.mkdir((group1).replace('.txt',''))
-	for line in __group_1_file__:
-		line = line.rstrip()
-		get_kmer_count = f"jellyfish count -C -m 21 -s 100M -o {group1}/{(line).replace('_genomic.fna','')}.jf assemblies/{line}"
-		get_kmers = f"jellyfish dump -C -m 21 -s 100M -o {group1}/{(line).replace('_genomic.fna','')}.jf assemblies/{line}"
-		print(get_kmer_count)
-		#subprocess.check_output(get_kmer_cmd, shell=True)		
+def get_kmers(file):
+	file = file.rstrip()
+	get_kmer_count = f"jellyfish count -C -m 21 -s 100M -o kmers/{(file).replace('_genomic.fna','')}.jf assemblies/{file}"
+	get_kmers = f"jellyfish dump -s 100M -o kmers/{(file).replace('_genomic.fna','')}.jf assemblies/{file}"
+	print(get_kmer_count)
+	subprocess.check_output(get_kmer_cmd, shell=True)		
+
+# def get_genome_kmers(__group_1_file__):
+# 	if os.path.isdir("kmers"):
+# 		shutil.rmtree("kmers")	
+# 	os.mkdir(("kmers"))
+# 	for line in __group_1_file__:
 	
 
 
-# def split_genomes():
-
-
 def main():
-	get_genome_kmers(__group_1_file__)
+	with Pool(10) as pool:
+		pool.map(get_kmers, filelist)
+
+
+	#get_genome_kmers(__group_1_file__)
 
 if __name__ == '__main__':
 	main()
