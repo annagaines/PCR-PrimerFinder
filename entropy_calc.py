@@ -8,20 +8,20 @@ from collections import Counter
 #This script is used to calculate the accuracy, precision, specificity, and sensitivity of entropy cut off
 
 file = open(sys.argv[1],"r")
+file2 = sys.argv[2]
 
-kmer_entropy = {}
+good_kmers = [line.rstrip('\n') for line in open(file2)]
+
 
 def calc_entropy(file):
 	for line in file:
-		a_count = 0
-		t_count = 0
-		g_count = 0
-		c_count = 0
 		line = line.rstrip()
 		if line.startswith('>'):
 			kmer = line.replace(">","")
-			if kmer not in kmer_entropy:
-				kmer_entropy[kmer] = {}
+			if kmer in good_kmers:
+				print(kmer,"good")
+			else:
+				print(kmer, "bad")
 		else:
 			l = len(line)
 			counts = Counter(line)
