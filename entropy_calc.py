@@ -5,7 +5,8 @@ import re
 from math import log
 from collections import Counter
 
-#This script is used to calculate the accuracy, precision, specificity, and sensitivity of entropy cut off
+#This script is used to calculates the entopy of the provided kmer and matches them with their good or bad designation
+#./entropy_calc.py round1.diffKmers.fa blastValPass.txt
 
 file = open(sys.argv[1],"r")
 file2 = sys.argv[2]

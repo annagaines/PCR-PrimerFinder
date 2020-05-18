@@ -1,6934 +1,3467 @@
-kmer1 bad
-56.00
-kmer2 good
-56.00
-kmer3 bad
-48.00
-kmer4 bad
-56.00
-kmer5 bad
-64.00
-kmer6 bad
-54.00
-kmer7 bad
-52.00
-kmer8 bad
-54.00
-kmer9 bad
-62.00
-kmer10 bad
-54.00
-kmer11 bad
-48.00
-kmer12 bad
-50.00
-kmer13 bad
-56.00
-kmer14 bad
-58.00
-kmer15 bad
-62.00
-kmer16 bad
-60.00
-kmer17 bad
-64.00
-kmer18 bad
-56.00
-kmer19 bad
-60.00
-kmer20 bad
-64.00
-kmer21 bad
-52.00
-kmer22 bad
-58.00
-kmer23 bad
-66.00
-kmer24 bad
-60.00
-kmer25 bad
-54.00
-kmer26 bad
-54.00
-kmer27 bad
-66.00
-kmer28 bad
-66.00
-kmer29 bad
-62.00
-kmer30 bad
-56.00
-kmer31 bad
-62.00
-kmer32 bad
-56.00
-kmer33 bad
-50.00
-kmer34 bad
-54.00
-kmer35 bad
-50.00
-kmer36 bad
-48.00
-kmer37 bad
-48.00
-kmer38 bad
-52.00
-kmer39 bad
-50.00
-kmer40 bad
-56.00
-kmer41 bad
-60.00
-kmer42 bad
-60.00
-kmer43 bad
-62.00
-kmer44 bad
-60.00
-kmer45 bad
-64.00
-kmer46 bad
-60.00
-kmer47 bad
-56.00
-kmer48 bad
-62.00
-kmer49 bad
-64.00
-kmer50 bad
-62.00
-kmer51 bad
-64.00
-kmer52 bad
-66.00
-kmer53 bad
-62.00
-kmer54 bad
-52.00
-kmer55 bad
-56.00
-kmer56 bad
-58.00
-kmer57 bad
-60.00
-kmer58 bad
-62.00
-kmer59 bad
-58.00
-kmer60 bad
-64.00
-kmer61 bad
-60.00
-kmer62 bad
-56.00
-kmer63 bad
-52.00
-kmer64 bad
-56.00
-kmer65 bad
-58.00
-kmer66 bad
-52.00
-kmer67 bad
-60.00
-kmer68 bad
-64.00
-kmer69 bad
-68.00
-kmer70 bad
-62.00
-kmer71 bad
-58.00
-kmer72 bad
-62.00
-kmer73 bad
-66.00
-kmer74 bad
-62.00
-kmer75 bad
-60.00
-kmer76 bad
-62.00
-kmer77 good
-66.00
-kmer78 bad
-64.00
-kmer79 bad
-60.00
-kmer80 bad
-54.00
-kmer81 bad
-72.00
-kmer82 bad
-68.00
-kmer83 good
-66.00
-kmer84 bad
-58.00
-kmer85 bad
-68.00
-kmer86 bad
-68.00
-kmer87 good
-64.00
-kmer88 bad
-62.00
-kmer89 bad
-56.00
-kmer90 bad
-64.00
-kmer91 bad
-66.00
-kmer92 bad
-56.00
-kmer93 bad
-60.00
-kmer94 bad
-64.00
-kmer95 bad
-66.00
-kmer96 bad
-62.00
-kmer97 good
-66.00
-kmer98 bad
-64.00
-kmer99 bad
-56.00
-kmer100 bad
-62.00
-kmer101 bad
-62.00
-kmer102 bad
-58.00
-kmer103 bad
-64.00
-kmer104 bad
-58.00
-kmer105 bad
-64.00
-kmer106 bad
-62.00
-kmer107 bad
-58.00
-kmer108 bad
-52.00
-kmer109 bad
-54.00
-kmer110 bad
-50.00
-kmer111 bad
-62.00
-kmer112 bad
-48.00
-kmer113 bad
-52.00
-kmer114 bad
-56.00
-kmer115 bad
-58.00
-kmer116 bad
-60.00
-kmer117 good
-54.00
-kmer118 bad
-60.00
-kmer119 good
-60.00
-kmer120 bad
-60.00
-kmer121 good
-58.00
-kmer122 bad
-48.00
-kmer123 bad
-60.00
-kmer124 good
-62.00
-kmer125 bad
-58.00
-kmer126 bad
-60.00
-kmer127 bad
-60.00
-kmer128 bad
-52.00
-kmer129 bad
-58.00
-kmer130 bad
-60.00
-kmer131 bad
-56.00
-kmer132 bad
-54.00
-kmer133 bad
-44.00
-kmer134 bad
-50.00
-kmer135 bad
-62.00
-kmer136 bad
-56.00
-kmer137 bad
-64.00
-kmer138 bad
-56.00
-kmer139 bad
-62.00
-kmer140 bad
-60.00
-kmer141 bad
-54.00
-kmer142 bad
-60.00
-kmer143 bad
-68.00
-kmer144 bad
-68.00
-kmer145 bad
-64.00
-kmer146 bad
-54.00
-kmer147 bad
-60.00
-kmer148 bad
-66.00
-kmer149 bad
-66.00
-kmer150 bad
-52.00
-kmer151 bad
-60.00
-kmer152 bad
-62.00
-kmer153 good
-64.00
-kmer154 bad
-60.00
-kmer155 bad
-66.00
-kmer156 bad
-64.00
-kmer157 bad
-66.00
-kmer158 bad
-66.00
-kmer159 bad
-50.00
-kmer160 bad
-58.00
-kmer161 bad
-62.00
-kmer162 bad
-62.00
-kmer163 bad
-62.00
-kmer164 bad
-62.00
-kmer165 bad
-56.00
-kmer166 bad
-56.00
-kmer167 bad
-62.00
-kmer168 bad
-64.00
-kmer169 bad
-68.00
-kmer170 bad
-66.00
-kmer171 bad
-66.00
-kmer172 bad
-64.00
-kmer173 bad
-60.00
-kmer174 bad
-66.00
-kmer175 bad
-68.00
-kmer176 bad
-68.00
-kmer177 bad
-64.00
-kmer178 bad
-66.00
-kmer179 bad
-72.00
-kmer180 bad
-68.00
-kmer181 bad
-68.00
-kmer182 good
-64.00
-kmer183 bad
-62.00
-kmer184 bad
-66.00
-kmer185 bad
-68.00
-kmer186 bad
-62.00
-kmer187 good
-62.00
-kmer188 bad
-60.00
-kmer189 bad
-66.00
-kmer190 bad
-60.00
-kmer191 bad
-62.00
-kmer192 good
-66.00
-kmer193 bad
-64.00
-kmer194 bad
-70.00
-kmer195 bad
-64.00
-kmer196 good
-64.00
-kmer197 bad
-66.00
-kmer198 bad
-68.00
-kmer199 good
-66.00
-kmer200 good
-64.00
-kmer201 good
-58.00
-kmer202 good
-60.00
-kmer203 bad
-62.00
-kmer204 bad
-64.00
-kmer205 bad
-62.00
-kmer206 bad
-72.00
-kmer207 bad
-66.00
-kmer208 bad
-62.00
-kmer209 bad
-58.00
-kmer210 bad
-56.00
-kmer211 bad
-64.00
-kmer212 bad
-58.00
-kmer213 bad
-64.00
-kmer214 bad
-68.00
-kmer215 bad
-58.00
-kmer216 bad
-58.00
-kmer217 bad
-64.00
-kmer218 good
-60.00
-kmer219 bad
-64.00
-kmer220 bad
-64.00
-kmer221 bad
-64.00
-kmer222 bad
-60.00
-kmer223 bad
-64.00
-kmer224 bad
-64.00
-kmer225 bad
-66.00
-kmer226 bad
-68.00
-kmer227 bad
-64.00
-kmer228 bad
-64.00
-kmer229 bad
-70.00
-kmer230 bad
-60.00
-kmer231 bad
-58.00
-kmer232 bad
-64.00
-kmer233 bad
-62.00
-kmer234 bad
-62.00
-kmer235 bad
-64.00
-kmer236 good
-64.00
-kmer237 bad
-62.00
-kmer238 bad
-62.00
-kmer239 bad
-62.00
-kmer240 bad
-62.00
-kmer241 bad
-50.00
-kmer242 bad
-58.00
-kmer243 bad
-60.00
-kmer244 bad
-64.00
-kmer245 bad
-66.00
-kmer246 bad
-64.00
-kmer247 bad
-70.00
-kmer248 bad
-62.00
-kmer249 bad
-62.00
-kmer250 bad
-62.00
-kmer251 bad
-64.00
-kmer252 bad
-66.00
-kmer253 bad
-56.00
-kmer254 good
-64.00
-kmer255 bad
-66.00
-kmer256 bad
-60.00
-kmer257 bad
-56.00
-kmer258 bad
-68.00
-kmer259 bad
-54.00
-kmer260 bad
-60.00
-kmer261 bad
-56.00
-kmer262 bad
-60.00
-kmer263 bad
-60.00
-kmer264 bad
-60.00
-kmer265 bad
-58.00
-kmer266 bad
-52.00
-kmer267 bad
-64.00
-kmer268 bad
-66.00
-kmer269 bad
-58.00
-kmer270 bad
-60.00
-kmer271 bad
-58.00
-kmer272 bad
-54.00
-kmer273 bad
-64.00
-kmer274 bad
-66.00
-kmer275 good
-60.00
-kmer276 bad
-68.00
-kmer277 good
-62.00
-kmer278 good
-64.00
-kmer279 bad
-60.00
-kmer280 bad
-62.00
-kmer281 bad
-64.00
-kmer282 bad
-58.00
-kmer283 bad
-60.00
-kmer284 bad
-62.00
-kmer285 bad
-64.00
-kmer286 bad
-54.00
-kmer287 bad
-68.00
-kmer288 bad
-66.00
-kmer289 bad
-56.00
-kmer290 bad
-64.00
-kmer291 bad
-64.00
-kmer292 bad
-62.00
-kmer293 good
-58.00
-kmer294 bad
-54.00
-kmer295 bad
-52.00
-kmer296 bad
-58.00
-kmer297 good
-68.00
-kmer298 bad
-64.00
-kmer299 bad
-68.00
-kmer300 bad
-60.00
-kmer301 bad
-60.00
-kmer302 bad
-54.00
-kmer303 bad
-54.00
-kmer304 bad
-60.00
-kmer305 bad
-66.00
-kmer306 bad
-66.00
-kmer307 bad
-70.00
-kmer308 bad
-56.00
-kmer309 bad
-74.00
-kmer310 bad
-68.00
-kmer311 bad
-72.00
-kmer312 bad
-66.00
-kmer313 good
-66.00
-kmer314 bad
-68.00
-kmer315 bad
-64.00
-kmer316 bad
-68.00
-kmer317 bad
-64.00
-kmer318 bad
-70.00
-kmer319 bad
-58.00
-kmer320 bad
-64.00
-kmer321 good
-66.00
-kmer322 good
-64.00
-kmer323 bad
-60.00
-kmer324 bad
-60.00
-kmer325 bad
-64.00
-kmer326 bad
-64.00
-kmer327 bad
-66.00
-kmer328 bad
-58.00
-kmer329 bad
-66.00
-kmer330 bad
-64.00
-kmer331 bad
-64.00
-kmer332 bad
-54.00
-kmer333 good
-64.00
-kmer334 bad
-60.00
-kmer335 good
-64.00
-kmer336 bad
-60.00
-kmer337 bad
-64.00
-kmer338 bad
-60.00
-kmer339 bad
-66.00
-kmer340 bad
-68.00
-kmer341 bad
-62.00
-kmer342 bad
-56.00
-kmer343 bad
-60.00
-kmer344 bad
-64.00
-kmer345 bad
-64.00
-kmer346 bad
-64.00
-kmer347 bad
-60.00
-kmer348 bad
-66.00
-kmer349 bad
-70.00
-kmer350 bad
-64.00
-kmer351 bad
-68.00
-kmer352 bad
-64.00
-kmer353 good
-62.00
-kmer354 bad
-62.00
-kmer355 bad
-60.00
-kmer356 bad
-58.00
-kmer357 bad
-66.00
-kmer358 bad
-60.00
-kmer359 bad
-62.00
-kmer360 bad
-66.00
-kmer361 bad
-64.00
-kmer362 bad
-68.00
-kmer363 bad
-56.00
-kmer364 bad
-70.00
-kmer365 bad
-64.00
-kmer366 bad
-64.00
-kmer367 bad
-66.00
-kmer368 bad
-60.00
-kmer369 bad
-62.00
-kmer370 good
-66.00
-kmer371 bad
-66.00
-kmer372 bad
-64.00
-kmer373 bad
-64.00
-kmer374 good
-66.00
-kmer375 bad
-68.00
-kmer376 bad
-62.00
-kmer377 bad
-58.00
-kmer378 bad
-64.00
-kmer379 bad
-64.00
-kmer380 bad
-64.00
-kmer381 bad
-60.00
-kmer382 bad
-62.00
-kmer383 bad
-60.00
-kmer384 bad
-64.00
-kmer385 bad
-68.00
-kmer386 bad
-60.00
-kmer387 bad
-58.00
-kmer388 bad
-66.00
-kmer389 bad
-62.00
-kmer390 bad
-68.00
-kmer391 bad
-58.00
-kmer392 bad
-70.00
-kmer393 bad
-62.00
-kmer394 bad
-60.00
-kmer395 bad
-64.00
-kmer396 bad
-62.00
-kmer397 bad
-60.00
-kmer398 bad
-64.00
-kmer399 bad
-58.00
-kmer400 bad
-60.00
-kmer401 bad
-64.00
-kmer402 bad
-60.00
-kmer403 bad
-54.00
-kmer404 bad
-60.00
-kmer405 good
-54.00
-kmer406 bad
-54.00
-kmer407 bad
-56.00
-kmer408 good
-60.00
-kmer409 bad
-52.00
-kmer410 bad
-64.00
-kmer411 bad
-48.00
-kmer412 bad
-54.00
-kmer413 bad
-54.00
-kmer414 bad
-56.00
-kmer415 bad
-64.00
-kmer416 bad
-64.00
-kmer417 bad
-58.00
-kmer418 bad
-60.00
-kmer419 bad
-60.00
-kmer420 good
-56.00
-kmer421 bad
-62.00
-kmer422 bad
-62.00
-kmer423 bad
-64.00
-kmer424 bad
-52.00
-kmer425 bad
-60.00
-kmer426 bad
-60.00
-kmer427 bad
-54.00
-kmer428 bad
-60.00
-kmer429 bad
-62.00
-kmer430 good
-62.00
-kmer431 bad
-62.00
-kmer432 bad
-64.00
-kmer433 good
-66.00
-kmer434 bad
-62.00
-kmer435 good
-64.00
-kmer436 bad
-60.00
-kmer437 bad
-64.00
-kmer438 bad
-66.00
-kmer439 bad
-58.00
-kmer440 bad
-68.00
-kmer441 bad
-48.00
-kmer442 bad
-62.00
-kmer443 bad
-54.00
-kmer444 bad
-66.00
-kmer445 bad
-60.00
-kmer446 bad
-60.00
-kmer447 bad
-62.00
-kmer448 bad
-58.00
-kmer449 bad
-58.00
-kmer450 bad
-62.00
-kmer451 bad
-62.00
-kmer452 good
-62.00
-kmer453 bad
-58.00
-kmer454 bad
-60.00
-kmer455 bad
-54.00
-kmer456 bad
-60.00
-kmer457 bad
-60.00
-kmer458 bad
-62.00
-kmer459 bad
-62.00
-kmer460 bad
-64.00
-kmer461 bad
-62.00
-kmer462 bad
-58.00
-kmer463 bad
-64.00
-kmer464 bad
-62.00
-kmer465 bad
-62.00
-kmer466 bad
-62.00
-kmer467 bad
-60.00
-kmer468 bad
-56.00
-kmer469 bad
-62.00
-kmer470 bad
-58.00
-kmer471 bad
-62.00
-kmer472 bad
-62.00
-kmer473 bad
-50.00
-kmer474 bad
-52.00
-kmer475 bad
-62.00
-kmer476 bad
-60.00
-kmer477 bad
-62.00
-kmer478 bad
-60.00
-kmer479 bad
-68.00
-kmer480 bad
-56.00
-kmer481 bad
-64.00
-kmer482 bad
-68.00
-kmer483 bad
-58.00
-kmer484 bad
-60.00
-kmer485 bad
-64.00
-kmer486 bad
-56.00
-kmer487 good
-60.00
-kmer488 bad
-62.00
-kmer489 bad
-58.00
-kmer490 bad
-50.00
-kmer491 bad
-60.00
-kmer492 bad
-54.00
-kmer493 bad
-44.00
-kmer494 bad
-52.00
-kmer495 bad
-56.00
-kmer496 good
-60.00
-kmer497 bad
-62.00
-kmer498 bad
-68.00
-kmer499 bad
-64.00
-kmer500 bad
-56.00
-kmer501 bad
-64.00
-kmer502 bad
-58.00
-kmer503 bad
-66.00
-kmer504 bad
-66.00
-kmer505 bad
-58.00
-kmer506 bad
-60.00
-kmer507 bad
-62.00
-kmer508 bad
-60.00
-kmer509 bad
-60.00
-kmer510 bad
-56.00
-kmer511 bad
-66.00
-kmer512 bad
-70.00
-kmer513 bad
-66.00
-kmer514 bad
-62.00
-kmer515 bad
-64.00
-kmer516 bad
-66.00
-kmer517 bad
-62.00
-kmer518 bad
-68.00
-kmer519 bad
-66.00
-kmer520 bad
-68.00
-kmer521 bad
-60.00
-kmer522 bad
-60.00
-kmer523 bad
-60.00
-kmer524 bad
-64.00
-kmer525 bad
-70.00
-kmer526 bad
-62.00
-kmer527 bad
-66.00
-kmer528 bad
-60.00
-kmer529 bad
-60.00
-kmer530 bad
-64.00
-kmer531 bad
-62.00
-kmer532 bad
-66.00
-kmer533 bad
-54.00
-kmer534 bad
-56.00
-kmer535 bad
-60.00
-kmer536 bad
-66.00
-kmer537 bad
-66.00
-kmer538 bad
-68.00
-kmer539 bad
-54.00
-kmer540 bad
-62.00
-kmer541 bad
-62.00
-kmer542 bad
-64.00
-kmer543 good
-66.00
-kmer544 bad
-60.00
-kmer545 bad
-60.00
-kmer546 bad
-66.00
-kmer547 bad
-62.00
-kmer548 bad
-66.00
-kmer549 good
-62.00
-kmer550 bad
-66.00
-kmer551 bad
-68.00
-kmer552 bad
-64.00
-kmer553 bad
-66.00
-kmer554 good
-64.00
-kmer555 bad
-66.00
-kmer556 bad
-64.00
-kmer557 bad
-60.00
-kmer558 bad
-62.00
-kmer559 bad
-56.00
-kmer560 bad
-60.00
-kmer561 bad
-56.00
-kmer562 bad
-68.00
-kmer563 bad
-60.00
-kmer564 bad
-60.00
-kmer565 bad
-66.00
-kmer566 bad
-52.00
-kmer567 bad
-62.00
-kmer568 bad
-64.00
-kmer569 bad
-64.00
-kmer570 bad
-58.00
-kmer571 bad
-60.00
-kmer572 bad
-62.00
-kmer573 bad
-62.00
-kmer574 bad
-64.00
-kmer575 bad
-62.00
-kmer576 bad
-62.00
-kmer577 bad
-60.00
-kmer578 bad
-56.00
-kmer579 bad
-58.00
-kmer580 bad
-60.00
-kmer581 bad
-66.00
-kmer582 bad
-64.00
-kmer583 bad
-64.00
-kmer584 bad
-64.00
-kmer585 bad
-70.00
-kmer586 bad
-68.00
-kmer587 bad
-58.00
-kmer588 bad
-68.00
-kmer589 bad
-68.00
-kmer590 bad
-66.00
-kmer591 bad
-64.00
-kmer592 bad
-62.00
-kmer593 bad
-62.00
-kmer594 bad
-56.00
-kmer595 bad
-64.00
-kmer596 bad
-66.00
-kmer597 bad
-64.00
-kmer598 bad
-66.00
-kmer599 bad
-68.00
-kmer600 bad
-66.00
-kmer601 bad
-66.00
-kmer602 bad
-68.00
-kmer603 bad
-68.00
-kmer604 bad
-74.00
-kmer605 bad
-68.00
-kmer606 bad
-70.00
-kmer607 bad
-66.00
-kmer608 bad
-62.00
-kmer609 bad
-64.00
-kmer610 bad
-62.00
-kmer611 bad
-62.00
-kmer612 bad
-62.00
-kmer613 bad
-68.00
-kmer614 bad
-70.00
-kmer615 bad
-68.00
-kmer616 bad
-64.00
-kmer617 good
-62.00
-kmer618 bad
-66.00
-kmer619 bad
-66.00
-kmer620 bad
-66.00
-kmer621 bad
-68.00
-kmer622 bad
-60.00
-kmer623 bad
-64.00
-kmer624 bad
-68.00
-kmer625 bad
-66.00
-kmer626 bad
-66.00
-kmer627 bad
-62.00
-kmer628 bad
-62.00
-kmer629 bad
-72.00
-kmer630 bad
-64.00
-kmer631 bad
-68.00
-kmer632 bad
-68.00
-kmer633 bad
-70.00
-kmer634 bad
-70.00
-kmer635 bad
-72.00
-kmer636 bad
-68.00
-kmer637 good
-66.00
-kmer638 bad
-66.00
-kmer639 bad
-68.00
-kmer640 bad
-70.00
-kmer641 bad
-62.00
-kmer642 bad
-70.00
-kmer643 bad
-64.00
-kmer644 bad
-72.00
-kmer645 bad
-70.00
-kmer646 bad
-64.00
-kmer647 good
-66.00
-kmer648 bad
-66.00
-kmer649 bad
-66.00
-kmer650 good
-64.00
-kmer651 bad
-68.00
-kmer652 good
-68.00
-kmer653 bad
-66.00
-kmer654 good
-58.00
-kmer655 good
-60.00
-kmer656 bad
-64.00
-kmer657 bad
-64.00
-kmer658 bad
-64.00
-kmer659 bad
-62.00
-kmer660 bad
-60.00
-kmer661 good
-62.00
-kmer662 bad
-70.00
-kmer663 bad
-64.00
-kmer664 bad
-74.00
-kmer665 bad
-58.00
-kmer666 bad
-62.00
-kmer667 bad
-68.00
-kmer668 bad
-66.00
-kmer669 bad
-64.00
-kmer670 bad
-66.00
-kmer671 bad
-64.00
-kmer672 bad
-68.00
-kmer673 bad
-70.00
-kmer674 bad
-60.00
-kmer675 bad
-68.00
-kmer676 bad
-66.00
-kmer677 bad
-66.00
-kmer678 bad
-60.00
-kmer679 bad
-68.00
-kmer680 bad
-58.00
-kmer681 bad
-62.00
-kmer682 bad
-64.00
-kmer683 bad
-68.00
-kmer684 bad
-58.00
-kmer685 bad
-62.00
-kmer686 bad
-56.00
-kmer687 bad
-62.00
-kmer688 bad
-60.00
-kmer689 bad
-66.00
-kmer690 bad
-64.00
-kmer691 bad
-60.00
-kmer692 bad
-62.00
-kmer693 bad
-66.00
-kmer694 bad
-62.00
-kmer695 bad
-68.00
-kmer696 bad
-60.00
-kmer697 bad
-60.00
-kmer698 bad
-64.00
-kmer699 bad
-66.00
-kmer700 bad
-64.00
-kmer701 bad
-66.00
-kmer702 bad
-68.00
-kmer703 good
-60.00
-kmer704 bad
-68.00
-kmer705 bad
-66.00
-kmer706 bad
-60.00
-kmer707 bad
-64.00
-kmer708 bad
-60.00
-kmer709 bad
-60.00
-kmer710 bad
-64.00
-kmer711 bad
-66.00
-kmer712 bad
-58.00
-kmer713 bad
-64.00
-kmer714 bad
-62.00
-kmer715 bad
-58.00
-kmer716 bad
-62.00
-kmer717 bad
-68.00
-kmer718 bad
-68.00
-kmer719 bad
-68.00
-kmer720 bad
-66.00
-kmer721 bad
-66.00
-kmer722 bad
-62.00
-kmer723 bad
-64.00
-kmer724 bad
-70.00
-kmer725 bad
-60.00
-kmer726 bad
-66.00
-kmer727 bad
-68.00
-kmer728 bad
-68.00
-kmer729 good
-66.00
-kmer730 bad
-66.00
-kmer731 bad
-64.00
-kmer732 bad
-66.00
-kmer733 bad
-64.00
-kmer734 bad
-62.00
-kmer735 bad
-64.00
-kmer736 bad
-62.00
-kmer737 bad
-72.00
-kmer738 bad
-66.00
-kmer739 bad
-66.00
-kmer740 bad
-60.00
-kmer741 bad
-58.00
-kmer742 bad
-64.00
-kmer743 bad
-64.00
-kmer744 bad
-66.00
-kmer745 bad
-64.00
-kmer746 bad
-60.00
-kmer747 bad
-66.00
-kmer748 bad
-70.00
-kmer749 bad
-66.00
-kmer750 bad
-72.00
-kmer751 bad
-64.00
-kmer752 bad
-64.00
-kmer753 bad
-68.00
-kmer754 bad
-70.00
-kmer755 bad
-72.00
-kmer756 bad
-64.00
-kmer757 bad
-62.00
-kmer758 bad
-56.00
-kmer759 good
-64.00
-kmer760 bad
-66.00
-kmer761 bad
-68.00
-kmer762 bad
-64.00
-kmer763 bad
-64.00
-kmer764 bad
-60.00
-kmer765 bad
-62.00
-kmer766 bad
-64.00
-kmer767 bad
-70.00
-kmer768 bad
-68.00
-kmer769 bad
-60.00
-kmer770 bad
-54.00
-kmer771 bad
-62.00
-kmer772 bad
-66.00
-kmer773 bad
-66.00
-kmer774 bad
-66.00
-kmer775 bad
-62.00
-kmer776 bad
-62.00
-kmer777 bad
-64.00
-kmer778 bad
-60.00
-kmer779 bad
-64.00
-kmer780 bad
-60.00
-kmer781 bad
-62.00
-kmer782 bad
-60.00
-kmer783 bad
-50.00
-kmer784 bad
-60.00
-kmer785 bad
-60.00
-kmer786 bad
-62.00
-kmer787 bad
-56.00
-kmer788 bad
-66.00
-kmer789 bad
-68.00
-kmer790 bad
-64.00
-kmer791 good
-66.00
-kmer792 bad
-66.00
-kmer793 bad
-72.00
-kmer794 bad
-64.00
-kmer795 bad
-62.00
-kmer796 good
-64.00
-kmer797 bad
-62.00
-kmer798 bad
-62.00
-kmer799 bad
-62.00
-kmer800 bad
-60.00
-kmer801 bad
-64.00
-kmer802 bad
-66.00
-kmer803 bad
-62.00
-kmer804 bad
-66.00
-kmer805 bad
-58.00
-kmer806 bad
-66.00
-kmer807 good
-64.00
-kmer808 bad
-62.00
-kmer809 bad
-68.00
-kmer810 bad
-66.00
-kmer811 bad
-60.00
-kmer812 bad
-66.00
-kmer813 bad
-56.00
-kmer814 bad
-54.00
-kmer815 bad
-68.00
-kmer816 bad
-66.00
-kmer817 bad
-60.00
-kmer818 bad
-58.00
-kmer819 bad
-60.00
-kmer820 bad
-62.00
-kmer821 bad
-60.00
-kmer822 bad
-64.00
-kmer823 bad
-60.00
-kmer824 bad
-66.00
-kmer825 bad
-62.00
-kmer826 bad
-60.00
-kmer827 bad
-54.00
-kmer828 bad
-56.00
-kmer829 bad
-56.00
-kmer830 bad
-60.00
-kmer831 bad
-70.00
-kmer832 bad
-54.00
-kmer833 bad
-62.00
-kmer834 bad
-64.00
-kmer835 bad
-66.00
-kmer836 bad
-68.00
-kmer837 bad
-58.00
-kmer838 bad
-60.00
-kmer839 bad
-62.00
-kmer840 bad
-66.00
-kmer841 bad
-62.00
-kmer842 bad
-54.00
-kmer843 bad
-62.00
-kmer844 bad
-56.00
-kmer845 bad
-58.00
-kmer846 bad
-48.00
-kmer847 bad
-52.00
-kmer848 bad
-66.00
-kmer849 bad
-66.00
-kmer850 bad
-54.00
-kmer851 bad
-54.00
-kmer852 bad
-60.00
-kmer853 bad
-68.00
-kmer854 bad
-58.00
-kmer855 bad
-62.00
-kmer856 bad
-64.00
-kmer857 bad
-56.00
-kmer858 bad
-58.00
-kmer859 bad
-54.00
-kmer860 bad
-66.00
-kmer861 bad
-64.00
-kmer862 bad
-66.00
-kmer863 bad
-58.00
-kmer864 good
-62.00
-kmer865 good
-60.00
-kmer866 bad
-64.00
-kmer867 bad
-70.00
-kmer868 bad
-56.00
-kmer869 bad
-62.00
-kmer870 bad
-62.00
-kmer871 bad
-62.00
-kmer872 bad
-58.00
-kmer873 bad
-68.00
-kmer874 good
-62.00
-kmer875 good
-66.00
-kmer876 bad
-64.00
-kmer877 bad
-60.00
-kmer878 bad
-64.00
-kmer879 bad
-64.00
-kmer880 bad
-70.00
-kmer881 bad
-64.00
-kmer882 bad
-64.00
-kmer883 bad
-64.00
-kmer884 bad
-62.00
-kmer885 bad
-66.00
-kmer886 bad
-64.00
-kmer887 bad
-60.00
-kmer888 bad
-56.00
-kmer889 bad
-58.00
-kmer890 bad
-66.00
-kmer891 bad
-64.00
-kmer892 bad
-66.00
-kmer893 bad
-58.00
-kmer894 bad
-62.00
-kmer895 bad
-64.00
-kmer896 bad
-66.00
-kmer897 bad
-62.00
-kmer898 bad
-56.00
-kmer899 bad
-64.00
-kmer900 bad
-70.00
-kmer901 bad
-62.00
-kmer902 bad
-64.00
-kmer903 bad
-62.00
-kmer904 bad
-62.00
-kmer905 bad
-68.00
-kmer906 bad
-58.00
-kmer907 bad
-66.00
-kmer908 bad
-66.00
-kmer909 bad
-64.00
-kmer910 bad
-66.00
-kmer911 bad
-66.00
-kmer912 bad
-58.00
-kmer913 bad
-70.00
-kmer914 bad
-70.00
-kmer915 bad
-68.00
-kmer916 bad
-68.00
-kmer917 bad
-70.00
-kmer918 bad
-66.00
-kmer919 bad
-64.00
-kmer920 bad
-66.00
-kmer921 bad
-58.00
-kmer922 good
-62.00
-kmer923 bad
-64.00
-kmer924 bad
-64.00
-kmer925 bad
-64.00
-kmer926 bad
-64.00
-kmer927 bad
-50.00
-kmer928 bad
-56.00
-kmer929 bad
-64.00
-kmer930 bad
-66.00
-kmer931 good
-60.00
-kmer932 bad
-56.00
-kmer933 bad
-58.00
-kmer934 bad
-60.00
-kmer935 bad
-54.00
-kmer936 bad
-60.00
-kmer937 bad
-64.00
-kmer938 bad
-62.00
-kmer939 good
-62.00
-kmer940 bad
-58.00
-kmer941 bad
-62.00
-kmer942 bad
-64.00
-kmer943 bad
-60.00
-kmer944 bad
-60.00
-kmer945 bad
-68.00
-kmer946 bad
-62.00
-kmer947 bad
-50.00
-kmer948 bad
-60.00
-kmer949 good
-68.00
-kmer950 good
-68.00
-kmer951 bad
-64.00
-kmer952 bad
-66.00
-kmer953 bad
-58.00
-kmer954 bad
-60.00
-kmer955 bad
-66.00
-kmer956 bad
-72.00
-kmer957 bad
-70.00
-kmer958 bad
-64.00
-kmer959 bad
-64.00
-kmer960 bad
-66.00
-kmer961 bad
-66.00
-kmer962 bad
-62.00
-kmer963 bad
-62.00
-kmer964 bad
-66.00
-kmer965 bad
-66.00
-kmer966 bad
-60.00
-kmer967 bad
-60.00
-kmer968 bad
-62.00
-kmer969 bad
-70.00
-kmer970 bad
-62.00
-kmer971 bad
-56.00
-kmer972 bad
-60.00
-kmer973 bad
-58.00
-kmer974 bad
-56.00
-kmer975 bad
-56.00
-kmer976 bad
-66.00
-kmer977 bad
-64.00
-kmer978 bad
-60.00
-kmer979 good
-64.00
-kmer980 bad
-68.00
-kmer981 bad
-72.00
-kmer982 bad
-70.00
-kmer983 bad
-70.00
-kmer984 bad
-72.00
-kmer985 bad
-72.00
-kmer986 bad
-58.00
-kmer987 bad
-66.00
-kmer988 bad
-66.00
-kmer989 bad
-74.00
-kmer990 bad
-70.00
-kmer991 bad
-72.00
-kmer992 bad
-66.00
-kmer993 good
-66.00
-kmer994 bad
-66.00
-kmer995 bad
-66.00
-kmer996 good
-60.00
-kmer997 bad
-68.00
-kmer998 bad
-58.00
-kmer999 bad
-62.00
-kmer1000 bad
-70.00
-kmer1001 bad
-66.00
-kmer1002 bad
-62.00
-kmer1003 bad
-68.00
-kmer1004 bad
-70.00
-kmer1005 bad
-72.00
-kmer1006 bad
-66.00
-kmer1007 bad
-64.00
-kmer1008 bad
-68.00
-kmer1009 bad
-66.00
-kmer1010 bad
-72.00
-kmer1011 bad
-62.00
-kmer1012 bad
-66.00
-kmer1013 bad
-72.00
-kmer1014 bad
-68.00
-kmer1015 bad
-66.00
-kmer1016 good
-72.00
-kmer1017 bad
-70.00
-kmer1018 bad
-66.00
-kmer1019 bad
-64.00
-kmer1020 bad
-60.00
-kmer1021 bad
-62.00
-kmer1022 bad
-64.00
-kmer1023 bad
-66.00
-kmer1024 bad
-58.00
-kmer1025 bad
-66.00
-kmer1026 bad
-62.00
-kmer1027 bad
-58.00
-kmer1028 bad
-60.00
-kmer1029 bad
-62.00
-kmer1030 bad
-58.00
-kmer1031 good
-64.00
-kmer1032 bad
-60.00
-kmer1033 bad
-60.00
-kmer1034 bad
-52.00
-kmer1035 good
-66.00
-kmer1036 bad
-58.00
-kmer1037 bad
-62.00
-kmer1038 bad
-62.00
-kmer1039 bad
-60.00
-kmer1040 bad
-68.00
-kmer1041 bad
-66.00
-kmer1042 bad
-62.00
-kmer1043 bad
-64.00
-kmer1044 bad
-66.00
-kmer1045 bad
-64.00
-kmer1046 bad
-64.00
-kmer1047 bad
-66.00
-kmer1048 bad
-68.00
-kmer1049 bad
-64.00
-kmer1050 bad
-62.00
-kmer1051 bad
-68.00
-kmer1052 bad
-64.00
-kmer1053 bad
-68.00
-kmer1054 bad
-64.00
-kmer1055 bad
-64.00
-kmer1056 bad
-58.00
-kmer1057 bad
-58.00
-kmer1058 bad
-64.00
-kmer1059 bad
-64.00
-kmer1060 bad
-66.00
-kmer1061 bad
-60.00
-kmer1062 bad
-66.00
-kmer1063 bad
-64.00
-kmer1064 good
-64.00
-kmer1065 bad
-66.00
-kmer1066 bad
-64.00
-kmer1067 bad
-54.00
-kmer1068 bad
-50.00
-kmer1069 bad
-64.00
-kmer1070 bad
-56.00
-kmer1071 bad
-62.00
-kmer1072 bad
-66.00
-kmer1073 bad
-60.00
-kmer1074 bad
-60.00
-kmer1075 bad
-66.00
-kmer1076 bad
-64.00
-kmer1077 bad
-60.00
-kmer1078 bad
-64.00
-kmer1079 bad
-68.00
-kmer1080 bad
-60.00
-kmer1081 bad
-64.00
-kmer1082 bad
-68.00
-kmer1083 bad
-66.00
-kmer1084 bad
-70.00
-kmer1085 bad
-66.00
-kmer1086 bad
-64.00
-kmer1087 bad
-58.00
-kmer1088 bad
-64.00
-kmer1089 bad
-60.00
-kmer1090 bad
-62.00
-kmer1091 bad
-66.00
-kmer1092 bad
-64.00
-kmer1093 bad
-62.00
-kmer1094 bad
-68.00
-kmer1095 bad
-58.00
-kmer1096 bad
-66.00
-kmer1097 bad
-64.00
-kmer1098 bad
-60.00
-kmer1099 bad
-74.00
-kmer1100 bad
-68.00
-kmer1101 bad
-70.00
-kmer1102 bad
-70.00
-kmer1103 bad
-66.00
-kmer1104 bad
-66.00
-kmer1105 bad
-70.00
-kmer1106 bad
-70.00
-kmer1107 bad
-66.00
-kmer1108 bad
-62.00
-kmer1109 bad
-62.00
-kmer1110 bad
-62.00
-kmer1111 bad
-62.00
-kmer1112 bad
-64.00
-kmer1113 bad
-54.00
-kmer1114 bad
-66.00
-kmer1115 bad
-62.00
-kmer1116 good
-68.00
-kmer1117 bad
-62.00
-kmer1118 bad
-60.00
-kmer1119 bad
-68.00
-kmer1120 bad
-70.00
-kmer1121 bad
-66.00
-kmer1122 bad
-60.00
-kmer1123 bad
-72.00
-kmer1124 bad
-62.00
-kmer1125 bad
-68.00
-kmer1126 bad
-62.00
-kmer1127 bad
-64.00
-kmer1128 bad
-70.00
-kmer1129 bad
-68.00
-kmer1130 bad
-62.00
-kmer1131 bad
-68.00
-kmer1132 bad
-62.00
-kmer1133 bad
-68.00
-kmer1134 bad
-66.00
-kmer1135 bad
-60.00
-kmer1136 bad
-70.00
-kmer1137 good
-64.00
-kmer1138 bad
-64.00
-kmer1139 bad
-64.00
-kmer1140 bad
-70.00
-kmer1141 bad
-62.00
-kmer1142 bad
-64.00
-kmer1143 bad
-62.00
-kmer1144 bad
-66.00
-kmer1145 bad
-68.00
-kmer1146 bad
-62.00
-kmer1147 bad
-64.00
-kmer1148 good
-66.00
-kmer1149 bad
-62.00
-kmer1150 bad
-64.00
-kmer1151 bad
-70.00
-kmer1152 bad
-64.00
-kmer1153 bad
-60.00
-kmer1154 bad
-68.00
-kmer1155 bad
-64.00
-kmer1156 bad
-70.00
-kmer1157 bad
-68.00
-kmer1158 good
-68.00
-kmer1159 bad
-70.00
-kmer1160 bad
-60.00
-kmer1161 bad
-66.00
-kmer1162 bad
-62.00
-kmer1163 bad
-60.00
-kmer1164 bad
-62.00
-kmer1165 bad
-64.00
-kmer1166 bad
-60.00
-kmer1167 bad
-66.00
-kmer1168 bad
-66.00
-kmer1169 bad
-58.00
-kmer1170 bad
-66.00
-kmer1171 bad
-64.00
-kmer1172 bad
-66.00
-kmer1173 bad
-48.00
-kmer1174 bad
-62.00
-kmer1175 bad
-62.00
-kmer1176 bad
-66.00
-kmer1177 bad
-68.00
-kmer1178 bad
-58.00
-kmer1179 bad
-66.00
-kmer1180 bad
-66.00
-kmer1181 bad
-60.00
-kmer1182 bad
-62.00
-kmer1183 bad
-62.00
-kmer1184 bad
-66.00
-kmer1185 bad
-60.00
-kmer1186 bad
-64.00
-kmer1187 bad
-56.00
-kmer1188 bad
-64.00
-kmer1189 bad
-64.00
-kmer1190 bad
-60.00
-kmer1191 bad
-66.00
-kmer1192 bad
-66.00
-kmer1193 bad
-66.00
-kmer1194 bad
-70.00
-kmer1195 bad
-62.00
-kmer1196 bad
-68.00
-kmer1197 bad
-64.00
-kmer1198 bad
-60.00
-kmer1199 bad
-60.00
-kmer1200 bad
-60.00
-kmer1201 bad
-64.00
-kmer1202 bad
-62.00
-kmer1203 bad
-68.00
-kmer1204 bad
-62.00
-kmer1205 bad
-64.00
-kmer1206 bad
-64.00
-kmer1207 bad
-64.00
-kmer1208 bad
-70.00
-kmer1209 bad
-62.00
-kmer1210 bad
-66.00
-kmer1211 bad
-62.00
-kmer1212 bad
-58.00
-kmer1213 bad
-62.00
-kmer1214 bad
-60.00
-kmer1215 bad
-62.00
-kmer1216 bad
-60.00
-kmer1217 bad
-64.00
-kmer1218 bad
-62.00
-kmer1219 bad
-62.00
-kmer1220 bad
-64.00
-kmer1221 bad
-60.00
-kmer1222 bad
-62.00
-kmer1223 bad
-66.00
-kmer1224 bad
-72.00
-kmer1225 bad
-64.00
-kmer1226 bad
-62.00
-kmer1227 bad
-64.00
-kmer1228 bad
-64.00
-kmer1229 good
-66.00
-kmer1230 bad
-64.00
-kmer1231 bad
-66.00
-kmer1232 bad
-64.00
-kmer1233 bad
-62.00
-kmer1234 bad
-64.00
-kmer1235 bad
-66.00
-kmer1236 bad
-62.00
-kmer1237 bad
-62.00
-kmer1238 bad
-64.00
-kmer1239 bad
-58.00
-kmer1240 bad
-66.00
-kmer1241 bad
-60.00
-kmer1242 bad
-62.00
-kmer1243 bad
-66.00
-kmer1244 bad
-56.00
-kmer1245 bad
-62.00
-kmer1246 bad
-66.00
-kmer1247 bad
-60.00
-kmer1248 bad
-60.00
-kmer1249 bad
-60.00
-kmer1250 bad
-60.00
-kmer1251 bad
-62.00
-kmer1252 bad
-62.00
-kmer1253 bad
-58.00
-kmer1254 bad
-52.00
-kmer1255 bad
-64.00
-kmer1256 bad
-54.00
-kmer1257 bad
-60.00
-kmer1258 bad
-56.00
-kmer1259 bad
-58.00
-kmer1260 bad
-52.00
-kmer1261 bad
-64.00
-kmer1262 bad
-62.00
-kmer1263 bad
-62.00
-kmer1264 bad
-56.00
-kmer1265 good
-60.00
-kmer1266 bad
-54.00
-kmer1267 bad
-54.00
-kmer1268 bad
-62.00
-kmer1269 bad
-66.00
-kmer1270 bad
-58.00
-kmer1271 bad
-56.00
-kmer1272 bad
-56.00
-kmer1273 bad
-56.00
-kmer1274 bad
-56.00
-kmer1275 bad
-62.00
-kmer1276 bad
-64.00
-kmer1277 bad
-66.00
-kmer1278 bad
-64.00
-kmer1279 good
-64.00
-kmer1280 bad
-64.00
-kmer1281 bad
-66.00
-kmer1282 bad
-60.00
-kmer1283 bad
-66.00
-kmer1284 bad
-60.00
-kmer1285 bad
-60.00
-kmer1286 bad
-60.00
-kmer1287 bad
-66.00
-kmer1288 bad
-62.00
-kmer1289 bad
-64.00
-kmer1290 bad
-64.00
-kmer1291 bad
-68.00
-kmer1292 bad
-62.00
-kmer1293 good
-62.00
-kmer1294 bad
-60.00
-kmer1295 bad
-60.00
-kmer1296 bad
-62.00
-kmer1297 bad
-60.00
-kmer1298 bad
-60.00
-kmer1299 good
-58.00
-kmer1300 bad
-62.00
-kmer1301 bad
-62.00
-kmer1302 bad
-66.00
-kmer1303 bad
-60.00
-kmer1304 bad
-58.00
-kmer1305 bad
-64.00
-kmer1306 bad
-54.00
-kmer1307 bad
-58.00
-kmer1308 bad
-66.00
-kmer1309 bad
-56.00
-kmer1310 bad
-58.00
-kmer1311 bad
-56.00
-kmer1312 bad
-60.00
-kmer1313 bad
-54.00
-kmer1314 bad
-66.00
-kmer1315 bad
-60.00
-kmer1316 bad
-52.00
-kmer1317 good
-56.00
-kmer1318 bad
-56.00
-kmer1319 bad
-58.00
-kmer1320 bad
-56.00
-kmer1321 bad
-62.00
-kmer1322 bad
-62.00
-kmer1323 bad
-70.00
-kmer1324 bad
-66.00
-kmer1325 bad
-64.00
-kmer1326 bad
-56.00
-kmer1327 bad
-60.00
-kmer1328 bad
-68.00
-kmer1329 bad
-68.00
-kmer1330 bad
-58.00
-kmer1331 bad
-62.00
-kmer1332 bad
-62.00
-kmer1333 bad
-62.00
-kmer1334 bad
-58.00
-kmer1335 good
-64.00
-kmer1336 bad
-64.00
-kmer1337 bad
-66.00
-kmer1338 good
-60.00
-kmer1339 bad
-60.00
-kmer1340 bad
-58.00
-kmer1341 bad
-68.00
-kmer1342 bad
-60.00
-kmer1343 bad
-64.00
-kmer1344 bad
-62.00
-kmer1345 bad
-68.00
-kmer1346 bad
-64.00
-kmer1347 bad
-62.00
-kmer1348 bad
-60.00
-kmer1349 bad
-58.00
-kmer1350 bad
-68.00
-kmer1351 bad
-68.00
-kmer1352 bad
-68.00
-kmer1353 bad
-64.00
-kmer1354 good
-68.00
-kmer1355 bad
-62.00
-kmer1356 bad
-58.00
-kmer1357 bad
-58.00
-kmer1358 bad
-70.00
-kmer1359 bad
-62.00
-kmer1360 bad
-64.00
-kmer1361 bad
-62.00
-kmer1362 bad
-62.00
-kmer1363 bad
-50.00
-kmer1364 bad
-62.00
-kmer1365 bad
-62.00
-kmer1366 good
-66.00
-kmer1367 bad
-64.00
-kmer1368 bad
-64.00
-kmer1369 bad
-54.00
-kmer1370 bad
-56.00
-kmer1371 bad
-64.00
-kmer1372 bad
-66.00
-kmer1373 bad
-52.00
-kmer1374 bad
-62.00
-kmer1375 bad
-64.00
-kmer1376 bad
-60.00
-kmer1377 bad
-56.00
-kmer1378 bad
-62.00
-kmer1379 bad
-60.00
-kmer1380 bad
-62.00
-kmer1381 bad
-60.00
-kmer1382 bad
-58.00
-kmer1383 bad
-60.00
-kmer1384 bad
-54.00
-kmer1385 bad
-64.00
-kmer1386 bad
-64.00
-kmer1387 bad
-64.00
-kmer1388 good
-64.00
-kmer1389 bad
-68.00
-kmer1390 bad
-64.00
-kmer1391 bad
-64.00
-kmer1392 bad
-60.00
-kmer1393 bad
-54.00
-kmer1394 bad
-62.00
-kmer1395 bad
-62.00
-kmer1396 bad
-64.00
-kmer1397 bad
-62.00
-kmer1398 bad
-62.00
-kmer1399 bad
-60.00
-kmer1400 bad
-62.00
-kmer1401 bad
-62.00
-kmer1402 bad
-64.00
-kmer1403 bad
-58.00
-kmer1404 good
-62.00
-kmer1405 bad
-66.00
-kmer1406 bad
-70.00
-kmer1407 bad
-66.00
-kmer1408 bad
-66.00
-kmer1409 bad
-72.00
-kmer1410 bad
-58.00
-kmer1411 bad
-64.00
-kmer1412 bad
-68.00
-kmer1413 bad
-62.00
-kmer1414 bad
-54.00
-kmer1415 bad
-58.00
-kmer1416 bad
-56.00
-kmer1417 bad
-66.00
-kmer1418 bad
-60.00
-kmer1419 bad
-60.00
-kmer1420 bad
-62.00
-kmer1421 bad
-56.00
-kmer1422 bad
-64.00
-kmer1423 bad
-64.00
-kmer1424 bad
-62.00
-kmer1425 bad
-70.00
-kmer1426 bad
-68.00
-kmer1427 bad
-72.00
-kmer1428 bad
-58.00
-kmer1429 bad
-64.00
-kmer1430 bad
-60.00
-kmer1431 bad
-64.00
-kmer1432 bad
-64.00
-kmer1433 bad
-60.00
-kmer1434 bad
-64.00
-kmer1435 bad
-66.00
-kmer1436 bad
-60.00
-kmer1437 bad
-60.00
-kmer1438 bad
-52.00
-kmer1439 bad
-62.00
-kmer1440 bad
-64.00
-kmer1441 bad
-62.00
-kmer1442 bad
-66.00
-kmer1443 good
-62.00
-kmer1444 bad
-66.00
-kmer1445 bad
-64.00
-kmer1446 bad
-56.00
-kmer1447 bad
-62.00
-kmer1448 bad
-52.00
-kmer1449 bad
-60.00
-kmer1450 bad
-64.00
-kmer1451 bad
-60.00
-kmer1452 bad
-58.00
-kmer1453 bad
-68.00
-kmer1454 bad
-58.00
-kmer1455 bad
-62.00
-kmer1456 bad
-60.00
-kmer1457 bad
-60.00
-kmer1458 bad
-54.00
-kmer1459 bad
-62.00
-kmer1460 bad
-60.00
-kmer1461 bad
-62.00
-kmer1462 bad
-56.00
-kmer1463 bad
-66.00
-kmer1464 bad
-58.00
-kmer1465 bad
-60.00
-kmer1466 bad
-64.00
-kmer1467 bad
-64.00
-kmer1468 bad
-62.00
-kmer1469 bad
-64.00
-kmer1470 bad
-64.00
-kmer1471 bad
-64.00
-kmer1472 good
-58.00
-kmer1473 bad
-64.00
-kmer1474 bad
-62.00
-kmer1475 bad
-56.00
-kmer1476 bad
-62.00
-kmer1477 bad
-70.00
-kmer1478 bad
-56.00
-kmer1479 bad
-68.00
-kmer1480 good
-66.00
-kmer1481 bad
-70.00
-kmer1482 bad
-60.00
-kmer1483 bad
-58.00
-kmer1484 bad
-62.00
-kmer1485 bad
-60.00
-kmer1486 bad
-60.00
-kmer1487 bad
-66.00
-kmer1488 bad
-62.00
-kmer1489 good
-60.00
-kmer1490 bad
-62.00
-kmer1491 bad
-64.00
-kmer1492 good
-60.00
-kmer1493 bad
-64.00
-kmer1494 bad
-64.00
-kmer1495 bad
-58.00
-kmer1496 bad
-66.00
-kmer1497 bad
-64.00
-kmer1498 bad
-58.00
-kmer1499 bad
-58.00
-kmer1500 bad
-58.00
-kmer1501 bad
-62.00
-kmer1502 bad
-60.00
-kmer1503 bad
-60.00
-kmer1504 bad
-60.00
-kmer1505 bad
-62.00
-kmer1506 bad
-58.00
-kmer1507 bad
-58.00
-kmer1508 bad
-62.00
-kmer1509 bad
-66.00
-kmer1510 bad
-52.00
-kmer1511 bad
-60.00
-kmer1512 bad
-56.00
-kmer1513 bad
-60.00
-kmer1514 bad
-60.00
-kmer1515 bad
-58.00
-kmer1516 bad
-56.00
-kmer1517 bad
-60.00
-kmer1518 bad
-56.00
-kmer1519 bad
-60.00
-kmer1520 bad
-54.00
-kmer1521 bad
-54.00
-kmer1522 bad
-58.00
-kmer1523 bad
-66.00
-kmer1524 bad
-58.00
-kmer1525 bad
-54.00
-kmer1526 bad
-66.00
-kmer1527 bad
-60.00
-kmer1528 bad
-66.00
-kmer1529 bad
-64.00
-kmer1530 good
-66.00
-kmer1531 good
-66.00
-kmer1532 bad
-64.00
-kmer1533 bad
-58.00
-kmer1534 bad
-60.00
-kmer1535 bad
-54.00
-kmer1536 bad
-64.00
-kmer1537 bad
-62.00
-kmer1538 good
-70.00
-kmer1539 bad
-60.00
-kmer1540 bad
-60.00
-kmer1541 bad
-60.00
-kmer1542 bad
-66.00
-kmer1543 bad
-64.00
-kmer1544 bad
-60.00
-kmer1545 good
-64.00
-kmer1546 bad
-64.00
-kmer1547 bad
-64.00
-kmer1548 bad
-62.00
-kmer1549 bad
-66.00
-kmer1550 bad
-62.00
-kmer1551 bad
-68.00
-kmer1552 bad
-56.00
-kmer1553 bad
-62.00
-kmer1554 bad
-62.00
-kmer1555 bad
-54.00
-kmer1556 bad
-56.00
-kmer1557 bad
-52.00
-kmer1558 bad
-66.00
-kmer1559 good
-66.00
-kmer1560 bad
-60.00
-kmer1561 bad
-62.00
-kmer1562 bad
-66.00
-kmer1563 bad
-68.00
-kmer1564 bad
-60.00
-kmer1565 bad
-62.00
-kmer1566 bad
-58.00
-kmer1567 bad
-66.00
-kmer1568 bad
-68.00
-kmer1569 bad
-62.00
-kmer1570 bad
-64.00
-kmer1571 bad
-58.00
-kmer1572 bad
-70.00
-kmer1573 bad
-60.00
-kmer1574 bad
-60.00
-kmer1575 bad
-60.00
-kmer1576 bad
-56.00
-kmer1577 bad
-60.00
-kmer1578 bad
-56.00
-kmer1579 bad
-62.00
-kmer1580 bad
-60.00
-kmer1581 bad
-56.00
-kmer1582 bad
-62.00
-kmer1583 bad
-60.00
-kmer1584 bad
-64.00
-kmer1585 bad
-62.00
-kmer1586 bad
-60.00
-kmer1587 bad
-60.00
-kmer1588 bad
-62.00
-kmer1589 bad
-60.00
-kmer1590 bad
-64.00
-kmer1591 bad
-60.00
-kmer1592 bad
-64.00
-kmer1593 bad
-58.00
-kmer1594 bad
-64.00
-kmer1595 bad
-54.00
-kmer1596 bad
-66.00
-kmer1597 bad
-64.00
-kmer1598 bad
-72.00
-kmer1599 bad
-66.00
-kmer1600 good
-66.00
-kmer1601 bad
-68.00
-kmer1602 bad
-72.00
-kmer1603 bad
-64.00
-kmer1604 bad
-68.00
-kmer1605 bad
-62.00
-kmer1606 bad
-60.00
-kmer1607 bad
-66.00
-kmer1608 bad
-62.00
-kmer1609 bad
-66.00
-kmer1610 bad
-64.00
-kmer1611 bad
-68.00
-kmer1612 bad
-62.00
-kmer1613 bad
-70.00
-kmer1614 bad
-68.00
-kmer1615 bad
-64.00
-kmer1616 bad
-70.00
-kmer1617 bad
-70.00
-kmer1618 bad
-70.00
-kmer1619 bad
-70.00
-kmer1620 bad
-66.00
-kmer1621 bad
-66.00
-kmer1622 good
-62.00
-kmer1623 bad
-70.00
-kmer1624 bad
-60.00
-kmer1625 bad
-68.00
-kmer1626 bad
-68.00
-kmer1627 bad
-66.00
-kmer1628 bad
-66.00
-kmer1629 bad
-62.00
-kmer1630 bad
-62.00
-kmer1631 bad
-66.00
-kmer1632 bad
-68.00
-kmer1633 bad
-62.00
-kmer1634 bad
-60.00
-kmer1635 bad
-66.00
-kmer1636 bad
-62.00
-kmer1637 bad
-64.00
-kmer1638 bad
-72.00
-kmer1639 bad
-64.00
-kmer1640 bad
-68.00
-kmer1641 bad
-68.00
-kmer1642 bad
-70.00
-kmer1643 bad
-62.00
-kmer1644 bad
-66.00
-kmer1645 bad
-64.00
-kmer1646 good
-66.00
-kmer1647 bad
-64.00
-kmer1648 bad
-62.00
-kmer1649 bad
-64.00
-kmer1650 bad
-58.00
-kmer1651 bad
-68.00
-kmer1652 bad
-64.00
-kmer1653 bad
-60.00
-kmer1654 bad
-66.00
-kmer1655 bad
-74.00
-kmer1656 bad
-64.00
-kmer1657 bad
-68.00
-kmer1658 bad
-62.00
-kmer1659 bad
-62.00
-kmer1660 bad
-68.00
-kmer1661 bad
-68.00
-kmer1662 bad
-50.00
-kmer1663 bad
-62.00
-kmer1664 bad
-58.00
-kmer1665 bad
-68.00
-kmer1666 bad
-66.00
-kmer1667 bad
-64.00
-kmer1668 bad
-68.00
-kmer1669 bad
-64.00
-kmer1670 bad
-58.00
-kmer1671 bad
-64.00
-kmer1672 bad
-52.00
-kmer1673 bad
-62.00
-kmer1674 bad
-60.00
-kmer1675 bad
-58.00
-kmer1676 bad
-66.00
-kmer1677 bad
-62.00
-kmer1678 bad
-72.00
-kmer1679 bad
-68.00
-kmer1680 bad
-72.00
-kmer1681 bad
-70.00
-kmer1682 bad
-72.00
-kmer1683 bad
-68.00
-kmer1684 good
-70.00
-kmer1685 bad
-66.00
-kmer1686 good
-62.00
-kmer1687 bad
-68.00
-kmer1688 bad
-62.00
-kmer1689 bad
-62.00
-kmer1690 bad
-54.00
-kmer1691 good
-68.00
-kmer1692 bad
-62.00
-kmer1693 bad
-64.00
-kmer1694 bad
-64.00
-kmer1695 bad
-68.00
-kmer1696 bad
-68.00
-kmer1697 bad
-60.00
-kmer1698 bad
-60.00
-kmer1699 bad
-68.00
-kmer1700 bad
-68.00
-kmer1701 bad
-62.00
-kmer1702 bad
-62.00
-kmer1703 bad
-62.00
-kmer1704 bad
-64.00
-kmer1705 bad
-68.00
-kmer1706 bad
-68.00
-kmer1707 bad
-68.00
-kmer1708 bad
-68.00
-kmer1709 bad
-64.00
-kmer1710 bad
-64.00
-kmer1711 bad
-66.00
-kmer1712 bad
-62.00
-kmer1713 bad
-68.00
-kmer1714 bad
-62.00
-kmer1715 bad
-66.00
-kmer1716 bad
-66.00
-kmer1717 bad
-68.00
-kmer1718 bad
-64.00
-kmer1719 bad
-62.00
-kmer1720 bad
-66.00
-kmer1721 bad
-66.00
-kmer1722 bad
-72.00
-kmer1723 bad
-64.00
-kmer1724 bad
-66.00
-kmer1725 bad
-66.00
-kmer1726 bad
-62.00
-kmer1727 bad
-60.00
-kmer1728 bad
-66.00
-kmer1729 bad
-64.00
-kmer1730 bad
-62.00
-kmer1731 bad
-64.00
-kmer1732 good
-64.00
-kmer1733 bad
-50.00
-kmer1734 bad
-58.00
-kmer1735 bad
-66.00
-kmer1736 bad
-62.00
-kmer1737 bad
-58.00
-kmer1738 bad
-70.00
-kmer1739 bad
-66.00
-kmer1740 bad
-70.00
-kmer1741 bad
-68.00
-kmer1742 bad
-70.00
-kmer1743 bad
-60.00
-kmer1744 bad
-64.00
-kmer1745 bad
-64.00
-kmer1746 bad
-62.00
-kmer1747 bad
-64.00
-kmer1748 bad
-64.00
-kmer1749 bad
-54.00
-kmer1750 bad
-62.00
-kmer1751 bad
-66.00
-kmer1752 bad
-68.00
-kmer1753 bad
-70.00
-kmer1754 bad
-72.00
-kmer1755 bad
-68.00
-kmer1756 bad
-64.00
-kmer1757 bad
-60.00
-kmer1758 bad
-56.00
-kmer1759 bad
-64.00
-kmer1760 bad
-72.00
-kmer1761 bad
-60.00
-kmer1762 good
-56.00
-kmer1763 bad
-58.00
-kmer1764 bad
-54.00
-kmer1765 bad
-62.00
-kmer1766 bad
-62.00
-kmer1767 bad
-62.00
-kmer1768 good
-64.00
-kmer1769 bad
-66.00
-kmer1770 bad
-58.00
-kmer1771 bad
-66.00
-kmer1772 bad
-64.00
-kmer1773 bad
-66.00
-kmer1774 good
-58.00
-kmer1775 bad
-58.00
-kmer1776 bad
-68.00
-kmer1777 bad
-64.00
-kmer1778 bad
-64.00
-kmer1779 bad
-58.00
-kmer1780 bad
-66.00
-kmer1781 bad
-66.00
-kmer1782 good
-66.00
-kmer1783 bad
-60.00
-kmer1784 bad
-58.00
-kmer1785 bad
-70.00
-kmer1786 bad
-66.00
-kmer1787 bad
-60.00
-kmer1788 bad
-64.00
-kmer1789 bad
-62.00
-kmer1790 good
-64.00
-kmer1791 bad
-66.00
-kmer1792 bad
-64.00
-kmer1793 bad
-56.00
-kmer1794 bad
-72.00
-kmer1795 bad
-66.00
-kmer1796 good
-66.00
-kmer1797 bad
-60.00
-kmer1798 bad
-68.00
-kmer1799 bad
-60.00
-kmer1800 bad
-60.00
-kmer1801 bad
-60.00
-kmer1802 bad
-58.00
-kmer1803 bad
-66.00
-kmer1804 bad
-60.00
-kmer1805 bad
-58.00
-kmer1806 bad
-64.00
-kmer1807 bad
-66.00
-kmer1808 bad
-66.00
-kmer1809 bad
-60.00
-kmer1810 bad
-62.00
-kmer1811 bad
-70.00
-kmer1812 bad
-70.00
-kmer1813 bad
-70.00
-kmer1814 bad
-64.00
-kmer1815 bad
-74.00
-kmer1816 bad
-62.00
-kmer1817 bad
-68.00
-kmer1818 bad
-58.00
-kmer1819 bad
-68.00
-kmer1820 bad
-66.00
-kmer1821 bad
-60.00
-kmer1822 bad
-68.00
-kmer1823 bad
-72.00
-kmer1824 bad
-70.00
-kmer1825 bad
-62.00
-kmer1826 bad
-62.00
-kmer1827 bad
-66.00
-kmer1828 bad
-68.00
-kmer1829 bad
-62.00
-kmer1830 bad
-68.00
-kmer1831 bad
-68.00
-kmer1832 bad
-68.00
-kmer1833 bad
-64.00
-kmer1834 bad
-62.00
-kmer1835 bad
-64.00
-kmer1836 bad
-68.00
-kmer1837 bad
-64.00
-kmer1838 bad
-68.00
-kmer1839 bad
-64.00
-kmer1840 bad
-60.00
-kmer1841 bad
-58.00
-kmer1842 bad
-60.00
-kmer1843 bad
-62.00
-kmer1844 good
-64.00
-kmer1845 bad
-66.00
-kmer1846 good
-68.00
-kmer1847 bad
-66.00
-kmer1848 bad
-70.00
-kmer1849 bad
-58.00
-kmer1850 bad
-68.00
-kmer1851 bad
-60.00
-kmer1852 bad
-60.00
-kmer1853 bad
-60.00
-kmer1854 bad
-54.00
-kmer1855 bad
-70.00
-kmer1856 bad
-68.00
-kmer1857 bad
-64.00
-kmer1858 bad
-62.00
-kmer1859 bad
-68.00
-kmer1860 bad
-70.00
-kmer1861 bad
-68.00
-kmer1862 bad
-64.00
-kmer1863 bad
-68.00
-kmer1864 bad
-70.00
-kmer1865 bad
-70.00
-kmer1866 bad
-70.00
-kmer1867 bad
-68.00
-kmer1868 bad
-74.00
-kmer1869 bad
-68.00
-kmer1870 bad
-72.00
-kmer1871 bad
-70.00
-kmer1872 bad
-74.00
-kmer1873 bad
-66.00
-kmer1874 bad
-66.00
-kmer1875 bad
-70.00
-kmer1876 bad
-70.00
-kmer1877 bad
-66.00
-kmer1878 bad
-72.00
-kmer1879 bad
-64.00
-kmer1880 bad
-64.00
-kmer1881 bad
-62.00
-kmer1882 bad
-62.00
-kmer1883 bad
-68.00
-kmer1884 bad
-64.00
-kmer1885 bad
-74.00
-kmer1886 bad
-66.00
-kmer1887 bad
-64.00
-kmer1888 bad
-68.00
-kmer1889 bad
-70.00
-kmer1890 bad
-70.00
-kmer1891 bad
-68.00
-kmer1892 bad
-70.00
-kmer1893 bad
-70.00
-kmer1894 bad
-72.00
-kmer1895 bad
-72.00
-kmer1896 bad
-66.00
-kmer1897 bad
-64.00
-kmer1898 bad
-64.00
-kmer1899 bad
-64.00
-kmer1900 bad
-60.00
-kmer1901 good
-62.00
-kmer1902 bad
-64.00
-kmer1903 bad
-64.00
-kmer1904 bad
-70.00
-kmer1905 bad
-64.00
-kmer1906 bad
-70.00
-kmer1907 bad
-66.00
-kmer1908 bad
-70.00
-kmer1909 bad
-68.00
-kmer1910 bad
-66.00
-kmer1911 bad
-60.00
-kmer1912 bad
-66.00
-kmer1913 bad
-68.00
-kmer1914 bad
-70.00
-kmer1915 bad
-62.00
-kmer1916 good
-66.00
-kmer1917 bad
-66.00
-kmer1918 bad
-66.00
-kmer1919 bad
-60.00
-kmer1920 bad
-64.00
-kmer1921 bad
-68.00
-kmer1922 bad
-74.00
-kmer1923 bad
-66.00
-kmer1924 bad
-66.00
-kmer1925 bad
-66.00
-kmer1926 bad
-64.00
-kmer1927 bad
-68.00
-kmer1928 bad
-68.00
-kmer1929 bad
-68.00
-kmer1930 bad
-68.00
-kmer1931 bad
-68.00
-kmer1932 bad
-64.00
-kmer1933 bad
-64.00
-kmer1934 bad
-68.00
-kmer1935 bad
-64.00
-kmer1936 bad
-62.00
-kmer1937 bad
-66.00
-kmer1938 bad
-68.00
-kmer1939 bad
-68.00
-kmer1940 bad
-70.00
-kmer1941 bad
-68.00
-kmer1942 bad
-66.00
-kmer1943 bad
-66.00
-kmer1944 bad
-70.00
-kmer1945 bad
-74.00
-kmer1946 bad
-70.00
-kmer1947 bad
-70.00
-kmer1948 bad
-66.00
-kmer1949 bad
-70.00
-kmer1950 bad
-70.00
-kmer1951 bad
-68.00
-kmer1952 bad
-70.00
-kmer1953 bad
-68.00
-kmer1954 bad
-62.00
-kmer1955 bad
-64.00
-kmer1956 bad
-66.00
-kmer1957 bad
-66.00
-kmer1958 bad
-68.00
-kmer1959 bad
-64.00
-kmer1960 bad
-70.00
-kmer1961 bad
-68.00
-kmer1962 bad
-62.00
-kmer1963 bad
-68.00
-kmer1964 bad
-68.00
-kmer1965 bad
-68.00
-kmer1966 bad
-68.00
-kmer1967 bad
-70.00
-kmer1968 bad
-70.00
-kmer1969 bad
-64.00
-kmer1970 bad
-72.00
-kmer1971 bad
-68.00
-kmer1972 bad
-68.00
-kmer1973 bad
-66.00
-kmer1974 bad
-66.00
-kmer1975 bad
-66.00
-kmer1976 bad
-66.00
-kmer1977 bad
-66.00
-kmer1978 bad
-64.00
-kmer1979 bad
-64.00
-kmer1980 bad
-70.00
-kmer1981 bad
-60.00
-kmer1982 bad
-60.00
-kmer1983 good
-62.00
-kmer1984 bad
-62.00
-kmer1985 bad
-58.00
-kmer1986 bad
-62.00
-kmer1987 bad
-70.00
-kmer1988 bad
-70.00
-kmer1989 bad
-68.00
-kmer1990 good
-68.00
-kmer1991 bad
-58.00
-kmer1992 bad
-66.00
-kmer1993 bad
-66.00
-kmer1994 bad
-70.00
-kmer1995 bad
-54.00
-kmer1996 bad
-62.00
-kmer1997 bad
-60.00
-kmer1998 bad
-64.00
-kmer1999 bad
-64.00
-kmer2000 bad
-68.00
-kmer2001 bad
-66.00
-kmer2002 bad
-64.00
-kmer2003 bad
-66.00
-kmer2004 bad
-64.00
-kmer2005 bad
-64.00
-kmer2006 bad
-64.00
-kmer2007 bad
-58.00
-kmer2008 bad
-64.00
-kmer2009 bad
-62.00
-kmer2010 bad
-60.00
-kmer2011 good
-64.00
-kmer2012 bad
-70.00
-kmer2013 bad
-66.00
-kmer2014 bad
-64.00
-kmer2015 bad
-74.00
-kmer2016 bad
-68.00
-kmer2017 bad
-62.00
-kmer2018 bad
-68.00
-kmer2019 bad
-64.00
-kmer2020 bad
-68.00
-kmer2021 bad
-66.00
-kmer2022 bad
-62.00
-kmer2023 good
-66.00
-kmer2024 bad
-64.00
-kmer2025 bad
-66.00
-kmer2026 bad
-70.00
-kmer2027 bad
-66.00
-kmer2028 bad
-62.00
-kmer2029 bad
-68.00
-kmer2030 bad
-66.00
-kmer2031 bad
-68.00
-kmer2032 bad
-64.00
-kmer2033 bad
-70.00
-kmer2034 bad
-64.00
-kmer2035 bad
-70.00
-kmer2036 bad
-72.00
-kmer2037 bad
-66.00
-kmer2038 bad
-68.00
-kmer2039 bad
-64.00
-kmer2040 bad
-68.00
-kmer2041 bad
-68.00
-kmer2042 bad
-66.00
-kmer2043 bad
-62.00
-kmer2044 bad
-60.00
-kmer2045 bad
-62.00
-kmer2046 bad
-62.00
-kmer2047 bad
-60.00
-kmer2048 bad
-62.00
-kmer2049 bad
-62.00
-kmer2050 bad
-60.00
-kmer2051 bad
-64.00
-kmer2052 good
-66.00
-kmer2053 bad
-66.00
-kmer2054 bad
-66.00
-kmer2055 bad
-66.00
-kmer2056 bad
-70.00
-kmer2057 bad
-58.00
-kmer2058 bad
-68.00
-kmer2059 bad
-68.00
-kmer2060 bad
-62.00
-kmer2061 bad
-66.00
-kmer2062 bad
-68.00
-kmer2063 bad
-70.00
-kmer2064 bad
-68.00
-kmer2065 bad
-66.00
-kmer2066 bad
-58.00
-kmer2067 bad
-62.00
-kmer2068 bad
-58.00
-kmer2069 bad
-62.00
-kmer2070 bad
-62.00
-kmer2071 bad
-64.00
-kmer2072 bad
-64.00
-kmer2073 bad
-62.00
-kmer2074 bad
-68.00
-kmer2075 bad
-58.00
-kmer2076 bad
-68.00
-kmer2077 bad
-64.00
-kmer2078 bad
-64.00
-kmer2079 bad
-58.00
-kmer2080 bad
-64.00
-kmer2081 bad
-60.00
-kmer2082 bad
-62.00
-kmer2083 bad
-58.00
-kmer2084 bad
-66.00
-kmer2085 bad
-68.00
-kmer2086 bad
-70.00
-kmer2087 bad
-66.00
-kmer2088 bad
-66.00
-kmer2089 good
-64.00
-kmer2090 bad
-64.00
-kmer2091 bad
-70.00
-kmer2092 bad
-58.00
-kmer2093 bad
-64.00
-kmer2094 bad
-60.00
-kmer2095 bad
-58.00
-kmer2096 bad
-68.00
-kmer2097 bad
-60.00
-kmer2098 bad
-68.00
-kmer2099 bad
-62.00
-kmer2100 bad
-64.00
-kmer2101 bad
-68.00
-kmer2102 bad
-74.00
-kmer2103 good
-70.00
-kmer2104 bad
-66.00
-kmer2105 bad
-64.00
-kmer2106 bad
-64.00
-kmer2107 bad
-66.00
-kmer2108 bad
-66.00
-kmer2109 bad
-66.00
-kmer2110 bad
-68.00
-kmer2111 bad
-66.00
-kmer2112 bad
-66.00
-kmer2113 bad
-66.00
-kmer2114 bad
-66.00
-kmer2115 bad
-62.00
-kmer2116 bad
-66.00
-kmer2117 bad
-68.00
-kmer2118 bad
-70.00
-kmer2119 bad
-58.00
-kmer2120 bad
-62.00
-kmer2121 bad
-68.00
-kmer2122 bad
-64.00
-kmer2123 bad
-68.00
-kmer2124 bad
-66.00
-kmer2125 bad
-60.00
-kmer2126 bad
-64.00
-kmer2127 bad
-68.00
-kmer2128 bad
-70.00
-kmer2129 bad
-58.00
-kmer2130 bad
-64.00
-kmer2131 bad
-64.00
-kmer2132 bad
-64.00
-kmer2133 bad
-62.00
-kmer2134 bad
-66.00
-kmer2135 good
-64.00
-kmer2136 bad
-64.00
-kmer2137 bad
-68.00
-kmer2138 bad
-66.00
-kmer2139 bad
-68.00
-kmer2140 bad
-64.00
-kmer2141 bad
-64.00
-kmer2142 bad
-62.00
-kmer2143 bad
-62.00
-kmer2144 bad
-68.00
-kmer2145 bad
-68.00
-kmer2146 bad
-54.00
-kmer2147 bad
-70.00
-kmer2148 bad
-64.00
-kmer2149 bad
-70.00
-kmer2150 bad
-66.00
-kmer2151 bad
-68.00
-kmer2152 bad
-66.00
-kmer2153 bad
-66.00
-kmer2154 bad
-66.00
-kmer2155 bad
-62.00
-kmer2156 bad
-68.00
-kmer2157 bad
-60.00
-kmer2158 bad
-72.00
-kmer2159 bad
-66.00
-kmer2160 bad
-68.00
-kmer2161 bad
-70.00
-kmer2162 bad
-70.00
-kmer2163 bad
-64.00
-kmer2164 bad
-70.00
-kmer2165 bad
-68.00
-kmer2166 bad
-68.00
-kmer2167 bad
-72.00
-kmer2168 bad
-66.00
-kmer2169 bad
-64.00
-kmer2170 good
-70.00
-kmer2171 bad
-60.00
-kmer2172 bad
-68.00
-kmer2173 bad
-62.00
-kmer2174 bad
-70.00
-kmer2175 bad
-64.00
-kmer2176 bad
-66.00
-kmer2177 bad
-64.00
-kmer2178 bad
-72.00
-kmer2179 bad
-66.00
-kmer2180 bad
-62.00
-kmer2181 bad
-66.00
-kmer2182 bad
-68.00
-kmer2183 bad
-70.00
-kmer2184 bad
-66.00
-kmer2185 bad
-66.00
-kmer2186 bad
-62.00
-kmer2187 bad
-66.00
-kmer2188 bad
-62.00
-kmer2189 bad
-62.00
-kmer2190 bad
-66.00
-kmer2191 bad
-68.00
-kmer2192 bad
-62.00
-kmer2193 bad
-66.00
-kmer2194 bad
-64.00
-kmer2195 bad
-62.00
-kmer2196 bad
-74.00
-kmer2197 bad
-68.00
-kmer2198 bad
-60.00
-kmer2199 bad
-60.00
-kmer2200 bad
-64.00
-kmer2201 bad
-64.00
-kmer2202 bad
-64.00
-kmer2203 bad
-58.00
-kmer2204 bad
-60.00
-kmer2205 bad
-60.00
-kmer2206 bad
-68.00
-kmer2207 bad
-70.00
-kmer2208 bad
-64.00
-kmer2209 bad
-64.00
-kmer2210 bad
-70.00
-kmer2211 bad
-66.00
-kmer2212 bad
-62.00
-kmer2213 bad
-66.00
-kmer2214 bad
-68.00
-kmer2215 bad
-62.00
-kmer2216 bad
-66.00
-kmer2217 good
-74.00
-kmer2218 bad
-66.00
-kmer2219 bad
-66.00
-kmer2220 bad
-60.00
-kmer2221 bad
-66.00
-kmer2222 bad
-68.00
-kmer2223 bad
-62.00
-kmer2224 bad
-66.00
-kmer2225 bad
-62.00
-kmer2226 bad
-60.00
-kmer2227 bad
-72.00
-kmer2228 bad
-64.00
-kmer2229 bad
-68.00
-kmer2230 bad
-66.00
-kmer2231 bad
-74.00
-kmer2232 bad
-68.00
-kmer2233 bad
-70.00
-kmer2234 bad
-70.00
-kmer2235 bad
-72.00
-kmer2236 bad
-62.00
-kmer2237 good
-68.00
-kmer2238 bad
-70.00
-kmer2239 bad
-66.00
-kmer2240 bad
-66.00
-kmer2241 bad
-72.00
-kmer2242 bad
-64.00
-kmer2243 bad
-68.00
-kmer2244 bad
-72.00
-kmer2245 bad
-72.00
-kmer2246 bad
-68.00
-kmer2247 bad
-64.00
-kmer2248 bad
-72.00
-kmer2249 bad
-68.00
-kmer2250 bad
-68.00
-kmer2251 bad
-68.00
-kmer2252 bad
-68.00
-kmer2253 bad
-66.00
-kmer2254 bad
-66.00
-kmer2255 bad
-66.00
-kmer2256 good
-70.00
-kmer2257 bad
-66.00
-kmer2258 bad
-68.00
-kmer2259 good
-66.00
-kmer2260 bad
-66.00
-kmer2261 bad
-60.00
-kmer2262 bad
-64.00
-kmer2263 bad
-66.00
-kmer2264 bad
-64.00
-kmer2265 bad
-66.00
-kmer2266 bad
-64.00
-kmer2267 bad
-58.00
-kmer2268 bad
-64.00
-kmer2269 bad
-66.00
-kmer2270 bad
-64.00
-kmer2271 bad
-70.00
-kmer2272 bad
-64.00
-kmer2273 bad
-60.00
-kmer2274 bad
-70.00
-kmer2275 bad
-64.00
-kmer2276 bad
-68.00
-kmer2277 bad
-64.00
-kmer2278 bad
-60.00
-kmer2279 bad
-62.00
-kmer2280 bad
-64.00
-kmer2281 bad
-62.00
-kmer2282 bad
-60.00
-kmer2283 bad
-64.00
-kmer2284 bad
-66.00
-kmer2285 bad
-68.00
-kmer2286 bad
-56.00
-kmer2287 good
-60.00
-kmer2288 bad
-68.00
-kmer2289 bad
-56.00
-kmer2290 bad
-64.00
-kmer2291 bad
-64.00
-kmer2292 bad
-62.00
-kmer2293 bad
-68.00
-kmer2294 bad
-66.00
-kmer2295 bad
-70.00
-kmer2296 bad
-68.00
-kmer2297 bad
-64.00
-kmer2298 bad
-64.00
-kmer2299 bad
-64.00
-kmer2300 bad
-62.00
-kmer2301 bad
-64.00
-kmer2302 bad
-64.00
-kmer2303 bad
-64.00
-kmer2304 bad
-68.00
-kmer2305 bad
-64.00
-kmer2306 bad
-66.00
-kmer2307 bad
-70.00
-kmer2308 bad
-64.00
-kmer2309 bad
-64.00
-kmer2310 bad
-58.00
-kmer2311 bad
-62.00
-kmer2312 bad
-64.00
-kmer2313 good
-66.00
-kmer2314 bad
-64.00
-kmer2315 bad
-66.00
-kmer2316 bad
-60.00
-kmer2317 bad
-62.00
-kmer2318 good
-68.00
-kmer2319 bad
-58.00
-kmer2320 bad
-64.00
-kmer2321 bad
-60.00
-kmer2322 bad
-54.00
-kmer2323 bad
-68.00
-kmer2324 bad
-56.00
-kmer2325 bad
-58.00
-kmer2326 bad
-64.00
-kmer2327 bad
-66.00
-kmer2328 bad
-60.00
-kmer2329 bad
-66.00
-kmer2330 bad
-64.00
-kmer2331 bad
-70.00
-kmer2332 bad
-64.00
-kmer2333 good
-66.00
-kmer2334 bad
-68.00
-kmer2335 bad
-64.00
-kmer2336 bad
-62.00
-kmer2337 bad
-52.00
-kmer2338 bad
-62.00
-kmer2339 bad
-58.00
-kmer2340 bad
-58.00
-kmer2341 bad
-62.00
-kmer2342 bad
-60.00
-kmer2343 bad
-60.00
-kmer2344 bad
-56.00
-kmer2345 bad
-66.00
-kmer2346 bad
-64.00
-kmer2347 bad
-64.00
-kmer2348 bad
-64.00
-kmer2349 bad
-58.00
-kmer2350 bad
-62.00
-kmer2351 bad
-58.00
-kmer2352 bad
-66.00
-kmer2353 bad
-68.00
-kmer2354 good
-64.00
-kmer2355 bad
-72.00
-kmer2356 bad
-68.00
-kmer2357 bad
-68.00
-kmer2358 bad
-68.00
-kmer2359 bad
-70.00
-kmer2360 bad
-64.00
-kmer2361 good
-64.00
-kmer2362 bad
-60.00
-kmer2363 bad
-66.00
-kmer2364 bad
-64.00
-kmer2365 bad
-62.00
-kmer2366 bad
-60.00
-kmer2367 bad
-58.00
-kmer2368 bad
-64.00
-kmer2369 bad
-52.00
-kmer2370 bad
-62.00
-kmer2371 bad
-62.00
-kmer2372 bad
-60.00
-kmer2373 bad
-60.00
-kmer2374 bad
-50.00
-kmer2375 bad
-64.00
-kmer2376 bad
-60.00
-kmer2377 bad
-62.00
-kmer2378 bad
-62.00
-kmer2379 bad
-64.00
-kmer2380 bad
-62.00
-kmer2381 good
-64.00
-kmer2382 bad
-54.00
-kmer2383 bad
-58.00
-kmer2384 bad
-58.00
-kmer2385 bad
-58.00
-kmer2386 bad
-64.00
-kmer2387 bad
-62.00
-kmer2388 good
-62.00
-kmer2389 bad
-64.00
-kmer2390 bad
-62.00
-kmer2391 bad
-66.00
-kmer2392 bad
-64.00
-kmer2393 bad
-70.00
-kmer2394 bad
-60.00
-kmer2395 bad
-62.00
-kmer2396 bad
-68.00
-kmer2397 bad
-66.00
-kmer2398 bad
-64.00
-kmer2399 bad
-66.00
-kmer2400 bad
-64.00
-kmer2401 bad
-64.00
-kmer2402 bad
-64.00
-kmer2403 bad
-60.00
-kmer2404 bad
-62.00
-kmer2405 bad
-72.00
-kmer2406 bad
-66.00
-kmer2407 bad
-64.00
-kmer2408 good
-68.00
-kmer2409 bad
-60.00
-kmer2410 bad
-56.00
-kmer2411 bad
-60.00
-kmer2412 bad
-64.00
-kmer2413 bad
-60.00
-kmer2414 bad
-62.00
-kmer2415 bad
-66.00
-kmer2416 bad
-62.00
-kmer2417 bad
-62.00
-kmer2418 bad
-62.00
-kmer2419 bad
-66.00
-kmer2420 bad
-62.00
-kmer2421 bad
-60.00
-kmer2422 good
-64.00
-kmer2423 bad
-66.00
-kmer2424 bad
-64.00
-kmer2425 bad
-66.00
-kmer2426 bad
-64.00
-kmer2427 bad
-58.00
-kmer2428 bad
-58.00
-kmer2429 bad
-66.00
-kmer2430 bad
-58.00
-kmer2431 bad
-66.00
-kmer2432 bad
-66.00
-kmer2433 bad
-64.00
-kmer2434 good
-66.00
-kmer2435 bad
-66.00
-kmer2436 bad
-64.00
-kmer2437 bad
-64.00
-kmer2438 bad
-64.00
-kmer2439 bad
-60.00
-kmer2440 bad
-58.00
-kmer2441 bad
-62.00
-kmer2442 bad
-66.00
-kmer2443 bad
-66.00
-kmer2444 good
-66.00
-kmer2445 bad
-62.00
-kmer2446 bad
-68.00
-kmer2447 bad
-60.00
-kmer2448 bad
-68.00
-kmer2449 bad
-68.00
-kmer2450 bad
-66.00
-kmer2451 bad
-58.00
-kmer2452 bad
-62.00
-kmer2453 bad
-64.00
-kmer2454 bad
-60.00
-kmer2455 bad
-62.00
-kmer2456 bad
-64.00
-kmer2457 bad
-68.00
-kmer2458 bad
-60.00
-kmer2459 bad
-64.00
-kmer2460 bad
-58.00
-kmer2461 bad
-62.00
-kmer2462 bad
-68.00
-kmer2463 bad
-64.00
-kmer2464 bad
-68.00
-kmer2465 bad
-60.00
-kmer2466 bad
-74.00
-kmer2467 bad
-64.00
-kmer2468 bad
-56.00
-kmer2469 bad
-60.00
-kmer2470 bad
-68.00
-kmer2471 bad
-64.00
-kmer2472 bad
-54.00
-kmer2473 bad
-68.00
-kmer2474 bad
-64.00
-kmer2475 bad
-68.00
-kmer2476 bad
-70.00
-kmer2477 bad
-70.00
-kmer2478 bad
-68.00
-kmer2479 bad
-66.00
-kmer2480 bad
-70.00
-kmer2481 bad
-68.00
-kmer2482 bad
-64.00
-kmer2483 bad
-68.00
-kmer2484 bad
-68.00
-kmer2485 bad
-66.00
-kmer2486 bad
-66.00
-kmer2487 bad
-58.00
-kmer2488 bad
-62.00
-kmer2489 bad
-66.00
-kmer2490 bad
-62.00
-kmer2491 bad
-64.00
-kmer2492 bad
-60.00
-kmer2493 bad
-60.00
-kmer2494 bad
-66.00
-kmer2495 bad
-64.00
-kmer2496 bad
-64.00
-kmer2497 bad
-62.00
-kmer2498 bad
-66.00
-kmer2499 bad
-58.00
-kmer2500 bad
-64.00
-kmer2501 bad
-62.00
-kmer2502 bad
-62.00
-kmer2503 bad
-56.00
-kmer2504 bad
-62.00
-kmer2505 bad
-60.00
-kmer2506 bad
-56.00
-kmer2507 bad
-58.00
-kmer2508 bad
-68.00
-kmer2509 bad
-66.00
-kmer2510 bad
-58.00
-kmer2511 bad
-62.00
-kmer2512 bad
-60.00
-kmer2513 bad
-58.00
-kmer2514 bad
-60.00
-kmer2515 bad
-58.00
-kmer2516 bad
-68.00
-kmer2517 bad
-70.00
-kmer2518 bad
-66.00
-kmer2519 bad
-60.00
-kmer2520 bad
-66.00
-kmer2521 bad
-58.00
-kmer2522 bad
-62.00
-kmer2523 bad
-60.00
-kmer2524 bad
-64.00
-kmer2525 bad
-66.00
-kmer2526 bad
-66.00
-kmer2527 bad
-68.00
-kmer2528 bad
-62.00
-kmer2529 bad
-62.00
-kmer2530 bad
-62.00
-kmer2531 bad
-64.00
-kmer2532 bad
-58.00
-kmer2533 bad
-60.00
-kmer2534 bad
-62.00
-kmer2535 bad
-70.00
-kmer2536 bad
-68.00
-kmer2537 bad
-66.00
-kmer2538 bad
-56.00
-kmer2539 bad
-60.00
-kmer2540 bad
-62.00
-kmer2541 bad
-60.00
-kmer2542 bad
-64.00
-kmer2543 bad
-58.00
-kmer2544 bad
-60.00
-kmer2545 bad
-62.00
-kmer2546 bad
-66.00
-kmer2547 good
-64.00
-kmer2548 bad
-62.00
-kmer2549 bad
-64.00
-kmer2550 bad
-68.00
-kmer2551 bad
-66.00
-kmer2552 bad
-64.00
-kmer2553 bad
-64.00
-kmer2554 bad
-60.00
-kmer2555 bad
-52.00
-kmer2556 bad
-54.00
-kmer2557 bad
-66.00
-kmer2558 bad
-58.00
-kmer2559 bad
-64.00
-kmer2560 bad
-68.00
-kmer2561 bad
-62.00
-kmer2562 bad
-64.00
-kmer2563 bad
-60.00
-kmer2564 bad
-58.00
-kmer2565 bad
-64.00
-kmer2566 bad
-58.00
-kmer2567 bad
-60.00
-kmer2568 bad
-68.00
-kmer2569 bad
-64.00
-kmer2570 bad
-62.00
-kmer2571 bad
-54.00
-kmer2572 bad
-56.00
-kmer2573 bad
-58.00
-kmer2574 bad
-58.00
-kmer2575 bad
-62.00
-kmer2576 bad
-56.00
-kmer2577 bad
-62.00
-kmer2578 bad
-70.00
-kmer2579 bad
-66.00
-kmer2580 bad
-60.00
-kmer2581 bad
-62.00
-kmer2582 bad
-64.00
-kmer2583 bad
-66.00
-kmer2584 bad
-60.00
-kmer2585 bad
-68.00
-kmer2586 bad
-64.00
-kmer2587 bad
-64.00
-kmer2588 bad
-70.00
-kmer2589 bad
-62.00
-kmer2590 bad
-62.00
-kmer2591 good
-66.00
-kmer2592 good
-62.00
-kmer2593 bad
-64.00
-kmer2594 bad
-72.00
-kmer2595 bad
-60.00
-kmer2596 bad
-70.00
-kmer2597 bad
-52.00
-kmer2598 bad
-66.00
-kmer2599 bad
-62.00
-kmer2600 bad
-64.00
-kmer2601 bad
-62.00
-kmer2602 bad
-66.00
-kmer2603 bad
-54.00
-kmer2604 bad
-66.00
-kmer2605 bad
-58.00
-kmer2606 bad
-70.00
-kmer2607 bad
-66.00
-kmer2608 bad
-62.00
-kmer2609 bad
-64.00
-kmer2610 bad
-62.00
-kmer2611 bad
-60.00
-kmer2612 bad
-54.00
-kmer2613 bad
-66.00
-kmer2614 bad
-66.00
-kmer2615 bad
-62.00
-kmer2616 bad
-64.00
-kmer2617 bad
-64.00
-kmer2618 bad
-60.00
-kmer2619 bad
-64.00
-kmer2620 bad
-68.00
-kmer2621 bad
-70.00
-kmer2622 bad
-62.00
-kmer2623 bad
-52.00
-kmer2624 bad
-56.00
-kmer2625 bad
-68.00
-kmer2626 bad
-62.00
-kmer2627 bad
-64.00
-kmer2628 bad
-62.00
-kmer2629 bad
-60.00
-kmer2630 bad
-62.00
-kmer2631 bad
-60.00
-kmer2632 bad
-68.00
-kmer2633 bad
-64.00
-kmer2634 bad
-66.00
-kmer2635 bad
-64.00
-kmer2636 bad
-60.00
-kmer2637 bad
-68.00
-kmer2638 bad
-64.00
-kmer2639 bad
-60.00
-kmer2640 bad
-68.00
-kmer2641 bad
-72.00
-kmer2642 bad
-62.00
-kmer2643 bad
-64.00
-kmer2644 bad
-64.00
-kmer2645 bad
-66.00
-kmer2646 bad
-64.00
-kmer2647 bad
-66.00
-kmer2648 bad
-66.00
-kmer2649 bad
-66.00
-kmer2650 bad
-66.00
-kmer2651 bad
-66.00
-kmer2652 bad
-68.00
-kmer2653 bad
-70.00
-kmer2654 bad
-68.00
-kmer2655 bad
-68.00
-kmer2656 bad
-70.00
-kmer2657 bad
-66.00
-kmer2658 bad
-66.00
-kmer2659 bad
-62.00
-kmer2660 bad
-58.00
-kmer2661 bad
-66.00
-kmer2662 bad
-60.00
-kmer2663 bad
-56.00
-kmer2664 bad
-62.00
-kmer2665 bad
-62.00
-kmer2666 bad
-64.00
-kmer2667 bad
-56.00
-kmer2668 bad
-64.00
-kmer2669 bad
-64.00
-kmer2670 bad
-62.00
-kmer2671 bad
-64.00
-kmer2672 bad
-58.00
-kmer2673 bad
-64.00
-kmer2674 bad
-66.00
-kmer2675 bad
-66.00
-kmer2676 bad
-72.00
-kmer2677 bad
-70.00
-kmer2678 bad
-56.00
-kmer2679 bad
-66.00
-kmer2680 bad
-60.00
-kmer2681 good
-62.00
-kmer2682 bad
-60.00
-kmer2683 bad
-62.00
-kmer2684 bad
-62.00
-kmer2685 bad
-58.00
-kmer2686 bad
-60.00
-kmer2687 bad
-68.00
-kmer2688 bad
-62.00
-kmer2689 bad
-64.00
-kmer2690 bad
-64.00
-kmer2691 bad
-60.00
-kmer2692 bad
-64.00
-kmer2693 bad
-68.00
-kmer2694 bad
-64.00
-kmer2695 bad
-64.00
-kmer2696 bad
-68.00
-kmer2697 bad
-58.00
-kmer2698 bad
-66.00
-kmer2699 bad
-66.00
-kmer2700 bad
-72.00
-kmer2701 bad
-70.00
-kmer2702 bad
-70.00
-kmer2703 bad
-66.00
-kmer2704 bad
-72.00
-kmer2705 bad
-66.00
-kmer2706 bad
-64.00
-kmer2707 bad
-58.00
-kmer2708 bad
-66.00
-kmer2709 bad
-64.00
-kmer2710 bad
-66.00
-kmer2711 bad
-64.00
-kmer2712 bad
-58.00
-kmer2713 bad
-64.00
-kmer2714 bad
-68.00
-kmer2715 bad
-62.00
-kmer2716 bad
-62.00
-kmer2717 bad
-60.00
-kmer2718 bad
-54.00
-kmer2719 bad
-58.00
-kmer2720 bad
-66.00
-kmer2721 bad
-56.00
-kmer2722 bad
-66.00
-kmer2723 bad
-58.00
-kmer2724 bad
-66.00
-kmer2725 bad
-68.00
-kmer2726 bad
-60.00
-kmer2727 bad
-62.00
-kmer2728 bad
-64.00
-kmer2729 bad
-62.00
-kmer2730 bad
-62.00
-kmer2731 bad
-60.00
-kmer2732 bad
-58.00
-kmer2733 bad
-58.00
-kmer2734 bad
-62.00
-kmer2735 bad
-56.00
-kmer2736 bad
-58.00
-kmer2737 bad
-62.00
-kmer2738 bad
-66.00
-kmer2739 bad
-60.00
-kmer2740 bad
-68.00
-kmer2741 bad
-68.00
-kmer2742 bad
-62.00
-kmer2743 bad
-62.00
-kmer2744 bad
-56.00
-kmer2745 bad
-62.00
-kmer2746 bad
-68.00
-kmer2747 bad
-64.00
-kmer2748 bad
-64.00
-kmer2749 bad
-66.00
-kmer2750 bad
-66.00
-kmer2751 bad
-66.00
-kmer2752 bad
-62.00
-kmer2753 bad
-64.00
-kmer2754 bad
-68.00
-kmer2755 bad
-60.00
-kmer2756 bad
-62.00
-kmer2757 bad
-64.00
-kmer2758 bad
-64.00
-kmer2759 bad
-64.00
-kmer2760 bad
-62.00
-kmer2761 bad
-66.00
-kmer2762 bad
-62.00
-kmer2763 bad
-60.00
-kmer2764 bad
-58.00
-kmer2765 bad
-68.00
-kmer2766 bad
-52.00
-kmer2767 bad
-62.00
-kmer2768 bad
-64.00
-kmer2769 good
-68.00
-kmer2770 bad
-60.00
-kmer2771 bad
-70.00
-kmer2772 bad
-66.00
-kmer2773 bad
-66.00
-kmer2774 bad
-62.00
-kmer2775 bad
-64.00
-kmer2776 bad
-62.00
-kmer2777 bad
-68.00
-kmer2778 bad
-72.00
-kmer2779 bad
-70.00
-kmer2780 bad
-62.00
-kmer2781 bad
-68.00
-kmer2782 bad
-64.00
-kmer2783 bad
-68.00
-kmer2784 bad
-68.00
-kmer2785 bad
-68.00
-kmer2786 bad
-68.00
-kmer2787 bad
-62.00
-kmer2788 bad
-64.00
-kmer2789 bad
-62.00
-kmer2790 bad
-62.00
-kmer2791 good
-72.00
-kmer2792 bad
-60.00
-kmer2793 bad
-64.00
-kmer2794 bad
-64.00
-kmer2795 bad
-60.00
-kmer2796 bad
-54.00
-kmer2797 bad
-64.00
-kmer2798 bad
-72.00
-kmer2799 bad
-58.00
-kmer2800 good
-66.00
-kmer2801 bad
-58.00
-kmer2802 bad
-58.00
-kmer2803 bad
-70.00
-kmer2804 bad
-66.00
-kmer2805 bad
-62.00
-kmer2806 bad
-72.00
-kmer2807 bad
-64.00
-kmer2808 bad
-62.00
-kmer2809 bad
-64.00
-kmer2810 bad
-64.00
-kmer2811 bad
-62.00
-kmer2812 bad
-64.00
-kmer2813 bad
-66.00
-kmer2814 bad
-58.00
-kmer2815 bad
-64.00
-kmer2816 bad
-68.00
-kmer2817 bad
-60.00
-kmer2818 bad
-62.00
-kmer2819 bad
-64.00
-kmer2820 good
-66.00
-kmer2821 bad
-64.00
-kmer2822 bad
-70.00
-kmer2823 bad
-64.00
-kmer2824 bad
-70.00
-kmer2825 bad
-70.00
-kmer2826 good
-60.00
-kmer2827 bad
-68.00
-kmer2828 bad
-68.00
-kmer2829 bad
-66.00
-kmer2830 bad
-66.00
-kmer2831 bad
-70.00
-kmer2832 bad
-72.00
-kmer2833 bad
-72.00
-kmer2834 bad
-62.00
-kmer2835 bad
-62.00
-kmer2836 bad
-60.00
-kmer2837 bad
-70.00
-kmer2838 bad
-68.00
-kmer2839 bad
-62.00
-kmer2840 bad
-66.00
-kmer2841 bad
-68.00
-kmer2842 bad
-66.00
-kmer2843 bad
-68.00
-kmer2844 bad
-66.00
-kmer2845 bad
-62.00
-kmer2846 bad
-68.00
-kmer2847 bad
-66.00
-kmer2848 bad
-58.00
-kmer2849 bad
-62.00
-kmer2850 good
-70.00
-kmer2851 bad
-70.00
-kmer2852 bad
-68.00
-kmer2853 bad
-68.00
-kmer2854 bad
-64.00
-kmer2855 bad
-62.00
-kmer2856 bad
-68.00
-kmer2857 bad
-68.00
-kmer2858 bad
-64.00
-kmer2859 bad
-60.00
-kmer2860 bad
-68.00
-kmer2861 bad
-66.00
-kmer2862 bad
-72.00
-kmer2863 bad
-70.00
-kmer2864 bad
-68.00
-kmer2865 bad
-64.00
-kmer2866 bad
-58.00
-kmer2867 bad
-70.00
-kmer2868 bad
-66.00
-kmer2869 bad
-64.00
-kmer2870 bad
-64.00
-kmer2871 bad
-62.00
-kmer2872 bad
-64.00
-kmer2873 bad
-70.00
-kmer2874 bad
-74.00
-kmer2875 bad
-64.00
-kmer2876 good
-72.00
-kmer2877 bad
-66.00
-kmer2878 bad
-70.00
-kmer2879 bad
-66.00
-kmer2880 bad
-60.00
-kmer2881 bad
-68.00
-kmer2882 bad
-64.00
-kmer2883 bad
-64.00
-kmer2884 bad
-64.00
-kmer2885 bad
-64.00
-kmer2886 bad
-64.00
-kmer2887 bad
-60.00
-kmer2888 bad
-68.00
-kmer2889 bad
-64.00
-kmer2890 bad
-64.00
-kmer2891 bad
-68.00
-kmer2892 bad
-66.00
-kmer2893 bad
-70.00
-kmer2894 bad
-68.00
-kmer2895 bad
-62.00
-kmer2896 bad
-64.00
-kmer2897 good
-66.00
-kmer2898 bad
-60.00
-kmer2899 bad
-66.00
-kmer2900 bad
-60.00
-kmer2901 bad
-64.00
-kmer2902 bad
-66.00
-kmer2903 bad
-52.00
-kmer2904 bad
-62.00
-kmer2905 bad
-60.00
-kmer2906 bad
-66.00
-kmer2907 good
-68.00
-kmer2908 bad
-58.00
-kmer2909 bad
-60.00
-kmer2910 bad
-62.00
-kmer2911 bad
-68.00
-kmer2912 bad
-66.00
-kmer2913 bad
-64.00
-kmer2914 bad
-64.00
-kmer2915 bad
-72.00
-kmer2916 bad
-68.00
-kmer2917 bad
-66.00
-kmer2918 bad
-68.00
-kmer2919 bad
-60.00
-kmer2920 bad
-66.00
-kmer2921 bad
-68.00
-kmer2922 bad
-64.00
-kmer2923 bad
-62.00
-kmer2924 bad
-64.00
-kmer2925 bad
-64.00
-kmer2926 bad
-68.00
-kmer2927 bad
-70.00
-kmer2928 bad
-64.00
-kmer2929 bad
-64.00
-kmer2930 bad
-72.00
-kmer2931 bad
-64.00
-kmer2932 bad
-66.00
-kmer2933 bad
-64.00
-kmer2934 bad
-66.00
-kmer2935 bad
-60.00
-kmer2936 bad
-64.00
-kmer2937 bad
-60.00
-kmer2938 bad
-62.00
-kmer2939 bad
-68.00
-kmer2940 bad
-58.00
-kmer2941 bad
-66.00
-kmer2942 bad
-64.00
-kmer2943 bad
-58.00
-kmer2944 bad
-64.00
-kmer2945 bad
-72.00
-kmer2946 bad
-62.00
-kmer2947 bad
-52.00
-kmer2948 bad
-56.00
-kmer2949 bad
-64.00
-kmer2950 bad
-68.00
-kmer2951 bad
-66.00
-kmer2952 bad
-64.00
-kmer2953 bad
-64.00
-kmer2954 bad
-60.00
-kmer2955 good
-68.00
-kmer2956 bad
-64.00
-kmer2957 bad
-64.00
-kmer2958 bad
-66.00
-kmer2959 bad
-70.00
-kmer2960 bad
-64.00
-kmer2961 bad
-62.00
-kmer2962 bad
-64.00
-kmer2963 bad
-66.00
-kmer2964 bad
-62.00
-kmer2965 bad
-64.00
-kmer2966 bad
-68.00
-kmer2967 bad
-64.00
-kmer2968 bad
-66.00
-kmer2969 bad
-70.00
-kmer2970 bad
-66.00
-kmer2971 good
-64.00
-kmer2972 bad
-68.00
-kmer2973 bad
-64.00
-kmer2974 bad
-60.00
-kmer2975 bad
-68.00
-kmer2976 bad
-60.00
-kmer2977 bad
-60.00
-kmer2978 bad
-64.00
-kmer2979 bad
-66.00
-kmer2980 bad
-66.00
-kmer2981 good
-74.00
-kmer2982 bad
-66.00
-kmer2983 bad
-66.00
-kmer2984 bad
-58.00
-kmer2985 bad
-66.00
-kmer2986 bad
-64.00
-kmer2987 bad
-58.00
-kmer2988 bad
-60.00
-kmer2989 bad
-64.00
-kmer2990 bad
-66.00
-kmer2991 bad
-60.00
-kmer2992 bad
-64.00
-kmer2993 bad
-60.00
-kmer2994 bad
-64.00
-kmer2995 bad
-66.00
-kmer2996 bad
-66.00
-kmer2997 bad
-68.00
-kmer2998 bad
-62.00
-kmer2999 bad
-64.00
-kmer3000 bad
-64.00
-kmer3001 bad
-70.00
-kmer3002 bad
-64.00
-kmer3003 good
-60.00
-kmer3004 bad
-66.00
-kmer3005 bad
-66.00
-kmer3006 bad
-66.00
-kmer3007 bad
-66.00
-kmer3008 bad
-62.00
-kmer3009 bad
-70.00
-kmer3010 bad
-60.00
-kmer3011 bad
-74.00
-kmer3012 bad
-66.00
-kmer3013 bad
-64.00
-kmer3014 bad
-68.00
-kmer3015 bad
-68.00
-kmer3016 bad
-64.00
-kmer3017 bad
-66.00
-kmer3018 bad
-68.00
-kmer3019 bad
-66.00
-kmer3020 bad
-70.00
-kmer3021 bad
-62.00
-kmer3022 bad
-68.00
-kmer3023 bad
-64.00
-kmer3024 bad
-64.00
-kmer3025 bad
-64.00
-kmer3026 bad
-62.00
-kmer3027 bad
-64.00
-kmer3028 bad
-64.00
-kmer3029 bad
-62.00
-kmer3030 bad
-62.00
-kmer3031 bad
-68.00
-kmer3032 bad
-62.00
-kmer3033 bad
-66.00
-kmer3034 bad
-60.00
-kmer3035 bad
-64.00
-kmer3036 bad
-72.00
-kmer3037 bad
-64.00
-kmer3038 good
-66.00
-kmer3039 bad
-68.00
-kmer3040 bad
-64.00
-kmer3041 bad
-60.00
-kmer3042 bad
-60.00
-kmer3043 bad
-66.00
-kmer3044 bad
-60.00
-kmer3045 bad
-68.00
-kmer3046 bad
-68.00
-kmer3047 bad
-72.00
-kmer3048 bad
-66.00
-kmer3049 bad
-68.00
-kmer3050 bad
-64.00
-kmer3051 bad
-66.00
-kmer3052 bad
-62.00
-kmer3053 bad
-64.00
-kmer3054 bad
-68.00
-kmer3055 bad
-68.00
-kmer3056 bad
-66.00
-kmer3057 bad
-72.00
-kmer3058 bad
-70.00
-kmer3059 bad
-70.00
-kmer3060 bad
-64.00
-kmer3061 bad
-66.00
-kmer3062 bad
-70.00
-kmer3063 bad
-70.00
-kmer3064 bad
-62.00
-kmer3065 bad
-64.00
-kmer3066 good
-68.00
-kmer3067 good
-60.00
-kmer3068 bad
-60.00
-kmer3069 good
-66.00
-kmer3070 bad
-64.00
-kmer3071 bad
-66.00
-kmer3072 bad
-64.00
-kmer3073 bad
-72.00
-kmer3074 bad
-64.00
-kmer3075 good
-68.00
-kmer3076 bad
-66.00
-kmer3077 bad
-66.00
-kmer3078 bad
-68.00
-kmer3079 good
-66.00
-kmer3080 bad
-62.00
-kmer3081 bad
-60.00
-kmer3082 bad
-64.00
-kmer3083 bad
-62.00
-kmer3084 bad
-62.00
-kmer3085 bad
-62.00
-kmer3086 bad
-66.00
-kmer3087 bad
-64.00
-kmer3088 bad
-62.00
-kmer3089 bad
-64.00
-kmer3090 bad
-64.00
-kmer3091 bad
-64.00
-kmer3092 bad
-58.00
-kmer3093 good
-62.00
-kmer3094 bad
-62.00
-kmer3095 good
-68.00
-kmer3096 good
-64.00
-kmer3097 bad
-66.00
-kmer3098 bad
-64.00
-kmer3099 bad
-64.00
-kmer3100 good
-64.00
-kmer3101 bad
-60.00
-kmer3102 bad
-56.00
-kmer3103 bad
-66.00
-kmer3104 bad
-64.00
-kmer3105 bad
-70.00
-kmer3106 bad
-66.00
-kmer3107 bad
-68.00
-kmer3108 bad
-70.00
-kmer3109 bad
-62.00
-kmer3110 bad
-68.00
-kmer3111 bad
-60.00
-kmer3112 bad
-66.00
-kmer3113 bad
-66.00
-kmer3114 bad
-56.00
-kmer3115 bad
-68.00
-kmer3116 bad
-62.00
-kmer3117 bad
-64.00
-kmer3118 bad
-64.00
-kmer3119 bad
-62.00
-kmer3120 bad
-62.00
-kmer3121 good
-68.00
-kmer3122 bad
-64.00
-kmer3123 bad
-58.00
-kmer3124 bad
-60.00
-kmer3125 bad
-60.00
-kmer3126 bad
-62.00
-kmer3127 bad
-64.00
-kmer3128 bad
-52.00
-kmer3129 bad
-66.00
-kmer3130 good
-62.00
-kmer3131 bad
-62.00
-kmer3132 bad
-62.00
-kmer3133 bad
-64.00
-kmer3134 bad
-60.00
-kmer3135 bad
-64.00
-kmer3136 bad
-62.00
-kmer3137 bad
-62.00
-kmer3138 bad
-66.00
-kmer3139 bad
-64.00
-kmer3140 bad
-68.00
-kmer3141 bad
-62.00
-kmer3142 bad
-62.00
-kmer3143 bad
-58.00
-kmer3144 bad
-62.00
-kmer3145 bad
-62.00
-kmer3146 bad
-64.00
-kmer3147 bad
-70.00
-kmer3148 bad
-70.00
-kmer3149 bad
-66.00
-kmer3150 bad
-66.00
-kmer3151 bad
-64.00
-kmer3152 bad
-62.00
-kmer3153 bad
-62.00
-kmer3154 bad
-56.00
-kmer3155 good
-58.00
-kmer3156 bad
-66.00
-kmer3157 bad
-66.00
-kmer3158 bad
-58.00
-kmer3159 bad
-50.00
-kmer3160 bad
-64.00
-kmer3161 bad
-64.00
-kmer3162 bad
-56.00
-kmer3163 good
-60.00
-kmer3164 bad
-60.00
-kmer3165 bad
-62.00
-kmer3166 good
-62.00
-kmer3167 bad
-66.00
-kmer3168 bad
-66.00
-kmer3169 bad
-64.00
-kmer3170 bad
-64.00
-kmer3171 bad
-64.00
-kmer3172 bad
-62.00
-kmer3173 bad
-66.00
-kmer3174 bad
-62.00
-kmer3175 bad
-58.00
-kmer3176 bad
-58.00
-kmer3177 bad
-58.00
-kmer3178 bad
-62.00
-kmer3179 bad
-64.00
-kmer3180 bad
-68.00
-kmer3181 bad
-62.00
-kmer3182 bad
-70.00
-kmer3183 bad
-64.00
-kmer3184 bad
-66.00
-kmer3185 bad
-66.00
-kmer3186 bad
-70.00
-kmer3187 bad
-66.00
-kmer3188 bad
-66.00
-kmer3189 bad
-66.00
-kmer3190 bad
-64.00
-kmer3191 bad
-56.00
-kmer3192 bad
-62.00
-kmer3193 bad
-66.00
-kmer3194 bad
-62.00
-kmer3195 bad
-66.00
-kmer3196 bad
-56.00
-kmer3197 bad
-62.00
-kmer3198 bad
-68.00
-kmer3199 bad
-64.00
-kmer3200 bad
-58.00
-kmer3201 bad
-58.00
-kmer3202 bad
-64.00
-kmer3203 bad
-54.00
-kmer3204 bad
-60.00
-kmer3205 bad
-62.00
-kmer3206 bad
-54.00
-kmer3207 bad
-66.00
-kmer3208 bad
-62.00
-kmer3209 bad
-66.00
-kmer3210 bad
-60.00
-kmer3211 bad
-60.00
-kmer3212 bad
-58.00
-kmer3213 bad
-64.00
-kmer3214 bad
-62.00
-kmer3215 bad
-58.00
-kmer3216 bad
-62.00
-kmer3217 bad
-60.00
-kmer3218 bad
-64.00
-kmer3219 good
-64.00
-kmer3220 good
-60.00
-kmer3221 bad
-62.00
-kmer3222 bad
-58.00
-kmer3223 bad
-60.00
-kmer3224 bad
-66.00
-kmer3225 bad
-64.00
-kmer3226 bad
-64.00
-kmer3227 bad
-68.00
-kmer3228 bad
-66.00
-kmer3229 good
-62.00
-kmer3230 bad
-62.00
-kmer3231 bad
-60.00
-kmer3232 bad
-54.00
-kmer3233 bad
-56.00
-kmer3234 bad
-66.00
-kmer3235 bad
-58.00
-kmer3236 bad
-56.00
-kmer3237 bad
-64.00
-kmer3238 bad
-62.00
-kmer3239 bad
-58.00
-kmer3240 bad
-60.00
-kmer3241 bad
-60.00
-kmer3242 bad
-60.00
-kmer3243 bad
-58.00
-kmer3244 bad
-64.00
-kmer3245 bad
-46.00
-kmer3246 bad
-50.00
-kmer3247 bad
-60.00
-kmer3248 bad
-58.00
-kmer3249 bad
-52.00
-kmer3250 bad
-50.00
-kmer3251 bad
-60.00
-kmer3252 bad
-64.00
-kmer3253 bad
-60.00
-kmer3254 bad
-58.00
-kmer3255 bad
-64.00
-kmer3256 bad
-60.00
-kmer3257 bad
-64.00
-kmer3258 bad
-54.00
-kmer3259 bad
-66.00
-kmer3260 bad
-62.00
-kmer3261 bad
-62.00
-kmer3262 bad
-62.00
-kmer3263 bad
-54.00
-kmer3264 bad
-64.00
-kmer3265 bad
-54.00
-kmer3266 bad
-70.00
-kmer3267 bad
-62.00
-kmer3268 bad
-66.00
-kmer3269 bad
-62.00
-kmer3270 bad
-66.00
-kmer3271 bad
-52.00
-kmer3272 bad
-58.00
-kmer3273 bad
-50.00
-kmer3274 good
-60.00
-kmer3275 bad
-66.00
-kmer3276 bad
-56.00
-kmer3277 bad
-60.00
-kmer3278 bad
-58.00
-kmer3279 bad
-64.00
-kmer3280 bad
-60.00
-kmer3281 bad
-62.00
-kmer3282 bad
-70.00
-kmer3283 bad
-70.00
-kmer3284 bad
-66.00
-kmer3285 bad
-60.00
-kmer3286 bad
-58.00
-kmer3287 bad
-62.00
-kmer3288 bad
-58.00
-kmer3289 bad
-64.00
-kmer3290 bad
-62.00
-kmer3291 bad
-66.00
-kmer3292 bad
-60.00
-kmer3293 bad
-62.00
-kmer3294 bad
-60.00
-kmer3295 bad
-52.00
-kmer3296 bad
-66.00
-kmer3297 bad
-58.00
-kmer3298 bad
-56.00
-kmer3299 bad
-66.00
-kmer3300 bad
-58.00
-kmer3301 bad
-60.00
-kmer3302 bad
-60.00
-kmer3303 bad
-62.00
-kmer3304 bad
-62.00
-kmer3305 bad
-48.00
-kmer3306 bad
-60.00
-kmer3307 bad
-56.00
-kmer3308 bad
-60.00
-kmer3309 bad
-62.00
-kmer3310 bad
-58.00
-kmer3311 bad
-62.00
-kmer3312 bad
-52.00
-kmer3313 bad
-54.00
-kmer3314 bad
-62.00
-kmer3315 bad
-58.00
-kmer3316 bad
-66.00
-kmer3317 bad
-56.00
-kmer3318 bad
-58.00
-kmer3319 bad
-62.00
-kmer3320 bad
-56.00
-kmer3321 good
-56.00
-kmer3322 good
-62.00
-kmer3323 bad
-66.00
-kmer3324 bad
-58.00
-kmer3325 bad
-48.00
-kmer3326 bad
-54.00
-kmer3327 bad
-60.00
-kmer3328 bad
-62.00
-kmer3329 bad
-54.00
-kmer3330 good
-60.00
-kmer3331 bad
-56.00
-kmer3332 bad
-64.00
-kmer3333 bad
-58.00
-kmer3334 good
-58.00
-kmer3335 bad
-62.00
-kmer3336 bad
-64.00
-kmer3337 bad
-68.00
-kmer3338 bad
-58.00
-kmer3339 bad
-60.00
-kmer3340 bad
-64.00
-kmer3341 bad
-64.00
-kmer3342 bad
-68.00
-kmer3343 bad
-56.00
-kmer3344 bad
-64.00
-kmer3345 bad
-58.00
-kmer3346 bad
-60.00
-kmer3347 good
-62.00
-kmer3348 bad
-62.00
-kmer3349 bad
-62.00
-kmer3350 bad
-66.00
-kmer3351 bad
-54.00
-kmer3352 bad
-66.00
-kmer3353 bad
-60.00
-kmer3354 bad
-60.00
-kmer3355 bad
-64.00
-kmer3356 bad
-68.00
-kmer3357 bad
-64.00
-kmer3358 bad
-62.00
-kmer3359 bad
-64.00
-kmer3360 bad
-68.00
-kmer3361 bad
-60.00
-kmer3362 bad
-68.00
-kmer3363 bad
-64.00
-kmer3364 bad
-66.00
-kmer3365 bad
-58.00
-kmer3366 bad
-66.00
-kmer3367 bad
-62.00
-kmer3368 bad
-66.00
-kmer3369 bad
-62.00
-kmer3370 bad
-62.00
-kmer3371 bad
-62.00
-kmer3372 bad
-64.00
-kmer3373 bad
-62.00
-kmer3374 bad
-50.00
-kmer3375 bad
-56.00
-kmer3376 bad
-62.00
-kmer3377 bad
-62.00
-kmer3378 bad
-52.00
-kmer3379 bad
-56.00
-kmer3380 bad
-64.00
-kmer3381 bad
-62.00
-kmer3382 bad
-64.00
-kmer3383 bad
-60.00
-kmer3384 bad
-62.00
-kmer3385 bad
-58.00
-kmer3386 bad
-64.00
-kmer3387 bad
-66.00
-kmer3388 bad
-54.00
-kmer3389 bad
-62.00
-kmer3390 bad
-60.00
-kmer3391 bad
-56.00
-kmer3392 bad
-62.00
-kmer3393 bad
-56.00
-kmer3394 bad
-60.00
-kmer3395 bad
-60.00
-kmer3396 bad
-58.00
-kmer3397 bad
-62.00
-kmer3398 bad
-54.00
-kmer3399 bad
-66.00
-kmer3400 bad
-64.00
-kmer3401 bad
-58.00
-kmer3402 bad
-66.00
-kmer3403 bad
-66.00
-kmer3404 bad
-72.00
-kmer3405 bad
-68.00
-kmer3406 bad
-60.00
-kmer3407 bad
-54.00
-kmer3408 bad
-60.00
-kmer3409 bad
-62.00
-kmer3410 good
-68.00
-kmer3411 bad
-62.00
-kmer3412 bad
-54.00
-kmer3413 bad
-56.00
-kmer3414 bad
-64.00
-kmer3415 bad
-60.00
-kmer3416 bad
-64.00
-kmer3417 bad
-62.00
-kmer3418 bad
-62.00
-kmer3419 bad
-56.00
-kmer3420 bad
-66.00
-kmer3421 bad
-62.00
-kmer3422 bad
-54.00
-kmer3423 bad
-62.00
-kmer3424 bad
-64.00
-kmer3425 bad
-64.00
-kmer3426 bad
-68.00
-kmer3427 good
-62.00
-kmer3428 bad
-68.00
-kmer3429 bad
-64.00
-kmer3430 bad
-68.00
-kmer3431 bad
-56.00
-kmer3432 bad
-58.00
-kmer3433 bad
-64.00
-kmer3434 bad
-60.00
-kmer3435 bad
-64.00
-kmer3436 bad
-66.00
-kmer3437 bad
-60.00
-kmer3438 bad
-66.00
-kmer3439 bad
-60.00
-kmer3440 bad
-56.00
-kmer3441 bad
-64.00
-kmer3442 bad
-54.00
-kmer3443 bad
-52.00
-kmer3444 bad
-56.00
-kmer3445 bad
-52.00
-kmer3446 bad
-56.00
-kmer3447 good
-58.00
-kmer3448 bad
-58.00
-kmer3449 bad
-64.00
-kmer3450 bad
-50.00
-kmer3451 bad
-58.00
-kmer3452 bad
-58.00
-kmer3453 bad
-60.00
-kmer3454 bad
-56.00
-kmer3455 bad
-62.00
-kmer3456 bad
-64.00
-kmer3457 bad
-64.00
-kmer3458 bad
-58.00
-kmer3459 bad
-60.00
-kmer3460 bad
-60.00
-kmer3461 bad
-58.00
-kmer3462 bad
-56.00
-kmer3463 bad
-54.00
-kmer3464 bad
-60.00
-kmer3465 bad
-56.00
-kmer3466 bad
-58.00
-kmer3467 bad
-44.00
+kmer1 	bad	54.75	33.33
+kmer2 	good	54.75	33.33
+kmer3 	bad	46.94	14.29
+kmer4 	bad	54.75	33.33
+kmer5 	bad	62.56	52.38
+kmer6 	bad	52.80	28.57
+kmer7 	bad	50.85	23.81
+kmer8 	bad	52.80	28.57
+kmer9 	bad	60.61	47.62
+kmer10 	bad	52.80	28.57
+kmer11 	bad	46.94	14.29
+kmer12 	bad	48.90	19.05
+kmer13 	bad	54.75	33.33
+kmer14 	bad	56.71	38.10
+kmer15 	bad	60.61	47.62
+kmer16 	bad	58.66	42.86
+kmer17 	bad	62.56	52.38
+kmer18 	bad	54.75	33.33
+kmer19 	bad	58.66	42.86
+kmer20 	bad	62.56	52.38
+kmer21 	bad	50.85	23.81
+kmer22 	bad	56.71	38.10
+kmer23 	bad	64.52	57.14
+kmer24 	bad	58.66	42.86
+kmer25 	bad	52.80	28.57
+kmer26 	bad	52.80	28.57
+kmer27 	bad	64.52	57.14
+kmer28 	bad	64.52	57.14
+kmer29 	bad	60.61	47.62
+kmer30 	bad	54.75	33.33
+kmer31 	bad	60.61	47.62
+kmer32 	bad	54.75	33.33
+kmer33 	bad	48.90	19.05
+kmer34 	bad	52.80	28.57
+kmer35 	bad	48.90	19.05
+kmer36 	bad	46.94	14.29
+kmer37 	bad	46.94	14.29
+kmer38 	bad	50.85	23.81
+kmer39 	bad	48.90	19.05
+kmer40 	bad	54.75	33.33
+kmer41 	bad	58.66	42.86
+kmer42 	bad	58.66	42.86
+kmer43 	bad	60.61	47.62
+kmer44 	bad	58.66	42.86
+kmer45 	bad	62.56	52.38
+kmer46 	bad	58.66	42.86
+kmer47 	bad	54.75	33.33
+kmer48 	bad	60.61	47.62
+kmer49 	bad	62.56	52.38
+kmer50 	bad	60.61	47.62
+kmer51 	bad	62.56	52.38
+kmer52 	bad	64.52	57.14
+kmer53 	bad	60.61	47.62
+kmer54 	bad	50.85	23.81
+kmer55 	bad	54.75	33.33
+kmer56 	bad	56.71	38.10
+kmer57 	bad	58.66	42.86
+kmer58 	bad	60.61	47.62
+kmer59 	bad	56.71	38.10
+kmer60 	bad	62.56	52.38
+kmer61 	bad	58.66	42.86
+kmer62 	bad	54.75	33.33
+kmer63 	bad	50.85	23.81
+kmer64 	bad	54.75	33.33
+kmer65 	bad	56.71	38.10
+kmer66 	bad	50.85	23.81
+kmer67 	bad	58.66	42.86
+kmer68 	bad	62.56	52.38
+kmer69 	bad	66.47	61.90
+kmer70 	bad	60.61	47.62
+kmer71 	bad	56.71	38.10
+kmer72 	bad	60.61	47.62
+kmer73 	bad	64.52	57.14
+kmer74 	bad	60.61	47.62
+kmer75 	bad	58.66	42.86
+kmer76 	bad	60.61	47.62
+kmer77 	good	64.52	57.14
+kmer78 	bad	62.56	52.38
+kmer79 	bad	58.66	42.86
+kmer80 	bad	52.80	28.57
+kmer81 	bad	70.37	71.43
+kmer82 	bad	66.47	61.90
+kmer83 	good	64.52	57.14
+kmer84 	bad	56.71	38.10
+kmer85 	bad	66.47	61.90
+kmer86 	bad	66.47	61.90
+kmer87 	good	62.56	52.38
+kmer88 	bad	60.61	47.62
+kmer89 	bad	54.75	33.33
+kmer90 	bad	62.56	52.38
+kmer91 	bad	64.52	57.14
+kmer92 	bad	54.75	33.33
+kmer93 	bad	58.66	42.86
+kmer94 	bad	62.56	52.38
+kmer95 	bad	64.52	57.14
+kmer96 	bad	60.61	47.62
+kmer97 	good	64.52	57.14
+kmer98 	bad	62.56	52.38
+kmer99 	bad	54.75	33.33
+kmer100 	bad	60.61	47.62
+kmer101 	bad	60.61	47.62
+kmer102 	bad	56.71	38.10
+kmer103 	bad	62.56	52.38
+kmer104 	bad	56.71	38.10
+kmer105 	bad	62.56	52.38
+kmer106 	bad	60.61	47.62
+kmer107 	bad	56.71	38.10
+kmer108 	bad	50.85	23.81
+kmer109 	bad	52.80	28.57
+kmer110 	bad	48.90	19.05
+kmer111 	bad	60.61	47.62
+kmer112 	bad	46.94	14.29
+kmer113 	bad	50.85	23.81
+kmer114 	bad	54.75	33.33
+kmer115 	bad	56.71	38.10
+kmer116 	bad	58.66	42.86
+kmer117 	good	52.80	28.57
+kmer118 	bad	58.66	42.86
+kmer119 	good	58.66	42.86
+kmer120 	bad	58.66	42.86
+kmer121 	good	56.71	38.10
+kmer122 	bad	46.94	14.29
+kmer123 	bad	58.66	42.86
+kmer124 	good	60.61	47.62
+kmer125 	bad	56.71	38.10
+kmer126 	bad	58.66	42.86
+kmer127 	bad	58.66	42.86
+kmer128 	bad	50.85	23.81
+kmer129 	bad	56.71	38.10
+kmer130 	bad	58.66	42.86
+kmer131 	bad	54.75	33.33
+kmer132 	bad	52.80	28.57
+kmer133 	bad	43.04	4.76
+kmer134 	bad	48.90	19.05
+kmer135 	bad	60.61	47.62
+kmer136 	bad	54.75	33.33
+kmer137 	bad	62.56	52.38
+kmer138 	bad	54.75	33.33
+kmer139 	bad	60.61	47.62
+kmer140 	bad	58.66	42.86
+kmer141 	bad	52.80	28.57
+kmer142 	bad	58.66	42.86
+kmer143 	bad	66.47	61.90
+kmer144 	bad	66.47	61.90
+kmer145 	bad	62.56	52.38
+kmer146 	bad	52.80	28.57
+kmer147 	bad	58.66	42.86
+kmer148 	bad	64.52	57.14
+kmer149 	bad	64.52	57.14
+kmer150 	bad	50.85	23.81
+kmer151 	bad	58.66	42.86
+kmer152 	bad	60.61	47.62
+kmer153 	good	62.56	52.38
+kmer154 	bad	58.66	42.86
+kmer155 	bad	64.52	57.14
+kmer156 	bad	62.56	52.38
+kmer157 	bad	64.52	57.14
+kmer158 	bad	64.52	57.14
+kmer159 	bad	48.90	19.05
+kmer160 	bad	56.71	38.10
+kmer161 	bad	60.61	47.62
+kmer162 	bad	60.61	47.62
+kmer163 	bad	60.61	47.62
+kmer164 	bad	60.61	47.62
+kmer165 	bad	54.75	33.33
+kmer166 	bad	54.75	33.33
+kmer167 	bad	60.61	47.62
+kmer168 	bad	62.56	52.38
+kmer169 	bad	66.47	61.90
+kmer170 	bad	64.52	57.14
+kmer171 	bad	64.52	57.14
+kmer172 	bad	62.56	52.38
+kmer173 	bad	58.66	42.86
+kmer174 	bad	64.52	57.14
+kmer175 	bad	66.47	61.90
+kmer176 	bad	66.47	61.90
+kmer177 	bad	62.56	52.38
+kmer178 	bad	64.52	57.14
+kmer179 	bad	70.37	71.43
+kmer180 	bad	66.47	61.90
+kmer181 	bad	66.47	61.90
+kmer182 	good	62.56	52.38
+kmer183 	bad	60.61	47.62
+kmer184 	bad	64.52	57.14
+kmer185 	bad	66.47	61.90
+kmer186 	bad	60.61	47.62
+kmer187 	good	60.61	47.62
+kmer188 	bad	58.66	42.86
+kmer189 	bad	64.52	57.14
+kmer190 	bad	58.66	42.86
+kmer191 	bad	60.61	47.62
+kmer192 	good	64.52	57.14
+kmer193 	bad	62.56	52.38
+kmer194 	bad	68.42	66.67
+kmer195 	bad	62.56	52.38
+kmer196 	good	62.56	52.38
+kmer197 	bad	64.52	57.14
+kmer198 	bad	66.47	61.90
+kmer199 	good	64.52	57.14
+kmer200 	good	62.56	52.38
+kmer201 	good	56.71	38.10
+kmer202 	good	58.66	42.86
+kmer203 	bad	60.61	47.62
+kmer204 	bad	62.56	52.38
+kmer205 	bad	60.61	47.62
+kmer206 	bad	70.37	71.43
+kmer207 	bad	64.52	57.14
+kmer208 	bad	60.61	47.62
+kmer209 	bad	56.71	38.10
+kmer210 	bad	54.75	33.33
+kmer211 	bad	62.56	52.38
+kmer212 	bad	56.71	38.10
+kmer213 	bad	62.56	52.38
+kmer214 	bad	66.47	61.90
+kmer215 	bad	56.71	38.10
+kmer216 	bad	56.71	38.10
+kmer217 	bad	62.56	52.38
+kmer218 	good	58.66	42.86
+kmer219 	bad	62.56	52.38
+kmer220 	bad	62.56	52.38
+kmer221 	bad	62.56	52.38
+kmer222 	bad	58.66	42.86
+kmer223 	bad	62.56	52.38
+kmer224 	bad	62.56	52.38
+kmer225 	bad	64.52	57.14
+kmer226 	bad	66.47	61.90
+kmer227 	bad	62.56	52.38
+kmer228 	bad	62.56	52.38
+kmer229 	bad	68.42	66.67
+kmer230 	bad	58.66	42.86
+kmer231 	bad	56.71	38.10
+kmer232 	bad	62.56	52.38
+kmer233 	bad	60.61	47.62
+kmer234 	bad	60.61	47.62
+kmer235 	bad	62.56	52.38
+kmer236 	good	62.56	52.38
+kmer237 	bad	60.61	47.62
+kmer238 	bad	60.61	47.62
+kmer239 	bad	60.61	47.62
+kmer240 	bad	60.61	47.62
+kmer241 	bad	48.90	19.05
+kmer242 	bad	56.71	38.10
+kmer243 	bad	58.66	42.86
+kmer244 	bad	62.56	52.38
+kmer245 	bad	64.52	57.14
+kmer246 	bad	62.56	52.38
+kmer247 	bad	68.42	66.67
+kmer248 	bad	60.61	47.62
+kmer249 	bad	60.61	47.62
+kmer250 	bad	60.61	47.62
+kmer251 	bad	62.56	52.38
+kmer252 	bad	64.52	57.14
+kmer253 	bad	54.75	33.33
+kmer254 	good	62.56	52.38
+kmer255 	bad	64.52	57.14
+kmer256 	bad	58.66	42.86
+kmer257 	bad	54.75	33.33
+kmer258 	bad	66.47	61.90
+kmer259 	bad	52.80	28.57
+kmer260 	bad	58.66	42.86
+kmer261 	bad	54.75	33.33
+kmer262 	bad	58.66	42.86
+kmer263 	bad	58.66	42.86
+kmer264 	bad	58.66	42.86
+kmer265 	bad	56.71	38.10
+kmer266 	bad	50.85	23.81
+kmer267 	bad	62.56	52.38
+kmer268 	bad	64.52	57.14
+kmer269 	bad	56.71	38.10
+kmer270 	bad	58.66	42.86
+kmer271 	bad	56.71	38.10
+kmer272 	bad	52.80	28.57
+kmer273 	bad	62.56	52.38
+kmer274 	bad	64.52	57.14
+kmer275 	good	58.66	42.86
+kmer276 	bad	66.47	61.90
+kmer277 	good	60.61	47.62
+kmer278 	good	62.56	52.38
+kmer279 	bad	58.66	42.86
+kmer280 	bad	60.61	47.62
+kmer281 	bad	62.56	52.38
+kmer282 	bad	56.71	38.10
+kmer283 	bad	58.66	42.86
+kmer284 	bad	60.61	47.62
+kmer285 	bad	62.56	52.38
+kmer286 	bad	52.80	28.57
+kmer287 	bad	66.47	61.90
+kmer288 	bad	64.52	57.14
+kmer289 	bad	54.75	33.33
+kmer290 	bad	62.56	52.38
+kmer291 	bad	62.56	52.38
+kmer292 	bad	60.61	47.62
+kmer293 	good	56.71	38.10
+kmer294 	bad	52.80	28.57
+kmer295 	bad	50.85	23.81
+kmer296 	bad	56.71	38.10
+kmer297 	good	66.47	61.90
+kmer298 	bad	62.56	52.38
+kmer299 	bad	66.47	61.90
+kmer300 	bad	58.66	42.86
+kmer301 	bad	58.66	42.86
+kmer302 	bad	52.80	28.57
+kmer303 	bad	52.80	28.57
+kmer304 	bad	58.66	42.86
+kmer305 	bad	64.52	57.14
+kmer306 	bad	64.52	57.14
+kmer307 	bad	68.42	66.67
+kmer308 	bad	54.75	33.33
+kmer309 	bad	72.33	76.19
+kmer310 	bad	66.47	61.90
+kmer311 	bad	70.37	71.43
+kmer312 	bad	64.52	57.14
+kmer313 	good	64.52	57.14
+kmer314 	bad	66.47	61.90
+kmer315 	bad	62.56	52.38
+kmer316 	bad	66.47	61.90
+kmer317 	bad	62.56	52.38
+kmer318 	bad	68.42	66.67
+kmer319 	bad	56.71	38.10
+kmer320 	bad	62.56	52.38
+kmer321 	good	64.52	57.14
+kmer322 	good	62.56	52.38
+kmer323 	bad	58.66	42.86
+kmer324 	bad	58.66	42.86
+kmer325 	bad	62.56	52.38
+kmer326 	bad	62.56	52.38
+kmer327 	bad	64.52	57.14
+kmer328 	bad	56.71	38.10
+kmer329 	bad	64.52	57.14
+kmer330 	bad	62.56	52.38
+kmer331 	bad	62.56	52.38
+kmer332 	bad	52.80	28.57
+kmer333 	good	62.56	52.38
+kmer334 	bad	58.66	42.86
+kmer335 	good	62.56	52.38
+kmer336 	bad	58.66	42.86
+kmer337 	bad	62.56	52.38
+kmer338 	bad	58.66	42.86
+kmer339 	bad	64.52	57.14
+kmer340 	bad	66.47	61.90
+kmer341 	bad	60.61	47.62
+kmer342 	bad	54.75	33.33
+kmer343 	bad	58.66	42.86
+kmer344 	bad	62.56	52.38
+kmer345 	bad	62.56	52.38
+kmer346 	bad	62.56	52.38
+kmer347 	bad	58.66	42.86
+kmer348 	bad	64.52	57.14
+kmer349 	bad	68.42	66.67
+kmer350 	bad	62.56	52.38
+kmer351 	bad	66.47	61.90
+kmer352 	bad	62.56	52.38
+kmer353 	good	60.61	47.62
+kmer354 	bad	60.61	47.62
+kmer355 	bad	58.66	42.86
+kmer356 	bad	56.71	38.10
+kmer357 	bad	64.52	57.14
+kmer358 	bad	58.66	42.86
+kmer359 	bad	60.61	47.62
+kmer360 	bad	64.52	57.14
+kmer361 	bad	62.56	52.38
+kmer362 	bad	66.47	61.90
+kmer363 	bad	54.75	33.33
+kmer364 	bad	68.42	66.67
+kmer365 	bad	62.56	52.38
+kmer366 	bad	62.56	52.38
+kmer367 	bad	64.52	57.14
+kmer368 	bad	58.66	42.86
+kmer369 	bad	60.61	47.62
+kmer370 	good	64.52	57.14
+kmer371 	bad	64.52	57.14
+kmer372 	bad	62.56	52.38
+kmer373 	bad	62.56	52.38
+kmer374 	good	64.52	57.14
+kmer375 	bad	66.47	61.90
+kmer376 	bad	60.61	47.62
+kmer377 	bad	56.71	38.10
+kmer378 	bad	62.56	52.38
+kmer379 	bad	62.56	52.38
+kmer380 	bad	62.56	52.38
+kmer381 	bad	58.66	42.86
+kmer382 	bad	60.61	47.62
+kmer383 	bad	58.66	42.86
+kmer384 	bad	62.56	52.38
+kmer385 	bad	66.47	61.90
+kmer386 	bad	58.66	42.86
+kmer387 	bad	56.71	38.10
+kmer388 	bad	64.52	57.14
+kmer389 	bad	60.61	47.62
+kmer390 	bad	66.47	61.90
+kmer391 	bad	56.71	38.10
+kmer392 	bad	68.42	66.67
+kmer393 	bad	60.61	47.62
+kmer394 	bad	58.66	42.86
+kmer395 	bad	62.56	52.38
+kmer396 	bad	60.61	47.62
+kmer397 	bad	58.66	42.86
+kmer398 	bad	62.56	52.38
+kmer399 	bad	56.71	38.10
+kmer400 	bad	58.66	42.86
+kmer401 	bad	62.56	52.38
+kmer402 	bad	58.66	42.86
+kmer403 	bad	52.80	28.57
+kmer404 	bad	58.66	42.86
+kmer405 	good	52.80	28.57
+kmer406 	bad	52.80	28.57
+kmer407 	bad	54.75	33.33
+kmer408 	good	58.66	42.86
+kmer409 	bad	50.85	23.81
+kmer410 	bad	62.56	52.38
+kmer411 	bad	46.94	14.29
+kmer412 	bad	52.80	28.57
+kmer413 	bad	52.80	28.57
+kmer414 	bad	54.75	33.33
+kmer415 	bad	62.56	52.38
+kmer416 	bad	62.56	52.38
+kmer417 	bad	56.71	38.10
+kmer418 	bad	58.66	42.86
+kmer419 	bad	58.66	42.86
+kmer420 	good	54.75	33.33
+kmer421 	bad	60.61	47.62
+kmer422 	bad	60.61	47.62
+kmer423 	bad	62.56	52.38
+kmer424 	bad	50.85	23.81
+kmer425 	bad	58.66	42.86
+kmer426 	bad	58.66	42.86
+kmer427 	bad	52.80	28.57
+kmer428 	bad	58.66	42.86
+kmer429 	bad	60.61	47.62
+kmer430 	good	60.61	47.62
+kmer431 	bad	60.61	47.62
+kmer432 	bad	62.56	52.38
+kmer433 	good	64.52	57.14
+kmer434 	bad	60.61	47.62
+kmer435 	good	62.56	52.38
+kmer436 	bad	58.66	42.86
+kmer437 	bad	62.56	52.38
+kmer438 	bad	64.52	57.14
+kmer439 	bad	56.71	38.10
+kmer440 	bad	66.47	61.90
+kmer441 	bad	46.94	14.29
+kmer442 	bad	60.61	47.62
+kmer443 	bad	52.80	28.57
+kmer444 	bad	64.52	57.14
+kmer445 	bad	58.66	42.86
+kmer446 	bad	58.66	42.86
+kmer447 	bad	60.61	47.62
+kmer448 	bad	56.71	38.10
+kmer449 	bad	56.71	38.10
+kmer450 	bad	60.61	47.62
+kmer451 	bad	60.61	47.62
+kmer452 	good	60.61	47.62
+kmer453 	bad	56.71	38.10
+kmer454 	bad	58.66	42.86
+kmer455 	bad	52.80	28.57
+kmer456 	bad	58.66	42.86
+kmer457 	bad	58.66	42.86
+kmer458 	bad	60.61	47.62
+kmer459 	bad	60.61	47.62
+kmer460 	bad	62.56	52.38
+kmer461 	bad	60.61	47.62
+kmer462 	bad	56.71	38.10
+kmer463 	bad	62.56	52.38
+kmer464 	bad	60.61	47.62
+kmer465 	bad	60.61	47.62
+kmer466 	bad	60.61	47.62
+kmer467 	bad	58.66	42.86
+kmer468 	bad	54.75	33.33
+kmer469 	bad	60.61	47.62
+kmer470 	bad	56.71	38.10
+kmer471 	bad	60.61	47.62
+kmer472 	bad	60.61	47.62
+kmer473 	bad	48.90	19.05
+kmer474 	bad	50.85	23.81
+kmer475 	bad	60.61	47.62
+kmer476 	bad	58.66	42.86
+kmer477 	bad	60.61	47.62
+kmer478 	bad	58.66	42.86
+kmer479 	bad	66.47	61.90
+kmer480 	bad	54.75	33.33
+kmer481 	bad	62.56	52.38
+kmer482 	bad	66.47	61.90
+kmer483 	bad	56.71	38.10
+kmer484 	bad	58.66	42.86
+kmer485 	bad	62.56	52.38
+kmer486 	bad	54.75	33.33
+kmer487 	good	58.66	42.86
+kmer488 	bad	60.61	47.62
+kmer489 	bad	56.71	38.10
+kmer490 	bad	48.90	19.05
+kmer491 	bad	58.66	42.86
+kmer492 	bad	52.80	28.57
+kmer493 	bad	43.04	4.76
+kmer494 	bad	50.85	23.81
+kmer495 	bad	54.75	33.33
+kmer496 	good	58.66	42.86
+kmer497 	bad	60.61	47.62
+kmer498 	bad	66.47	61.90
+kmer499 	bad	62.56	52.38
+kmer500 	bad	54.75	33.33
+kmer501 	bad	62.56	52.38
+kmer502 	bad	56.71	38.10
+kmer503 	bad	64.52	57.14
+kmer504 	bad	64.52	57.14
+kmer505 	bad	56.71	38.10
+kmer506 	bad	58.66	42.86
+kmer507 	bad	60.61	47.62
+kmer508 	bad	58.66	42.86
+kmer509 	bad	58.66	42.86
+kmer510 	bad	54.75	33.33
+kmer511 	bad	64.52	57.14
+kmer512 	bad	68.42	66.67
+kmer513 	bad	64.52	57.14
+kmer514 	bad	60.61	47.62
+kmer515 	bad	62.56	52.38
+kmer516 	bad	64.52	57.14
+kmer517 	bad	60.61	47.62
+kmer518 	bad	66.47	61.90
+kmer519 	bad	64.52	57.14
+kmer520 	bad	66.47	61.90
+kmer521 	bad	58.66	42.86
+kmer522 	bad	58.66	42.86
+kmer523 	bad	58.66	42.86
+kmer524 	bad	62.56	52.38
+kmer525 	bad	68.42	66.67
+kmer526 	bad	60.61	47.62
+kmer527 	bad	64.52	57.14
+kmer528 	bad	58.66	42.86
+kmer529 	bad	58.66	42.86
+kmer530 	bad	62.56	52.38
+kmer531 	bad	60.61	47.62
+kmer532 	bad	64.52	57.14
+kmer533 	bad	52.80	28.57
+kmer534 	bad	54.75	33.33
+kmer535 	bad	58.66	42.86
+kmer536 	bad	64.52	57.14
+kmer537 	bad	64.52	57.14
+kmer538 	bad	66.47	61.90
+kmer539 	bad	52.80	28.57
+kmer540 	bad	60.61	47.62
+kmer541 	bad	60.61	47.62
+kmer542 	bad	62.56	52.38
+kmer543 	good	64.52	57.14
+kmer544 	bad	58.66	42.86
+kmer545 	bad	58.66	42.86
+kmer546 	bad	64.52	57.14
+kmer547 	bad	60.61	47.62
+kmer548 	bad	64.52	57.14
+kmer549 	good	60.61	47.62
+kmer550 	bad	64.52	57.14
+kmer551 	bad	66.47	61.90
+kmer552 	bad	62.56	52.38
+kmer553 	bad	64.52	57.14
+kmer554 	good	62.56	52.38
+kmer555 	bad	64.52	57.14
+kmer556 	bad	62.56	52.38
+kmer557 	bad	58.66	42.86
+kmer558 	bad	60.61	47.62
+kmer559 	bad	54.75	33.33
+kmer560 	bad	58.66	42.86
+kmer561 	bad	54.75	33.33
+kmer562 	bad	66.47	61.90
+kmer563 	bad	58.66	42.86
+kmer564 	bad	58.66	42.86
+kmer565 	bad	64.52	57.14
+kmer566 	bad	50.85	23.81
+kmer567 	bad	60.61	47.62
+kmer568 	bad	62.56	52.38
+kmer569 	bad	62.56	52.38
+kmer570 	bad	56.71	38.10
+kmer571 	bad	58.66	42.86
+kmer572 	bad	60.61	47.62
+kmer573 	bad	60.61	47.62
+kmer574 	bad	62.56	52.38
+kmer575 	bad	60.61	47.62
+kmer576 	bad	60.61	47.62
+kmer577 	bad	58.66	42.86
+kmer578 	bad	54.75	33.33
+kmer579 	bad	56.71	38.10
+kmer580 	bad	58.66	42.86
+kmer581 	bad	64.52	57.14
+kmer582 	bad	62.56	52.38
+kmer583 	bad	62.56	52.38
+kmer584 	bad	62.56	52.38
+kmer585 	bad	68.42	66.67
+kmer586 	bad	66.47	61.90
+kmer587 	bad	56.71	38.10
+kmer588 	bad	66.47	61.90
+kmer589 	bad	66.47	61.90
+kmer590 	bad	64.52	57.14
+kmer591 	bad	62.56	52.38
+kmer592 	bad	60.61	47.62
+kmer593 	bad	60.61	47.62
+kmer594 	bad	54.75	33.33
+kmer595 	bad	62.56	52.38
+kmer596 	bad	64.52	57.14
+kmer597 	bad	62.56	52.38
+kmer598 	bad	64.52	57.14
+kmer599 	bad	66.47	61.90
+kmer600 	bad	64.52	57.14
+kmer601 	bad	64.52	57.14
+kmer602 	bad	66.47	61.90
+kmer603 	bad	66.47	61.90
+kmer604 	bad	72.33	76.19
+kmer605 	bad	66.47	61.90
+kmer606 	bad	68.42	66.67
+kmer607 	bad	64.52	57.14
+kmer608 	bad	60.61	47.62
+kmer609 	bad	62.56	52.38
+kmer610 	bad	60.61	47.62
+kmer611 	bad	60.61	47.62
+kmer612 	bad	60.61	47.62
+kmer613 	bad	66.47	61.90
+kmer614 	bad	68.42	66.67
+kmer615 	bad	66.47	61.90
+kmer616 	bad	62.56	52.38
+kmer617 	good	60.61	47.62
+kmer618 	bad	64.52	57.14
+kmer619 	bad	64.52	57.14
+kmer620 	bad	64.52	57.14
+kmer621 	bad	66.47	61.90
+kmer622 	bad	58.66	42.86
+kmer623 	bad	62.56	52.38
+kmer624 	bad	66.47	61.90
+kmer625 	bad	64.52	57.14
+kmer626 	bad	64.52	57.14
+kmer627 	bad	60.61	47.62
+kmer628 	bad	60.61	47.62
+kmer629 	bad	70.37	71.43
+kmer630 	bad	62.56	52.38
+kmer631 	bad	66.47	61.90
+kmer632 	bad	66.47	61.90
+kmer633 	bad	68.42	66.67
+kmer634 	bad	68.42	66.67
+kmer635 	bad	70.37	71.43
+kmer636 	bad	66.47	61.90
+kmer637 	good	64.52	57.14
+kmer638 	bad	64.52	57.14
+kmer639 	bad	66.47	61.90
+kmer640 	bad	68.42	66.67
+kmer641 	bad	60.61	47.62
+kmer642 	bad	68.42	66.67
+kmer643 	bad	62.56	52.38
+kmer644 	bad	70.37	71.43
+kmer645 	bad	68.42	66.67
+kmer646 	bad	62.56	52.38
+kmer647 	good	64.52	57.14
+kmer648 	bad	64.52	57.14
+kmer649 	bad	64.52	57.14
+kmer650 	good	62.56	52.38
+kmer651 	bad	66.47	61.90
+kmer652 	good	66.47	61.90
+kmer653 	bad	64.52	57.14
+kmer654 	good	56.71	38.10
+kmer655 	good	58.66	42.86
+kmer656 	bad	62.56	52.38
+kmer657 	bad	62.56	52.38
+kmer658 	bad	62.56	52.38
+kmer659 	bad	60.61	47.62
+kmer660 	bad	58.66	42.86
+kmer661 	good	60.61	47.62
+kmer662 	bad	68.42	66.67
+kmer663 	bad	62.56	52.38
+kmer664 	bad	72.33	76.19
+kmer665 	bad	56.71	38.10
+kmer666 	bad	60.61	47.62
+kmer667 	bad	66.47	61.90
+kmer668 	bad	64.52	57.14
+kmer669 	bad	62.56	52.38
+kmer670 	bad	64.52	57.14
+kmer671 	bad	62.56	52.38
+kmer672 	bad	66.47	61.90
+kmer673 	bad	68.42	66.67
+kmer674 	bad	58.66	42.86
+kmer675 	bad	66.47	61.90
+kmer676 	bad	64.52	57.14
+kmer677 	bad	64.52	57.14
+kmer678 	bad	58.66	42.86
+kmer679 	bad	66.47	61.90
+kmer680 	bad	56.71	38.10
+kmer681 	bad	60.61	47.62
+kmer682 	bad	62.56	52.38
+kmer683 	bad	66.47	61.90
+kmer684 	bad	56.71	38.10
+kmer685 	bad	60.61	47.62
+kmer686 	bad	54.75	33.33
+kmer687 	bad	60.61	47.62
+kmer688 	bad	58.66	42.86
+kmer689 	bad	64.52	57.14
+kmer690 	bad	62.56	52.38
+kmer691 	bad	58.66	42.86
+kmer692 	bad	60.61	47.62
+kmer693 	bad	64.52	57.14
+kmer694 	bad	60.61	47.62
+kmer695 	bad	66.47	61.90
+kmer696 	bad	58.66	42.86
+kmer697 	bad	58.66	42.86
+kmer698 	bad	62.56	52.38
+kmer699 	bad	64.52	57.14
+kmer700 	bad	62.56	52.38
+kmer701 	bad	64.52	57.14
+kmer702 	bad	66.47	61.90
+kmer703 	good	58.66	42.86
+kmer704 	bad	66.47	61.90
+kmer705 	bad	64.52	57.14
+kmer706 	bad	58.66	42.86
+kmer707 	bad	62.56	52.38
+kmer708 	bad	58.66	42.86
+kmer709 	bad	58.66	42.86
+kmer710 	bad	62.56	52.38
+kmer711 	bad	64.52	57.14
+kmer712 	bad	56.71	38.10
+kmer713 	bad	62.56	52.38
+kmer714 	bad	60.61	47.62
+kmer715 	bad	56.71	38.10
+kmer716 	bad	60.61	47.62
+kmer717 	bad	66.47	61.90
+kmer718 	bad	66.47	61.90
+kmer719 	bad	66.47	61.90
+kmer720 	bad	64.52	57.14
+kmer721 	bad	64.52	57.14
+kmer722 	bad	60.61	47.62
+kmer723 	bad	62.56	52.38
+kmer724 	bad	68.42	66.67
+kmer725 	bad	58.66	42.86
+kmer726 	bad	64.52	57.14
+kmer727 	bad	66.47	61.90
+kmer728 	bad	66.47	61.90
+kmer729 	good	64.52	57.14
+kmer730 	bad	64.52	57.14
+kmer731 	bad	62.56	52.38
+kmer732 	bad	64.52	57.14
+kmer733 	bad	62.56	52.38
+kmer734 	bad	60.61	47.62
+kmer735 	bad	62.56	52.38
+kmer736 	bad	60.61	47.62
+kmer737 	bad	70.37	71.43
+kmer738 	bad	64.52	57.14
+kmer739 	bad	64.52	57.14
+kmer740 	bad	58.66	42.86
+kmer741 	bad	56.71	38.10
+kmer742 	bad	62.56	52.38
+kmer743 	bad	62.56	52.38
+kmer744 	bad	64.52	57.14
+kmer745 	bad	62.56	52.38
+kmer746 	bad	58.66	42.86
+kmer747 	bad	64.52	57.14
+kmer748 	bad	68.42	66.67
+kmer749 	bad	64.52	57.14
+kmer750 	bad	70.37	71.43
+kmer751 	bad	62.56	52.38
+kmer752 	bad	62.56	52.38
+kmer753 	bad	66.47	61.90
+kmer754 	bad	68.42	66.67
+kmer755 	bad	70.37	71.43
+kmer756 	bad	62.56	52.38
+kmer757 	bad	60.61	47.62
+kmer758 	bad	54.75	33.33
+kmer759 	good	62.56	52.38
+kmer760 	bad	64.52	57.14
+kmer761 	bad	66.47	61.90
+kmer762 	bad	62.56	52.38
+kmer763 	bad	62.56	52.38
+kmer764 	bad	58.66	42.86
+kmer765 	bad	60.61	47.62
+kmer766 	bad	62.56	52.38
+kmer767 	bad	68.42	66.67
+kmer768 	bad	66.47	61.90
+kmer769 	bad	58.66	42.86
+kmer770 	bad	52.80	28.57
+kmer771 	bad	60.61	47.62
+kmer772 	bad	64.52	57.14
+kmer773 	bad	64.52	57.14
+kmer774 	bad	64.52	57.14
+kmer775 	bad	60.61	47.62
+kmer776 	bad	60.61	47.62
+kmer777 	bad	62.56	52.38
+kmer778 	bad	58.66	42.86
+kmer779 	bad	62.56	52.38
+kmer780 	bad	58.66	42.86
+kmer781 	bad	60.61	47.62
+kmer782 	bad	58.66	42.86
+kmer783 	bad	48.90	19.05
+kmer784 	bad	58.66	42.86
+kmer785 	bad	58.66	42.86
+kmer786 	bad	60.61	47.62
+kmer787 	bad	54.75	33.33
+kmer788 	bad	64.52	57.14
+kmer789 	bad	66.47	61.90
+kmer790 	bad	62.56	52.38
+kmer791 	good	64.52	57.14
+kmer792 	bad	64.52	57.14
+kmer793 	bad	70.37	71.43
+kmer794 	bad	62.56	52.38
+kmer795 	bad	60.61	47.62
+kmer796 	good	62.56	52.38
+kmer797 	bad	60.61	47.62
+kmer798 	bad	60.61	47.62
+kmer799 	bad	60.61	47.62
+kmer800 	bad	58.66	42.86
+kmer801 	bad	62.56	52.38
+kmer802 	bad	64.52	57.14
+kmer803 	bad	60.61	47.62
+kmer804 	bad	64.52	57.14
+kmer805 	bad	56.71	38.10
+kmer806 	bad	64.52	57.14
+kmer807 	good	62.56	52.38
+kmer808 	bad	60.61	47.62
+kmer809 	bad	66.47	61.90
+kmer810 	bad	64.52	57.14
+kmer811 	bad	58.66	42.86
+kmer812 	bad	64.52	57.14
+kmer813 	bad	54.75	33.33
+kmer814 	bad	52.80	28.57
+kmer815 	bad	66.47	61.90
+kmer816 	bad	64.52	57.14
+kmer817 	bad	58.66	42.86
+kmer818 	bad	56.71	38.10
+kmer819 	bad	58.66	42.86
+kmer820 	bad	60.61	47.62
+kmer821 	bad	58.66	42.86
+kmer822 	bad	62.56	52.38
+kmer823 	bad	58.66	42.86
+kmer824 	bad	64.52	57.14
+kmer825 	bad	60.61	47.62
+kmer826 	bad	58.66	42.86
+kmer827 	bad	52.80	28.57
+kmer828 	bad	54.75	33.33
+kmer829 	bad	54.75	33.33
+kmer830 	bad	58.66	42.86
+kmer831 	bad	68.42	66.67
+kmer832 	bad	52.80	28.57
+kmer833 	bad	60.61	47.62
+kmer834 	bad	62.56	52.38
+kmer835 	bad	64.52	57.14
+kmer836 	bad	66.47	61.90
+kmer837 	bad	56.71	38.10
+kmer838 	bad	58.66	42.86
+kmer839 	bad	60.61	47.62
+kmer840 	bad	64.52	57.14
+kmer841 	bad	60.61	47.62
+kmer842 	bad	52.80	28.57
+kmer843 	bad	60.61	47.62
+kmer844 	bad	54.75	33.33
+kmer845 	bad	56.71	38.10
+kmer846 	bad	46.94	14.29
+kmer847 	bad	50.85	23.81
+kmer848 	bad	64.52	57.14
+kmer849 	bad	64.52	57.14
+kmer850 	bad	52.80	28.57
+kmer851 	bad	52.80	28.57
+kmer852 	bad	58.66	42.86
+kmer853 	bad	66.47	61.90
+kmer854 	bad	56.71	38.10
+kmer855 	bad	60.61	47.62
+kmer856 	bad	62.56	52.38
+kmer857 	bad	54.75	33.33
+kmer858 	bad	56.71	38.10
+kmer859 	bad	52.80	28.57
+kmer860 	bad	64.52	57.14
+kmer861 	bad	62.56	52.38
+kmer862 	bad	64.52	57.14
+kmer863 	bad	56.71	38.10
+kmer864 	good	60.61	47.62
+kmer865 	good	58.66	42.86
+kmer866 	bad	62.56	52.38
+kmer867 	bad	68.42	66.67
+kmer868 	bad	54.75	33.33
+kmer869 	bad	60.61	47.62
+kmer870 	bad	60.61	47.62
+kmer871 	bad	60.61	47.62
+kmer872 	bad	56.71	38.10
+kmer873 	bad	66.47	61.90
+kmer874 	good	60.61	47.62
+kmer875 	good	64.52	57.14
+kmer876 	bad	62.56	52.38
+kmer877 	bad	58.66	42.86
+kmer878 	bad	62.56	52.38
+kmer879 	bad	62.56	52.38
+kmer880 	bad	68.42	66.67
+kmer881 	bad	62.56	52.38
+kmer882 	bad	62.56	52.38
+kmer883 	bad	62.56	52.38
+kmer884 	bad	60.61	47.62
+kmer885 	bad	64.52	57.14
+kmer886 	bad	62.56	52.38
+kmer887 	bad	58.66	42.86
+kmer888 	bad	54.75	33.33
+kmer889 	bad	56.71	38.10
+kmer890 	bad	64.52	57.14
+kmer891 	bad	62.56	52.38
+kmer892 	bad	64.52	57.14
+kmer893 	bad	56.71	38.10
+kmer894 	bad	60.61	47.62
+kmer895 	bad	62.56	52.38
+kmer896 	bad	64.52	57.14
+kmer897 	bad	60.61	47.62
+kmer898 	bad	54.75	33.33
+kmer899 	bad	62.56	52.38
+kmer900 	bad	68.42	66.67
+kmer901 	bad	60.61	47.62
+kmer902 	bad	62.56	52.38
+kmer903 	bad	60.61	47.62
+kmer904 	bad	60.61	47.62
+kmer905 	bad	66.47	61.90
+kmer906 	bad	56.71	38.10
+kmer907 	bad	64.52	57.14
+kmer908 	bad	64.52	57.14
+kmer909 	bad	62.56	52.38
+kmer910 	bad	64.52	57.14
+kmer911 	bad	64.52	57.14
+kmer912 	bad	56.71	38.10
+kmer913 	bad	68.42	66.67
+kmer914 	bad	68.42	66.67
+kmer915 	bad	66.47	61.90
+kmer916 	bad	66.47	61.90
+kmer917 	bad	68.42	66.67
+kmer918 	bad	64.52	57.14
+kmer919 	bad	62.56	52.38
+kmer920 	bad	64.52	57.14
+kmer921 	bad	56.71	38.10
+kmer922 	good	60.61	47.62
+kmer923 	bad	62.56	52.38
+kmer924 	bad	62.56	52.38
+kmer925 	bad	62.56	52.38
+kmer926 	bad	62.56	52.38
+kmer927 	bad	48.90	19.05
+kmer928 	bad	54.75	33.33
+kmer929 	bad	62.56	52.38
+kmer930 	bad	64.52	57.14
+kmer931 	good	58.66	42.86
+kmer932 	bad	54.75	33.33
+kmer933 	bad	56.71	38.10
+kmer934 	bad	58.66	42.86
+kmer935 	bad	52.80	28.57
+kmer936 	bad	58.66	42.86
+kmer937 	bad	62.56	52.38
+kmer938 	bad	60.61	47.62
+kmer939 	good	60.61	47.62
+kmer940 	bad	56.71	38.10
+kmer941 	bad	60.61	47.62
+kmer942 	bad	62.56	52.38
+kmer943 	bad	58.66	42.86
+kmer944 	bad	58.66	42.86
+kmer945 	bad	66.47	61.90
+kmer946 	bad	60.61	47.62
+kmer947 	bad	48.90	19.05
+kmer948 	bad	58.66	42.86
+kmer949 	good	66.47	61.90
+kmer950 	good	66.47	61.90
+kmer951 	bad	62.56	52.38
+kmer952 	bad	64.52	57.14
+kmer953 	bad	56.71	38.10
+kmer954 	bad	58.66	42.86
+kmer955 	bad	64.52	57.14
+kmer956 	bad	70.37	71.43
+kmer957 	bad	68.42	66.67
+kmer958 	bad	62.56	52.38
+kmer959 	bad	62.56	52.38
+kmer960 	bad	64.52	57.14
+kmer961 	bad	64.52	57.14
+kmer962 	bad	60.61	47.62
+kmer963 	bad	60.61	47.62
+kmer964 	bad	64.52	57.14
+kmer965 	bad	64.52	57.14
+kmer966 	bad	58.66	42.86
+kmer967 	bad	58.66	42.86
+kmer968 	bad	60.61	47.62
+kmer969 	bad	68.42	66.67
+kmer970 	bad	60.61	47.62
+kmer971 	bad	54.75	33.33
+kmer972 	bad	58.66	42.86
+kmer973 	bad	56.71	38.10
+kmer974 	bad	54.75	33.33
+kmer975 	bad	54.75	33.33
+kmer976 	bad	64.52	57.14
+kmer977 	bad	62.56	52.38
+kmer978 	bad	58.66	42.86
+kmer979 	good	62.56	52.38
+kmer980 	bad	66.47	61.90
+kmer981 	bad	70.37	71.43
+kmer982 	bad	68.42	66.67
+kmer983 	bad	68.42	66.67
+kmer984 	bad	70.37	71.43
+kmer985 	bad	70.37	71.43
+kmer986 	bad	56.71	38.10
+kmer987 	bad	64.52	57.14
+kmer988 	bad	64.52	57.14
+kmer989 	bad	72.33	76.19
+kmer990 	bad	68.42	66.67
+kmer991 	bad	70.37	71.43
+kmer992 	bad	64.52	57.14
+kmer993 	good	64.52	57.14
+kmer994 	bad	64.52	57.14
+kmer995 	bad	64.52	57.14
+kmer996 	good	58.66	42.86
+kmer997 	bad	66.47	61.90
+kmer998 	bad	56.71	38.10
+kmer999 	bad	60.61	47.62
+kmer1000 	bad	68.42	66.67
+kmer1001 	bad	64.52	57.14
+kmer1002 	bad	60.61	47.62
+kmer1003 	bad	66.47	61.90
+kmer1004 	bad	68.42	66.67
+kmer1005 	bad	70.37	71.43
+kmer1006 	bad	64.52	57.14
+kmer1007 	bad	62.56	52.38
+kmer1008 	bad	66.47	61.90
+kmer1009 	bad	64.52	57.14
+kmer1010 	bad	70.37	71.43
+kmer1011 	bad	60.61	47.62
+kmer1012 	bad	64.52	57.14
+kmer1013 	bad	70.37	71.43
+kmer1014 	bad	66.47	61.90
+kmer1015 	bad	64.52	57.14
+kmer1016 	good	70.37	71.43
+kmer1017 	bad	68.42	66.67
+kmer1018 	bad	64.52	57.14
+kmer1019 	bad	62.56	52.38
+kmer1020 	bad	58.66	42.86
+kmer1021 	bad	60.61	47.62
+kmer1022 	bad	62.56	52.38
+kmer1023 	bad	64.52	57.14
+kmer1024 	bad	56.71	38.10
+kmer1025 	bad	64.52	57.14
+kmer1026 	bad	60.61	47.62
+kmer1027 	bad	56.71	38.10
+kmer1028 	bad	58.66	42.86
+kmer1029 	bad	60.61	47.62
+kmer1030 	bad	56.71	38.10
+kmer1031 	good	62.56	52.38
+kmer1032 	bad	58.66	42.86
+kmer1033 	bad	58.66	42.86
+kmer1034 	bad	50.85	23.81
+kmer1035 	good	64.52	57.14
+kmer1036 	bad	56.71	38.10
+kmer1037 	bad	60.61	47.62
+kmer1038 	bad	60.61	47.62
+kmer1039 	bad	58.66	42.86
+kmer1040 	bad	66.47	61.90
+kmer1041 	bad	64.52	57.14
+kmer1042 	bad	60.61	47.62
+kmer1043 	bad	62.56	52.38
+kmer1044 	bad	64.52	57.14
+kmer1045 	bad	62.56	52.38
+kmer1046 	bad	62.56	52.38
+kmer1047 	bad	64.52	57.14
+kmer1048 	bad	66.47	61.90
+kmer1049 	bad	62.56	52.38
+kmer1050 	bad	60.61	47.62
+kmer1051 	bad	66.47	61.90
+kmer1052 	bad	62.56	52.38
+kmer1053 	bad	66.47	61.90
+kmer1054 	bad	62.56	52.38
+kmer1055 	bad	62.56	52.38
+kmer1056 	bad	56.71	38.10
+kmer1057 	bad	56.71	38.10
+kmer1058 	bad	62.56	52.38
+kmer1059 	bad	62.56	52.38
+kmer1060 	bad	64.52	57.14
+kmer1061 	bad	58.66	42.86
+kmer1062 	bad	64.52	57.14
+kmer1063 	bad	62.56	52.38
+kmer1064 	good	62.56	52.38
+kmer1065 	bad	64.52	57.14
+kmer1066 	bad	62.56	52.38
+kmer1067 	bad	52.80	28.57
+kmer1068 	bad	48.90	19.05
+kmer1069 	bad	62.56	52.38
+kmer1070 	bad	54.75	33.33
+kmer1071 	bad	60.61	47.62
+kmer1072 	bad	64.52	57.14
+kmer1073 	bad	58.66	42.86
+kmer1074 	bad	58.66	42.86
+kmer1075 	bad	64.52	57.14
+kmer1076 	bad	62.56	52.38
+kmer1077 	bad	58.66	42.86
+kmer1078 	bad	62.56	52.38
+kmer1079 	bad	66.47	61.90
+kmer1080 	bad	58.66	42.86
+kmer1081 	bad	62.56	52.38
+kmer1082 	bad	66.47	61.90
+kmer1083 	bad	64.52	57.14
+kmer1084 	bad	68.42	66.67
+kmer1085 	bad	64.52	57.14
+kmer1086 	bad	62.56	52.38
+kmer1087 	bad	56.71	38.10
+kmer1088 	bad	62.56	52.38
+kmer1089 	bad	58.66	42.86
+kmer1090 	bad	60.61	47.62
+kmer1091 	bad	64.52	57.14
+kmer1092 	bad	62.56	52.38
+kmer1093 	bad	60.61	47.62
+kmer1094 	bad	66.47	61.90
+kmer1095 	bad	56.71	38.10
+kmer1096 	bad	64.52	57.14
+kmer1097 	bad	62.56	52.38
+kmer1098 	bad	58.66	42.86
+kmer1099 	bad	72.33	76.19
+kmer1100 	bad	66.47	61.90
+kmer1101 	bad	68.42	66.67
+kmer1102 	bad	68.42	66.67
+kmer1103 	bad	64.52	57.14
+kmer1104 	bad	64.52	57.14
+kmer1105 	bad	68.42	66.67
+kmer1106 	bad	68.42	66.67
+kmer1107 	bad	64.52	57.14
+kmer1108 	bad	60.61	47.62
+kmer1109 	bad	60.61	47.62
+kmer1110 	bad	60.61	47.62
+kmer1111 	bad	60.61	47.62
+kmer1112 	bad	62.56	52.38
+kmer1113 	bad	52.80	28.57
+kmer1114 	bad	64.52	57.14
+kmer1115 	bad	60.61	47.62
+kmer1116 	good	66.47	61.90
+kmer1117 	bad	60.61	47.62
+kmer1118 	bad	58.66	42.86
+kmer1119 	bad	66.47	61.90
+kmer1120 	bad	68.42	66.67
+kmer1121 	bad	64.52	57.14
+kmer1122 	bad	58.66	42.86
+kmer1123 	bad	70.37	71.43
+kmer1124 	bad	60.61	47.62
+kmer1125 	bad	66.47	61.90
+kmer1126 	bad	60.61	47.62
+kmer1127 	bad	62.56	52.38
+kmer1128 	bad	68.42	66.67
+kmer1129 	bad	66.47	61.90
+kmer1130 	bad	60.61	47.62
+kmer1131 	bad	66.47	61.90
+kmer1132 	bad	60.61	47.62
+kmer1133 	bad	66.47	61.90
+kmer1134 	bad	64.52	57.14
+kmer1135 	bad	58.66	42.86
+kmer1136 	bad	68.42	66.67
+kmer1137 	good	62.56	52.38
+kmer1138 	bad	62.56	52.38
+kmer1139 	bad	62.56	52.38
+kmer1140 	bad	68.42	66.67
+kmer1141 	bad	60.61	47.62
+kmer1142 	bad	62.56	52.38
+kmer1143 	bad	60.61	47.62
+kmer1144 	bad	64.52	57.14
+kmer1145 	bad	66.47	61.90
+kmer1146 	bad	60.61	47.62
+kmer1147 	bad	62.56	52.38
+kmer1148 	good	64.52	57.14
+kmer1149 	bad	60.61	47.62
+kmer1150 	bad	62.56	52.38
+kmer1151 	bad	68.42	66.67
+kmer1152 	bad	62.56	52.38
+kmer1153 	bad	58.66	42.86
+kmer1154 	bad	66.47	61.90
+kmer1155 	bad	62.56	52.38
+kmer1156 	bad	68.42	66.67
+kmer1157 	bad	66.47	61.90
+kmer1158 	good	66.47	61.90
+kmer1159 	bad	68.42	66.67
+kmer1160 	bad	58.66	42.86
+kmer1161 	bad	64.52	57.14
+kmer1162 	bad	60.61	47.62
+kmer1163 	bad	58.66	42.86
+kmer1164 	bad	60.61	47.62
+kmer1165 	bad	62.56	52.38
+kmer1166 	bad	58.66	42.86
+kmer1167 	bad	64.52	57.14
+kmer1168 	bad	64.52	57.14
+kmer1169 	bad	56.71	38.10
+kmer1170 	bad	64.52	57.14
+kmer1171 	bad	62.56	52.38
+kmer1172 	bad	64.52	57.14
+kmer1173 	bad	46.94	14.29
+kmer1174 	bad	60.61	47.62
+kmer1175 	bad	60.61	47.62
+kmer1176 	bad	64.52	57.14
+kmer1177 	bad	66.47	61.90
+kmer1178 	bad	56.71	38.10
+kmer1179 	bad	64.52	57.14
+kmer1180 	bad	64.52	57.14
+kmer1181 	bad	58.66	42.86
+kmer1182 	bad	60.61	47.62
+kmer1183 	bad	60.61	47.62
+kmer1184 	bad	64.52	57.14
+kmer1185 	bad	58.66	42.86
+kmer1186 	bad	62.56	52.38
+kmer1187 	bad	54.75	33.33
+kmer1188 	bad	62.56	52.38
+kmer1189 	bad	62.56	52.38
+kmer1190 	bad	58.66	42.86
+kmer1191 	bad	64.52	57.14
+kmer1192 	bad	64.52	57.14
+kmer1193 	bad	64.52	57.14
+kmer1194 	bad	68.42	66.67
+kmer1195 	bad	60.61	47.62
+kmer1196 	bad	66.47	61.90
+kmer1197 	bad	62.56	52.38
+kmer1198 	bad	58.66	42.86
+kmer1199 	bad	58.66	42.86
+kmer1200 	bad	58.66	42.86
+kmer1201 	bad	62.56	52.38
+kmer1202 	bad	60.61	47.62
+kmer1203 	bad	66.47	61.90
+kmer1204 	bad	60.61	47.62
+kmer1205 	bad	62.56	52.38
+kmer1206 	bad	62.56	52.38
+kmer1207 	bad	62.56	52.38
+kmer1208 	bad	68.42	66.67
+kmer1209 	bad	60.61	47.62
+kmer1210 	bad	64.52	57.14
+kmer1211 	bad	60.61	47.62
+kmer1212 	bad	56.71	38.10
+kmer1213 	bad	60.61	47.62
+kmer1214 	bad	58.66	42.86
+kmer1215 	bad	60.61	47.62
+kmer1216 	bad	58.66	42.86
+kmer1217 	bad	62.56	52.38
+kmer1218 	bad	60.61	47.62
+kmer1219 	bad	60.61	47.62
+kmer1220 	bad	62.56	52.38
+kmer1221 	bad	58.66	42.86
+kmer1222 	bad	60.61	47.62
+kmer1223 	bad	64.52	57.14
+kmer1224 	bad	70.37	71.43
+kmer1225 	bad	62.56	52.38
+kmer1226 	bad	60.61	47.62
+kmer1227 	bad	62.56	52.38
+kmer1228 	bad	62.56	52.38
+kmer1229 	good	64.52	57.14
+kmer1230 	bad	62.56	52.38
+kmer1231 	bad	64.52	57.14
+kmer1232 	bad	62.56	52.38
+kmer1233 	bad	60.61	47.62
+kmer1234 	bad	62.56	52.38
+kmer1235 	bad	64.52	57.14
+kmer1236 	bad	60.61	47.62
+kmer1237 	bad	60.61	47.62
+kmer1238 	bad	62.56	52.38
+kmer1239 	bad	56.71	38.10
+kmer1240 	bad	64.52	57.14
+kmer1241 	bad	58.66	42.86
+kmer1242 	bad	60.61	47.62
+kmer1243 	bad	64.52	57.14
+kmer1244 	bad	54.75	33.33
+kmer1245 	bad	60.61	47.62
+kmer1246 	bad	64.52	57.14
+kmer1247 	bad	58.66	42.86
+kmer1248 	bad	58.66	42.86
+kmer1249 	bad	58.66	42.86
+kmer1250 	bad	58.66	42.86
+kmer1251 	bad	60.61	47.62
+kmer1252 	bad	60.61	47.62
+kmer1253 	bad	56.71	38.10
+kmer1254 	bad	50.85	23.81
+kmer1255 	bad	62.56	52.38
+kmer1256 	bad	52.80	28.57
+kmer1257 	bad	58.66	42.86
+kmer1258 	bad	54.75	33.33
+kmer1259 	bad	56.71	38.10
+kmer1260 	bad	50.85	23.81
+kmer1261 	bad	62.56	52.38
+kmer1262 	bad	60.61	47.62
+kmer1263 	bad	60.61	47.62
+kmer1264 	bad	54.75	33.33
+kmer1265 	good	58.66	42.86
+kmer1266 	bad	52.80	28.57
+kmer1267 	bad	52.80	28.57
+kmer1268 	bad	60.61	47.62
+kmer1269 	bad	64.52	57.14
+kmer1270 	bad	56.71	38.10
+kmer1271 	bad	54.75	33.33
+kmer1272 	bad	54.75	33.33
+kmer1273 	bad	54.75	33.33
+kmer1274 	bad	54.75	33.33
+kmer1275 	bad	60.61	47.62
+kmer1276 	bad	62.56	52.38
+kmer1277 	bad	64.52	57.14
+kmer1278 	bad	62.56	52.38
+kmer1279 	good	62.56	52.38
+kmer1280 	bad	62.56	52.38
+kmer1281 	bad	64.52	57.14
+kmer1282 	bad	58.66	42.86
+kmer1283 	bad	64.52	57.14
+kmer1284 	bad	58.66	42.86
+kmer1285 	bad	58.66	42.86
+kmer1286 	bad	58.66	42.86
+kmer1287 	bad	64.52	57.14
+kmer1288 	bad	60.61	47.62
+kmer1289 	bad	62.56	52.38
+kmer1290 	bad	62.56	52.38
+kmer1291 	bad	66.47	61.90
+kmer1292 	bad	60.61	47.62
+kmer1293 	good	60.61	47.62
+kmer1294 	bad	58.66	42.86
+kmer1295 	bad	58.66	42.86
+kmer1296 	bad	60.61	47.62
+kmer1297 	bad	58.66	42.86
+kmer1298 	bad	58.66	42.86
+kmer1299 	good	56.71	38.10
+kmer1300 	bad	60.61	47.62
+kmer1301 	bad	60.61	47.62
+kmer1302 	bad	64.52	57.14
+kmer1303 	bad	58.66	42.86
+kmer1304 	bad	56.71	38.10
+kmer1305 	bad	62.56	52.38
+kmer1306 	bad	52.80	28.57
+kmer1307 	bad	56.71	38.10
+kmer1308 	bad	64.52	57.14
+kmer1309 	bad	54.75	33.33
+kmer1310 	bad	56.71	38.10
+kmer1311 	bad	54.75	33.33
+kmer1312 	bad	58.66	42.86
+kmer1313 	bad	52.80	28.57
+kmer1314 	bad	64.52	57.14
+kmer1315 	bad	58.66	42.86
+kmer1316 	bad	50.85	23.81
+kmer1317 	good	54.75	33.33
+kmer1318 	bad	54.75	33.33
+kmer1319 	bad	56.71	38.10
+kmer1320 	bad	54.75	33.33
+kmer1321 	bad	60.61	47.62
+kmer1322 	bad	60.61	47.62
+kmer1323 	bad	68.42	66.67
+kmer1324 	bad	64.52	57.14
+kmer1325 	bad	62.56	52.38
+kmer1326 	bad	54.75	33.33
+kmer1327 	bad	58.66	42.86
+kmer1328 	bad	66.47	61.90
+kmer1329 	bad	66.47	61.90
+kmer1330 	bad	56.71	38.10
+kmer1331 	bad	60.61	47.62
+kmer1332 	bad	60.61	47.62
+kmer1333 	bad	60.61	47.62
+kmer1334 	bad	56.71	38.10
+kmer1335 	good	62.56	52.38
+kmer1336 	bad	62.56	52.38
+kmer1337 	bad	64.52	57.14
+kmer1338 	good	58.66	42.86
+kmer1339 	bad	58.66	42.86
+kmer1340 	bad	56.71	38.10
+kmer1341 	bad	66.47	61.90
+kmer1342 	bad	58.66	42.86
+kmer1343 	bad	62.56	52.38
+kmer1344 	bad	60.61	47.62
+kmer1345 	bad	66.47	61.90
+kmer1346 	bad	62.56	52.38
+kmer1347 	bad	60.61	47.62
+kmer1348 	bad	58.66	42.86
+kmer1349 	bad	56.71	38.10
+kmer1350 	bad	66.47	61.90
+kmer1351 	bad	66.47	61.90
+kmer1352 	bad	66.47	61.90
+kmer1353 	bad	62.56	52.38
+kmer1354 	good	66.47	61.90
+kmer1355 	bad	60.61	47.62
+kmer1356 	bad	56.71	38.10
+kmer1357 	bad	56.71	38.10
+kmer1358 	bad	68.42	66.67
+kmer1359 	bad	60.61	47.62
+kmer1360 	bad	62.56	52.38
+kmer1361 	bad	60.61	47.62
+kmer1362 	bad	60.61	47.62
+kmer1363 	bad	48.90	19.05
+kmer1364 	bad	60.61	47.62
+kmer1365 	bad	60.61	47.62
+kmer1366 	good	64.52	57.14
+kmer1367 	bad	62.56	52.38
+kmer1368 	bad	62.56	52.38
+kmer1369 	bad	52.80	28.57
+kmer1370 	bad	54.75	33.33
+kmer1371 	bad	62.56	52.38
+kmer1372 	bad	64.52	57.14
+kmer1373 	bad	50.85	23.81
+kmer1374 	bad	60.61	47.62
+kmer1375 	bad	62.56	52.38
+kmer1376 	bad	58.66	42.86
+kmer1377 	bad	54.75	33.33
+kmer1378 	bad	60.61	47.62
+kmer1379 	bad	58.66	42.86
+kmer1380 	bad	60.61	47.62
+kmer1381 	bad	58.66	42.86
+kmer1382 	bad	56.71	38.10
+kmer1383 	bad	58.66	42.86
+kmer1384 	bad	52.80	28.57
+kmer1385 	bad	62.56	52.38
+kmer1386 	bad	62.56	52.38
+kmer1387 	bad	62.56	52.38
+kmer1388 	good	62.56	52.38
+kmer1389 	bad	66.47	61.90
+kmer1390 	bad	62.56	52.38
+kmer1391 	bad	62.56	52.38
+kmer1392 	bad	58.66	42.86
+kmer1393 	bad	52.80	28.57
+kmer1394 	bad	60.61	47.62
+kmer1395 	bad	60.61	47.62
+kmer1396 	bad	62.56	52.38
+kmer1397 	bad	60.61	47.62
+kmer1398 	bad	60.61	47.62
+kmer1399 	bad	58.66	42.86
+kmer1400 	bad	60.61	47.62
+kmer1401 	bad	60.61	47.62
+kmer1402 	bad	62.56	52.38
+kmer1403 	bad	56.71	38.10
+kmer1404 	good	60.61	47.62
+kmer1405 	bad	64.52	57.14
+kmer1406 	bad	68.42	66.67
+kmer1407 	bad	64.52	57.14
+kmer1408 	bad	64.52	57.14
+kmer1409 	bad	70.37	71.43
+kmer1410 	bad	56.71	38.10
+kmer1411 	bad	62.56	52.38
+kmer1412 	bad	66.47	61.90
+kmer1413 	bad	60.61	47.62
+kmer1414 	bad	52.80	28.57
+kmer1415 	bad	56.71	38.10
+kmer1416 	bad	54.75	33.33
+kmer1417 	bad	64.52	57.14
+kmer1418 	bad	58.66	42.86
+kmer1419 	bad	58.66	42.86
+kmer1420 	bad	60.61	47.62
+kmer1421 	bad	54.75	33.33
+kmer1422 	bad	62.56	52.38
+kmer1423 	bad	62.56	52.38
+kmer1424 	bad	60.61	47.62
+kmer1425 	bad	68.42	66.67
+kmer1426 	bad	66.47	61.90
+kmer1427 	bad	70.37	71.43
+kmer1428 	bad	56.71	38.10
+kmer1429 	bad	62.56	52.38
+kmer1430 	bad	58.66	42.86
+kmer1431 	bad	62.56	52.38
+kmer1432 	bad	62.56	52.38
+kmer1433 	bad	58.66	42.86
+kmer1434 	bad	62.56	52.38
+kmer1435 	bad	64.52	57.14
+kmer1436 	bad	58.66	42.86
+kmer1437 	bad	58.66	42.86
+kmer1438 	bad	50.85	23.81
+kmer1439 	bad	60.61	47.62
+kmer1440 	bad	62.56	52.38
+kmer1441 	bad	60.61	47.62
+kmer1442 	bad	64.52	57.14
+kmer1443 	good	60.61	47.62
+kmer1444 	bad	64.52	57.14
+kmer1445 	bad	62.56	52.38
+kmer1446 	bad	54.75	33.33
+kmer1447 	bad	60.61	47.62
+kmer1448 	bad	50.85	23.81
+kmer1449 	bad	58.66	42.86
+kmer1450 	bad	62.56	52.38
+kmer1451 	bad	58.66	42.86
+kmer1452 	bad	56.71	38.10
+kmer1453 	bad	66.47	61.90
+kmer1454 	bad	56.71	38.10
+kmer1455 	bad	60.61	47.62
+kmer1456 	bad	58.66	42.86
+kmer1457 	bad	58.66	42.86
+kmer1458 	bad	52.80	28.57
+kmer1459 	bad	60.61	47.62
+kmer1460 	bad	58.66	42.86
+kmer1461 	bad	60.61	47.62
+kmer1462 	bad	54.75	33.33
+kmer1463 	bad	64.52	57.14
+kmer1464 	bad	56.71	38.10
+kmer1465 	bad	58.66	42.86
+kmer1466 	bad	62.56	52.38
+kmer1467 	bad	62.56	52.38
+kmer1468 	bad	60.61	47.62
+kmer1469 	bad	62.56	52.38
+kmer1470 	bad	62.56	52.38
+kmer1471 	bad	62.56	52.38
+kmer1472 	good	56.71	38.10
+kmer1473 	bad	62.56	52.38
+kmer1474 	bad	60.61	47.62
+kmer1475 	bad	54.75	33.33
+kmer1476 	bad	60.61	47.62
+kmer1477 	bad	68.42	66.67
+kmer1478 	bad	54.75	33.33
+kmer1479 	bad	66.47	61.90
+kmer1480 	good	64.52	57.14
+kmer1481 	bad	68.42	66.67
+kmer1482 	bad	58.66	42.86
+kmer1483 	bad	56.71	38.10
+kmer1484 	bad	60.61	47.62
+kmer1485 	bad	58.66	42.86
+kmer1486 	bad	58.66	42.86
+kmer1487 	bad	64.52	57.14
+kmer1488 	bad	60.61	47.62
+kmer1489 	good	58.66	42.86
+kmer1490 	bad	60.61	47.62
+kmer1491 	bad	62.56	52.38
+kmer1492 	good	58.66	42.86
+kmer1493 	bad	62.56	52.38
+kmer1494 	bad	62.56	52.38
+kmer1495 	bad	56.71	38.10
+kmer1496 	bad	64.52	57.14
+kmer1497 	bad	62.56	52.38
+kmer1498 	bad	56.71	38.10
+kmer1499 	bad	56.71	38.10
+kmer1500 	bad	56.71	38.10
+kmer1501 	bad	60.61	47.62
+kmer1502 	bad	58.66	42.86
+kmer1503 	bad	58.66	42.86
+kmer1504 	bad	58.66	42.86
+kmer1505 	bad	60.61	47.62
+kmer1506 	bad	56.71	38.10
+kmer1507 	bad	56.71	38.10
+kmer1508 	bad	60.61	47.62
+kmer1509 	bad	64.52	57.14
+kmer1510 	bad	50.85	23.81
+kmer1511 	bad	58.66	42.86
+kmer1512 	bad	54.75	33.33
+kmer1513 	bad	58.66	42.86
+kmer1514 	bad	58.66	42.86
+kmer1515 	bad	56.71	38.10
+kmer1516 	bad	54.75	33.33
+kmer1517 	bad	58.66	42.86
+kmer1518 	bad	54.75	33.33
+kmer1519 	bad	58.66	42.86
+kmer1520 	bad	52.80	28.57
+kmer1521 	bad	52.80	28.57
+kmer1522 	bad	56.71	38.10
+kmer1523 	bad	64.52	57.14
+kmer1524 	bad	56.71	38.10
+kmer1525 	bad	52.80	28.57
+kmer1526 	bad	64.52	57.14
+kmer1527 	bad	58.66	42.86
+kmer1528 	bad	64.52	57.14
+kmer1529 	bad	62.56	52.38
+kmer1530 	good	64.52	57.14
+kmer1531 	good	64.52	57.14
+kmer1532 	bad	62.56	52.38
+kmer1533 	bad	56.71	38.10
+kmer1534 	bad	58.66	42.86
+kmer1535 	bad	52.80	28.57
+kmer1536 	bad	62.56	52.38
+kmer1537 	bad	60.61	47.62
+kmer1538 	good	68.42	66.67
+kmer1539 	bad	58.66	42.86
+kmer1540 	bad	58.66	42.86
+kmer1541 	bad	58.66	42.86
+kmer1542 	bad	64.52	57.14
+kmer1543 	bad	62.56	52.38
+kmer1544 	bad	58.66	42.86
+kmer1545 	good	62.56	52.38
+kmer1546 	bad	62.56	52.38
+kmer1547 	bad	62.56	52.38
+kmer1548 	bad	60.61	47.62
+kmer1549 	bad	64.52	57.14
+kmer1550 	bad	60.61	47.62
+kmer1551 	bad	66.47	61.90
+kmer1552 	bad	54.75	33.33
+kmer1553 	bad	60.61	47.62
+kmer1554 	bad	60.61	47.62
+kmer1555 	bad	52.80	28.57
+kmer1556 	bad	54.75	33.33
+kmer1557 	bad	50.85	23.81
+kmer1558 	bad	64.52	57.14
+kmer1559 	good	64.52	57.14
+kmer1560 	bad	58.66	42.86
+kmer1561 	bad	60.61	47.62
+kmer1562 	bad	64.52	57.14
+kmer1563 	bad	66.47	61.90
+kmer1564 	bad	58.66	42.86
+kmer1565 	bad	60.61	47.62
+kmer1566 	bad	56.71	38.10
+kmer1567 	bad	64.52	57.14
+kmer1568 	bad	66.47	61.90
+kmer1569 	bad	60.61	47.62
+kmer1570 	bad	62.56	52.38
+kmer1571 	bad	56.71	38.10
+kmer1572 	bad	68.42	66.67
+kmer1573 	bad	58.66	42.86
+kmer1574 	bad	58.66	42.86
+kmer1575 	bad	58.66	42.86
+kmer1576 	bad	54.75	33.33
+kmer1577 	bad	58.66	42.86
+kmer1578 	bad	54.75	33.33
+kmer1579 	bad	60.61	47.62
+kmer1580 	bad	58.66	42.86
+kmer1581 	bad	54.75	33.33
+kmer1582 	bad	60.61	47.62
+kmer1583 	bad	58.66	42.86
+kmer1584 	bad	62.56	52.38
+kmer1585 	bad	60.61	47.62
+kmer1586 	bad	58.66	42.86
+kmer1587 	bad	58.66	42.86
+kmer1588 	bad	60.61	47.62
+kmer1589 	bad	58.66	42.86
+kmer1590 	bad	62.56	52.38
+kmer1591 	bad	58.66	42.86
+kmer1592 	bad	62.56	52.38
+kmer1593 	bad	56.71	38.10
+kmer1594 	bad	62.56	52.38
+kmer1595 	bad	52.80	28.57
+kmer1596 	bad	64.52	57.14
+kmer1597 	bad	62.56	52.38
+kmer1598 	bad	70.37	71.43
+kmer1599 	bad	64.52	57.14
+kmer1600 	good	64.52	57.14
+kmer1601 	bad	66.47	61.90
+kmer1602 	bad	70.37	71.43
+kmer1603 	bad	62.56	52.38
+kmer1604 	bad	66.47	61.90
+kmer1605 	bad	60.61	47.62
+kmer1606 	bad	58.66	42.86
+kmer1607 	bad	64.52	57.14
+kmer1608 	bad	60.61	47.62
+kmer1609 	bad	64.52	57.14
+kmer1610 	bad	62.56	52.38
+kmer1611 	bad	66.47	61.90
+kmer1612 	bad	60.61	47.62
+kmer1613 	bad	68.42	66.67
+kmer1614 	bad	66.47	61.90
+kmer1615 	bad	62.56	52.38
+kmer1616 	bad	68.42	66.67
+kmer1617 	bad	68.42	66.67
+kmer1618 	bad	68.42	66.67
+kmer1619 	bad	68.42	66.67
+kmer1620 	bad	64.52	57.14
+kmer1621 	bad	64.52	57.14
+kmer1622 	good	60.61	47.62
+kmer1623 	bad	68.42	66.67
+kmer1624 	bad	58.66	42.86
+kmer1625 	bad	66.47	61.90
+kmer1626 	bad	66.47	61.90
+kmer1627 	bad	64.52	57.14
+kmer1628 	bad	64.52	57.14
+kmer1629 	bad	60.61	47.62
+kmer1630 	bad	60.61	47.62
+kmer1631 	bad	64.52	57.14
+kmer1632 	bad	66.47	61.90
+kmer1633 	bad	60.61	47.62
+kmer1634 	bad	58.66	42.86
+kmer1635 	bad	64.52	57.14
+kmer1636 	bad	60.61	47.62
+kmer1637 	bad	62.56	52.38
+kmer1638 	bad	70.37	71.43
+kmer1639 	bad	62.56	52.38
+kmer1640 	bad	66.47	61.90
+kmer1641 	bad	66.47	61.90
+kmer1642 	bad	68.42	66.67
+kmer1643 	bad	60.61	47.62
+kmer1644 	bad	64.52	57.14
+kmer1645 	bad	62.56	52.38
+kmer1646 	good	64.52	57.14
+kmer1647 	bad	62.56	52.38
+kmer1648 	bad	60.61	47.62
+kmer1649 	bad	62.56	52.38
+kmer1650 	bad	56.71	38.10
+kmer1651 	bad	66.47	61.90
+kmer1652 	bad	62.56	52.38
+kmer1653 	bad	58.66	42.86
+kmer1654 	bad	64.52	57.14
+kmer1655 	bad	72.33	76.19
+kmer1656 	bad	62.56	52.38
+kmer1657 	bad	66.47	61.90
+kmer1658 	bad	60.61	47.62
+kmer1659 	bad	60.61	47.62
+kmer1660 	bad	66.47	61.90
+kmer1661 	bad	66.47	61.90
+kmer1662 	bad	48.90	19.05
+kmer1663 	bad	60.61	47.62
+kmer1664 	bad	56.71	38.10
+kmer1665 	bad	66.47	61.90
+kmer1666 	bad	64.52	57.14
+kmer1667 	bad	62.56	52.38
+kmer1668 	bad	66.47	61.90
+kmer1669 	bad	62.56	52.38
+kmer1670 	bad	56.71	38.10
+kmer1671 	bad	62.56	52.38
+kmer1672 	bad	50.85	23.81
+kmer1673 	bad	60.61	47.62
+kmer1674 	bad	58.66	42.86
+kmer1675 	bad	56.71	38.10
+kmer1676 	bad	64.52	57.14
+kmer1677 	bad	60.61	47.62
+kmer1678 	bad	70.37	71.43
+kmer1679 	bad	66.47	61.90
+kmer1680 	bad	70.37	71.43
+kmer1681 	bad	68.42	66.67
+kmer1682 	bad	70.37	71.43
+kmer1683 	bad	66.47	61.90
+kmer1684 	good	68.42	66.67
+kmer1685 	bad	64.52	57.14
+kmer1686 	good	60.61	47.62
+kmer1687 	bad	66.47	61.90
+kmer1688 	bad	60.61	47.62
+kmer1689 	bad	60.61	47.62
+kmer1690 	bad	52.80	28.57
+kmer1691 	good	66.47	61.90
+kmer1692 	bad	60.61	47.62
+kmer1693 	bad	62.56	52.38
+kmer1694 	bad	62.56	52.38
+kmer1695 	bad	66.47	61.90
+kmer1696 	bad	66.47	61.90
+kmer1697 	bad	58.66	42.86
+kmer1698 	bad	58.66	42.86
+kmer1699 	bad	66.47	61.90
+kmer1700 	bad	66.47	61.90
+kmer1701 	bad	60.61	47.62
+kmer1702 	bad	60.61	47.62
+kmer1703 	bad	60.61	47.62
+kmer1704 	bad	62.56	52.38
+kmer1705 	bad	66.47	61.90
+kmer1706 	bad	66.47	61.90
+kmer1707 	bad	66.47	61.90
+kmer1708 	bad	66.47	61.90
+kmer1709 	bad	62.56	52.38
+kmer1710 	bad	62.56	52.38
+kmer1711 	bad	64.52	57.14
+kmer1712 	bad	60.61	47.62
+kmer1713 	bad	66.47	61.90
+kmer1714 	bad	60.61	47.62
+kmer1715 	bad	64.52	57.14
+kmer1716 	bad	64.52	57.14
+kmer1717 	bad	66.47	61.90
+kmer1718 	bad	62.56	52.38
+kmer1719 	bad	60.61	47.62
+kmer1720 	bad	64.52	57.14
+kmer1721 	bad	64.52	57.14
+kmer1722 	bad	70.37	71.43
+kmer1723 	bad	62.56	52.38
+kmer1724 	bad	64.52	57.14
+kmer1725 	bad	64.52	57.14
+kmer1726 	bad	60.61	47.62
+kmer1727 	bad	58.66	42.86
+kmer1728 	bad	64.52	57.14
+kmer1729 	bad	62.56	52.38
+kmer1730 	bad	60.61	47.62
+kmer1731 	bad	62.56	52.38
+kmer1732 	good	62.56	52.38
+kmer1733 	bad	48.90	19.05
+kmer1734 	bad	56.71	38.10
+kmer1735 	bad	64.52	57.14
+kmer1736 	bad	60.61	47.62
+kmer1737 	bad	56.71	38.10
+kmer1738 	bad	68.42	66.67
+kmer1739 	bad	64.52	57.14
+kmer1740 	bad	68.42	66.67
+kmer1741 	bad	66.47	61.90
+kmer1742 	bad	68.42	66.67
+kmer1743 	bad	58.66	42.86
+kmer1744 	bad	62.56	52.38
+kmer1745 	bad	62.56	52.38
+kmer1746 	bad	60.61	47.62
+kmer1747 	bad	62.56	52.38
+kmer1748 	bad	62.56	52.38
+kmer1749 	bad	52.80	28.57
+kmer1750 	bad	60.61	47.62
+kmer1751 	bad	64.52	57.14
+kmer1752 	bad	66.47	61.90
+kmer1753 	bad	68.42	66.67
+kmer1754 	bad	70.37	71.43
+kmer1755 	bad	66.47	61.90
+kmer1756 	bad	62.56	52.38
+kmer1757 	bad	58.66	42.86
+kmer1758 	bad	54.75	33.33
+kmer1759 	bad	62.56	52.38
+kmer1760 	bad	70.37	71.43
+kmer1761 	bad	58.66	42.86
+kmer1762 	good	54.75	33.33
+kmer1763 	bad	56.71	38.10
+kmer1764 	bad	52.80	28.57
+kmer1765 	bad	60.61	47.62
+kmer1766 	bad	60.61	47.62
+kmer1767 	bad	60.61	47.62
+kmer1768 	good	62.56	52.38
+kmer1769 	bad	64.52	57.14
+kmer1770 	bad	56.71	38.10
+kmer1771 	bad	64.52	57.14
+kmer1772 	bad	62.56	52.38
+kmer1773 	bad	64.52	57.14
+kmer1774 	good	56.71	38.10
+kmer1775 	bad	56.71	38.10
+kmer1776 	bad	66.47	61.90
+kmer1777 	bad	62.56	52.38
+kmer1778 	bad	62.56	52.38
+kmer1779 	bad	56.71	38.10
+kmer1780 	bad	64.52	57.14
+kmer1781 	bad	64.52	57.14
+kmer1782 	good	64.52	57.14
+kmer1783 	bad	58.66	42.86
+kmer1784 	bad	56.71	38.10
+kmer1785 	bad	68.42	66.67
+kmer1786 	bad	64.52	57.14
+kmer1787 	bad	58.66	42.86
+kmer1788 	bad	62.56	52.38
+kmer1789 	bad	60.61	47.62
+kmer1790 	good	62.56	52.38
+kmer1791 	bad	64.52	57.14
+kmer1792 	bad	62.56	52.38
+kmer1793 	bad	54.75	33.33
+kmer1794 	bad	70.37	71.43
+kmer1795 	bad	64.52	57.14
+kmer1796 	good	64.52	57.14
+kmer1797 	bad	58.66	42.86
+kmer1798 	bad	66.47	61.90
+kmer1799 	bad	58.66	42.86
+kmer1800 	bad	58.66	42.86
+kmer1801 	bad	58.66	42.86
+kmer1802 	bad	56.71	38.10
+kmer1803 	bad	64.52	57.14
+kmer1804 	bad	58.66	42.86
+kmer1805 	bad	56.71	38.10
+kmer1806 	bad	62.56	52.38
+kmer1807 	bad	64.52	57.14
+kmer1808 	bad	64.52	57.14
+kmer1809 	bad	58.66	42.86
+kmer1810 	bad	60.61	47.62
+kmer1811 	bad	68.42	66.67
+kmer1812 	bad	68.42	66.67
+kmer1813 	bad	68.42	66.67
+kmer1814 	bad	62.56	52.38
+kmer1815 	bad	72.33	76.19
+kmer1816 	bad	60.61	47.62
+kmer1817 	bad	66.47	61.90
+kmer1818 	bad	56.71	38.10
+kmer1819 	bad	66.47	61.90
+kmer1820 	bad	64.52	57.14
+kmer1821 	bad	58.66	42.86
+kmer1822 	bad	66.47	61.90
+kmer1823 	bad	70.37	71.43
+kmer1824 	bad	68.42	66.67
+kmer1825 	bad	60.61	47.62
+kmer1826 	bad	60.61	47.62
+kmer1827 	bad	64.52	57.14
+kmer1828 	bad	66.47	61.90
+kmer1829 	bad	60.61	47.62
+kmer1830 	bad	66.47	61.90
+kmer1831 	bad	66.47	61.90
+kmer1832 	bad	66.47	61.90
+kmer1833 	bad	62.56	52.38
+kmer1834 	bad	60.61	47.62
+kmer1835 	bad	62.56	52.38
+kmer1836 	bad	66.47	61.90
+kmer1837 	bad	62.56	52.38
+kmer1838 	bad	66.47	61.90
+kmer1839 	bad	62.56	52.38
+kmer1840 	bad	58.66	42.86
+kmer1841 	bad	56.71	38.10
+kmer1842 	bad	58.66	42.86
+kmer1843 	bad	60.61	47.62
+kmer1844 	good	62.56	52.38
+kmer1845 	bad	64.52	57.14
+kmer1846 	good	66.47	61.90
+kmer1847 	bad	64.52	57.14
+kmer1848 	bad	68.42	66.67
+kmer1849 	bad	56.71	38.10
+kmer1850 	bad	66.47	61.90
+kmer1851 	bad	58.66	42.86
+kmer1852 	bad	58.66	42.86
+kmer1853 	bad	58.66	42.86
+kmer1854 	bad	52.80	28.57
+kmer1855 	bad	68.42	66.67
+kmer1856 	bad	66.47	61.90
+kmer1857 	bad	62.56	52.38
+kmer1858 	bad	60.61	47.62
+kmer1859 	bad	66.47	61.90
+kmer1860 	bad	68.42	66.67
+kmer1861 	bad	66.47	61.90
+kmer1862 	bad	62.56	52.38
+kmer1863 	bad	66.47	61.90
+kmer1864 	bad	68.42	66.67
+kmer1865 	bad	68.42	66.67
+kmer1866 	bad	68.42	66.67
+kmer1867 	bad	66.47	61.90
+kmer1868 	bad	72.33	76.19
+kmer1869 	bad	66.47	61.90
+kmer1870 	bad	70.37	71.43
+kmer1871 	bad	68.42	66.67
+kmer1872 	bad	72.33	76.19
+kmer1873 	bad	64.52	57.14
+kmer1874 	bad	64.52	57.14
+kmer1875 	bad	68.42	66.67
+kmer1876 	bad	68.42	66.67
+kmer1877 	bad	64.52	57.14
+kmer1878 	bad	70.37	71.43
+kmer1879 	bad	62.56	52.38
+kmer1880 	bad	62.56	52.38
+kmer1881 	bad	60.61	47.62
+kmer1882 	bad	60.61	47.62
+kmer1883 	bad	66.47	61.90
+kmer1884 	bad	62.56	52.38
+kmer1885 	bad	72.33	76.19
+kmer1886 	bad	64.52	57.14
+kmer1887 	bad	62.56	52.38
+kmer1888 	bad	66.47	61.90
+kmer1889 	bad	68.42	66.67
+kmer1890 	bad	68.42	66.67
+kmer1891 	bad	66.47	61.90
+kmer1892 	bad	68.42	66.67
+kmer1893 	bad	68.42	66.67
+kmer1894 	bad	70.37	71.43
+kmer1895 	bad	70.37	71.43
+kmer1896 	bad	64.52	57.14
+kmer1897 	bad	62.56	52.38
+kmer1898 	bad	62.56	52.38
+kmer1899 	bad	62.56	52.38
+kmer1900 	bad	58.66	42.86
+kmer1901 	good	60.61	47.62
+kmer1902 	bad	62.56	52.38
+kmer1903 	bad	62.56	52.38
+kmer1904 	bad	68.42	66.67
+kmer1905 	bad	62.56	52.38
+kmer1906 	bad	68.42	66.67
+kmer1907 	bad	64.52	57.14
+kmer1908 	bad	68.42	66.67
+kmer1909 	bad	66.47	61.90
+kmer1910 	bad	64.52	57.14
+kmer1911 	bad	58.66	42.86
+kmer1912 	bad	64.52	57.14
+kmer1913 	bad	66.47	61.90
+kmer1914 	bad	68.42	66.67
+kmer1915 	bad	60.61	47.62
+kmer1916 	good	64.52	57.14
+kmer1917 	bad	64.52	57.14
+kmer1918 	bad	64.52	57.14
+kmer1919 	bad	58.66	42.86
+kmer1920 	bad	62.56	52.38
+kmer1921 	bad	66.47	61.90
+kmer1922 	bad	72.33	76.19
+kmer1923 	bad	64.52	57.14
+kmer1924 	bad	64.52	57.14
+kmer1925 	bad	64.52	57.14
+kmer1926 	bad	62.56	52.38
+kmer1927 	bad	66.47	61.90
+kmer1928 	bad	66.47	61.90
+kmer1929 	bad	66.47	61.90
+kmer1930 	bad	66.47	61.90
+kmer1931 	bad	66.47	61.90
+kmer1932 	bad	62.56	52.38
+kmer1933 	bad	62.56	52.38
+kmer1934 	bad	66.47	61.90
+kmer1935 	bad	62.56	52.38
+kmer1936 	bad	60.61	47.62
+kmer1937 	bad	64.52	57.14
+kmer1938 	bad	66.47	61.90
+kmer1939 	bad	66.47	61.90
+kmer1940 	bad	68.42	66.67
+kmer1941 	bad	66.47	61.90
+kmer1942 	bad	64.52	57.14
+kmer1943 	bad	64.52	57.14
+kmer1944 	bad	68.42	66.67
+kmer1945 	bad	72.33	76.19
+kmer1946 	bad	68.42	66.67
+kmer1947 	bad	68.42	66.67
+kmer1948 	bad	64.52	57.14
+kmer1949 	bad	68.42	66.67
+kmer1950 	bad	68.42	66.67
+kmer1951 	bad	66.47	61.90
+kmer1952 	bad	68.42	66.67
+kmer1953 	bad	66.47	61.90
+kmer1954 	bad	60.61	47.62
+kmer1955 	bad	62.56	52.38
+kmer1956 	bad	64.52	57.14
+kmer1957 	bad	64.52	57.14
+kmer1958 	bad	66.47	61.90
+kmer1959 	bad	62.56	52.38
+kmer1960 	bad	68.42	66.67
+kmer1961 	bad	66.47	61.90
+kmer1962 	bad	60.61	47.62
+kmer1963 	bad	66.47	61.90
+kmer1964 	bad	66.47	61.90
+kmer1965 	bad	66.47	61.90
+kmer1966 	bad	66.47	61.90
+kmer1967 	bad	68.42	66.67
+kmer1968 	bad	68.42	66.67
+kmer1969 	bad	62.56	52.38
+kmer1970 	bad	70.37	71.43
+kmer1971 	bad	66.47	61.90
+kmer1972 	bad	66.47	61.90
+kmer1973 	bad	64.52	57.14
+kmer1974 	bad	64.52	57.14
+kmer1975 	bad	64.52	57.14
+kmer1976 	bad	64.52	57.14
+kmer1977 	bad	64.52	57.14
+kmer1978 	bad	62.56	52.38
+kmer1979 	bad	62.56	52.38
+kmer1980 	bad	68.42	66.67
+kmer1981 	bad	58.66	42.86
+kmer1982 	bad	58.66	42.86
+kmer1983 	good	60.61	47.62
+kmer1984 	bad	60.61	47.62
+kmer1985 	bad	56.71	38.10
+kmer1986 	bad	60.61	47.62
+kmer1987 	bad	68.42	66.67
+kmer1988 	bad	68.42	66.67
+kmer1989 	bad	66.47	61.90
+kmer1990 	good	66.47	61.90
+kmer1991 	bad	56.71	38.10
+kmer1992 	bad	64.52	57.14
+kmer1993 	bad	64.52	57.14
+kmer1994 	bad	68.42	66.67
+kmer1995 	bad	52.80	28.57
+kmer1996 	bad	60.61	47.62
+kmer1997 	bad	58.66	42.86
+kmer1998 	bad	62.56	52.38
+kmer1999 	bad	62.56	52.38
+kmer2000 	bad	66.47	61.90
+kmer2001 	bad	64.52	57.14
+kmer2002 	bad	62.56	52.38
+kmer2003 	bad	64.52	57.14
+kmer2004 	bad	62.56	52.38
+kmer2005 	bad	62.56	52.38
+kmer2006 	bad	62.56	52.38
+kmer2007 	bad	56.71	38.10
+kmer2008 	bad	62.56	52.38
+kmer2009 	bad	60.61	47.62
+kmer2010 	bad	58.66	42.86
+kmer2011 	good	62.56	52.38
+kmer2012 	bad	68.42	66.67
+kmer2013 	bad	64.52	57.14
+kmer2014 	bad	62.56	52.38
+kmer2015 	bad	72.33	76.19
+kmer2016 	bad	66.47	61.90
+kmer2017 	bad	60.61	47.62
+kmer2018 	bad	66.47	61.90
+kmer2019 	bad	62.56	52.38
+kmer2020 	bad	66.47	61.90
+kmer2021 	bad	64.52	57.14
+kmer2022 	bad	60.61	47.62
+kmer2023 	good	64.52	57.14
+kmer2024 	bad	62.56	52.38
+kmer2025 	bad	64.52	57.14
+kmer2026 	bad	68.42	66.67
+kmer2027 	bad	64.52	57.14
+kmer2028 	bad	60.61	47.62
+kmer2029 	bad	66.47	61.90
+kmer2030 	bad	64.52	57.14
+kmer2031 	bad	66.47	61.90
+kmer2032 	bad	62.56	52.38
+kmer2033 	bad	68.42	66.67
+kmer2034 	bad	62.56	52.38
+kmer2035 	bad	68.42	66.67
+kmer2036 	bad	70.37	71.43
+kmer2037 	bad	64.52	57.14
+kmer2038 	bad	66.47	61.90
+kmer2039 	bad	62.56	52.38
+kmer2040 	bad	66.47	61.90
+kmer2041 	bad	66.47	61.90
+kmer2042 	bad	64.52	57.14
+kmer2043 	bad	60.61	47.62
+kmer2044 	bad	58.66	42.86
+kmer2045 	bad	60.61	47.62
+kmer2046 	bad	60.61	47.62
+kmer2047 	bad	58.66	42.86
+kmer2048 	bad	60.61	47.62
+kmer2049 	bad	60.61	47.62
+kmer2050 	bad	58.66	42.86
+kmer2051 	bad	62.56	52.38
+kmer2052 	good	64.52	57.14
+kmer2053 	bad	64.52	57.14
+kmer2054 	bad	64.52	57.14
+kmer2055 	bad	64.52	57.14
+kmer2056 	bad	68.42	66.67
+kmer2057 	bad	56.71	38.10
+kmer2058 	bad	66.47	61.90
+kmer2059 	bad	66.47	61.90
+kmer2060 	bad	60.61	47.62
+kmer2061 	bad	64.52	57.14
+kmer2062 	bad	66.47	61.90
+kmer2063 	bad	68.42	66.67
+kmer2064 	bad	66.47	61.90
+kmer2065 	bad	64.52	57.14
+kmer2066 	bad	56.71	38.10
+kmer2067 	bad	60.61	47.62
+kmer2068 	bad	56.71	38.10
+kmer2069 	bad	60.61	47.62
+kmer2070 	bad	60.61	47.62
+kmer2071 	bad	62.56	52.38
+kmer2072 	bad	62.56	52.38
+kmer2073 	bad	60.61	47.62
+kmer2074 	bad	66.47	61.90
+kmer2075 	bad	56.71	38.10
+kmer2076 	bad	66.47	61.90
+kmer2077 	bad	62.56	52.38
+kmer2078 	bad	62.56	52.38
+kmer2079 	bad	56.71	38.10
+kmer2080 	bad	62.56	52.38
+kmer2081 	bad	58.66	42.86
+kmer2082 	bad	60.61	47.62
+kmer2083 	bad	56.71	38.10
+kmer2084 	bad	64.52	57.14
+kmer2085 	bad	66.47	61.90
+kmer2086 	bad	68.42	66.67
+kmer2087 	bad	64.52	57.14
+kmer2088 	bad	64.52	57.14
+kmer2089 	good	62.56	52.38
+kmer2090 	bad	62.56	52.38
+kmer2091 	bad	68.42	66.67
+kmer2092 	bad	56.71	38.10
+kmer2093 	bad	62.56	52.38
+kmer2094 	bad	58.66	42.86
+kmer2095 	bad	56.71	38.10
+kmer2096 	bad	66.47	61.90
+kmer2097 	bad	58.66	42.86
+kmer2098 	bad	66.47	61.90
+kmer2099 	bad	60.61	47.62
+kmer2100 	bad	62.56	52.38
+kmer2101 	bad	66.47	61.90
+kmer2102 	bad	72.33	76.19
+kmer2103 	good	68.42	66.67
+kmer2104 	bad	64.52	57.14
+kmer2105 	bad	62.56	52.38
+kmer2106 	bad	62.56	52.38
+kmer2107 	bad	64.52	57.14
+kmer2108 	bad	64.52	57.14
+kmer2109 	bad	64.52	57.14
+kmer2110 	bad	66.47	61.90
+kmer2111 	bad	64.52	57.14
+kmer2112 	bad	64.52	57.14
+kmer2113 	bad	64.52	57.14
+kmer2114 	bad	64.52	57.14
+kmer2115 	bad	60.61	47.62
+kmer2116 	bad	64.52	57.14
+kmer2117 	bad	66.47	61.90
+kmer2118 	bad	68.42	66.67
+kmer2119 	bad	56.71	38.10
+kmer2120 	bad	60.61	47.62
+kmer2121 	bad	66.47	61.90
+kmer2122 	bad	62.56	52.38
+kmer2123 	bad	66.47	61.90
+kmer2124 	bad	64.52	57.14
+kmer2125 	bad	58.66	42.86
+kmer2126 	bad	62.56	52.38
+kmer2127 	bad	66.47	61.90
+kmer2128 	bad	68.42	66.67
+kmer2129 	bad	56.71	38.10
+kmer2130 	bad	62.56	52.38
+kmer2131 	bad	62.56	52.38
+kmer2132 	bad	62.56	52.38
+kmer2133 	bad	60.61	47.62
+kmer2134 	bad	64.52	57.14
+kmer2135 	good	62.56	52.38
+kmer2136 	bad	62.56	52.38
+kmer2137 	bad	66.47	61.90
+kmer2138 	bad	64.52	57.14
+kmer2139 	bad	66.47	61.90
+kmer2140 	bad	62.56	52.38
+kmer2141 	bad	62.56	52.38
+kmer2142 	bad	60.61	47.62
+kmer2143 	bad	60.61	47.62
+kmer2144 	bad	66.47	61.90
+kmer2145 	bad	66.47	61.90
+kmer2146 	bad	52.80	28.57
+kmer2147 	bad	68.42	66.67
+kmer2148 	bad	62.56	52.38
+kmer2149 	bad	68.42	66.67
+kmer2150 	bad	64.52	57.14
+kmer2151 	bad	66.47	61.90
+kmer2152 	bad	64.52	57.14
+kmer2153 	bad	64.52	57.14
+kmer2154 	bad	64.52	57.14
+kmer2155 	bad	60.61	47.62
+kmer2156 	bad	66.47	61.90
+kmer2157 	bad	58.66	42.86
+kmer2158 	bad	70.37	71.43
+kmer2159 	bad	64.52	57.14
+kmer2160 	bad	66.47	61.90
+kmer2161 	bad	68.42	66.67
+kmer2162 	bad	68.42	66.67
+kmer2163 	bad	62.56	52.38
+kmer2164 	bad	68.42	66.67
+kmer2165 	bad	66.47	61.90
+kmer2166 	bad	66.47	61.90
+kmer2167 	bad	70.37	71.43
+kmer2168 	bad	64.52	57.14
+kmer2169 	bad	62.56	52.38
+kmer2170 	good	68.42	66.67
+kmer2171 	bad	58.66	42.86
+kmer2172 	bad	66.47	61.90
+kmer2173 	bad	60.61	47.62
+kmer2174 	bad	68.42	66.67
+kmer2175 	bad	62.56	52.38
+kmer2176 	bad	64.52	57.14
+kmer2177 	bad	62.56	52.38
+kmer2178 	bad	70.37	71.43
+kmer2179 	bad	64.52	57.14
+kmer2180 	bad	60.61	47.62
+kmer2181 	bad	64.52	57.14
+kmer2182 	bad	66.47	61.90
+kmer2183 	bad	68.42	66.67
+kmer2184 	bad	64.52	57.14
+kmer2185 	bad	64.52	57.14
+kmer2186 	bad	60.61	47.62
+kmer2187 	bad	64.52	57.14
+kmer2188 	bad	60.61	47.62
+kmer2189 	bad	60.61	47.62
+kmer2190 	bad	64.52	57.14
+kmer2191 	bad	66.47	61.90
+kmer2192 	bad	60.61	47.62
+kmer2193 	bad	64.52	57.14
+kmer2194 	bad	62.56	52.38
+kmer2195 	bad	60.61	47.62
+kmer2196 	bad	72.33	76.19
+kmer2197 	bad	66.47	61.90
+kmer2198 	bad	58.66	42.86
+kmer2199 	bad	58.66	42.86
+kmer2200 	bad	62.56	52.38
+kmer2201 	bad	62.56	52.38
+kmer2202 	bad	62.56	52.38
+kmer2203 	bad	56.71	38.10
+kmer2204 	bad	58.66	42.86
+kmer2205 	bad	58.66	42.86
+kmer2206 	bad	66.47	61.90
+kmer2207 	bad	68.42	66.67
+kmer2208 	bad	62.56	52.38
+kmer2209 	bad	62.56	52.38
+kmer2210 	bad	68.42	66.67
+kmer2211 	bad	64.52	57.14
+kmer2212 	bad	60.61	47.62
+kmer2213 	bad	64.52	57.14
+kmer2214 	bad	66.47	61.90
+kmer2215 	bad	60.61	47.62
+kmer2216 	bad	64.52	57.14
+kmer2217 	good	72.33	76.19
+kmer2218 	bad	64.52	57.14
+kmer2219 	bad	64.52	57.14
+kmer2220 	bad	58.66	42.86
+kmer2221 	bad	64.52	57.14
+kmer2222 	bad	66.47	61.90
+kmer2223 	bad	60.61	47.62
+kmer2224 	bad	64.52	57.14
+kmer2225 	bad	60.61	47.62
+kmer2226 	bad	58.66	42.86
+kmer2227 	bad	70.37	71.43
+kmer2228 	bad	62.56	52.38
+kmer2229 	bad	66.47	61.90
+kmer2230 	bad	64.52	57.14
+kmer2231 	bad	72.33	76.19
+kmer2232 	bad	66.47	61.90
+kmer2233 	bad	68.42	66.67
+kmer2234 	bad	68.42	66.67
+kmer2235 	bad	70.37	71.43
+kmer2236 	bad	60.61	47.62
+kmer2237 	good	66.47	61.90
+kmer2238 	bad	68.42	66.67
+kmer2239 	bad	64.52	57.14
+kmer2240 	bad	64.52	57.14
+kmer2241 	bad	70.37	71.43
+kmer2242 	bad	62.56	52.38
+kmer2243 	bad	66.47	61.90
+kmer2244 	bad	70.37	71.43
+kmer2245 	bad	70.37	71.43
+kmer2246 	bad	66.47	61.90
+kmer2247 	bad	62.56	52.38
+kmer2248 	bad	70.37	71.43
+kmer2249 	bad	66.47	61.90
+kmer2250 	bad	66.47	61.90
+kmer2251 	bad	66.47	61.90
+kmer2252 	bad	66.47	61.90
+kmer2253 	bad	64.52	57.14
+kmer2254 	bad	64.52	57.14
+kmer2255 	bad	64.52	57.14
+kmer2256 	good	68.42	66.67
+kmer2257 	bad	64.52	57.14
+kmer2258 	bad	66.47	61.90
+kmer2259 	good	64.52	57.14
+kmer2260 	bad	64.52	57.14
+kmer2261 	bad	58.66	42.86
+kmer2262 	bad	62.56	52.38
+kmer2263 	bad	64.52	57.14
+kmer2264 	bad	62.56	52.38
+kmer2265 	bad	64.52	57.14
+kmer2266 	bad	62.56	52.38
+kmer2267 	bad	56.71	38.10
+kmer2268 	bad	62.56	52.38
+kmer2269 	bad	64.52	57.14
+kmer2270 	bad	62.56	52.38
+kmer2271 	bad	68.42	66.67
+kmer2272 	bad	62.56	52.38
+kmer2273 	bad	58.66	42.86
+kmer2274 	bad	68.42	66.67
+kmer2275 	bad	62.56	52.38
+kmer2276 	bad	66.47	61.90
+kmer2277 	bad	62.56	52.38
+kmer2278 	bad	58.66	42.86
+kmer2279 	bad	60.61	47.62
+kmer2280 	bad	62.56	52.38
+kmer2281 	bad	60.61	47.62
+kmer2282 	bad	58.66	42.86
+kmer2283 	bad	62.56	52.38
+kmer2284 	bad	64.52	57.14
+kmer2285 	bad	66.47	61.90
+kmer2286 	bad	54.75	33.33
+kmer2287 	good	58.66	42.86
+kmer2288 	bad	66.47	61.90
+kmer2289 	bad	54.75	33.33
+kmer2290 	bad	62.56	52.38
+kmer2291 	bad	62.56	52.38
+kmer2292 	bad	60.61	47.62
+kmer2293 	bad	66.47	61.90
+kmer2294 	bad	64.52	57.14
+kmer2295 	bad	68.42	66.67
+kmer2296 	bad	66.47	61.90
+kmer2297 	bad	62.56	52.38
+kmer2298 	bad	62.56	52.38
+kmer2299 	bad	62.56	52.38
+kmer2300 	bad	60.61	47.62
+kmer2301 	bad	62.56	52.38
+kmer2302 	bad	62.56	52.38
+kmer2303 	bad	62.56	52.38
+kmer2304 	bad	66.47	61.90
+kmer2305 	bad	62.56	52.38
+kmer2306 	bad	64.52	57.14
+kmer2307 	bad	68.42	66.67
+kmer2308 	bad	62.56	52.38
+kmer2309 	bad	62.56	52.38
+kmer2310 	bad	56.71	38.10
+kmer2311 	bad	60.61	47.62
+kmer2312 	bad	62.56	52.38
+kmer2313 	good	64.52	57.14
+kmer2314 	bad	62.56	52.38
+kmer2315 	bad	64.52	57.14
+kmer2316 	bad	58.66	42.86
+kmer2317 	bad	60.61	47.62
+kmer2318 	good	66.47	61.90
+kmer2319 	bad	56.71	38.10
+kmer2320 	bad	62.56	52.38
+kmer2321 	bad	58.66	42.86
+kmer2322 	bad	52.80	28.57
+kmer2323 	bad	66.47	61.90
+kmer2324 	bad	54.75	33.33
+kmer2325 	bad	56.71	38.10
+kmer2326 	bad	62.56	52.38
+kmer2327 	bad	64.52	57.14
+kmer2328 	bad	58.66	42.86
+kmer2329 	bad	64.52	57.14
+kmer2330 	bad	62.56	52.38
+kmer2331 	bad	68.42	66.67
+kmer2332 	bad	62.56	52.38
+kmer2333 	good	64.52	57.14
+kmer2334 	bad	66.47	61.90
+kmer2335 	bad	62.56	52.38
+kmer2336 	bad	60.61	47.62
+kmer2337 	bad	50.85	23.81
+kmer2338 	bad	60.61	47.62
+kmer2339 	bad	56.71	38.10
+kmer2340 	bad	56.71	38.10
+kmer2341 	bad	60.61	47.62
+kmer2342 	bad	58.66	42.86
+kmer2343 	bad	58.66	42.86
+kmer2344 	bad	54.75	33.33
+kmer2345 	bad	64.52	57.14
+kmer2346 	bad	62.56	52.38
+kmer2347 	bad	62.56	52.38
+kmer2348 	bad	62.56	52.38
+kmer2349 	bad	56.71	38.10
+kmer2350 	bad	60.61	47.62
+kmer2351 	bad	56.71	38.10
+kmer2352 	bad	64.52	57.14
+kmer2353 	bad	66.47	61.90
+kmer2354 	good	62.56	52.38
+kmer2355 	bad	70.37	71.43
+kmer2356 	bad	66.47	61.90
+kmer2357 	bad	66.47	61.90
+kmer2358 	bad	66.47	61.90
+kmer2359 	bad	68.42	66.67
+kmer2360 	bad	62.56	52.38
+kmer2361 	good	62.56	52.38
+kmer2362 	bad	58.66	42.86
+kmer2363 	bad	64.52	57.14
+kmer2364 	bad	62.56	52.38
+kmer2365 	bad	60.61	47.62
+kmer2366 	bad	58.66	42.86
+kmer2367 	bad	56.71	38.10
+kmer2368 	bad	62.56	52.38
+kmer2369 	bad	50.85	23.81
+kmer2370 	bad	60.61	47.62
+kmer2371 	bad	60.61	47.62
+kmer2372 	bad	58.66	42.86
+kmer2373 	bad	58.66	42.86
+kmer2374 	bad	48.90	19.05
+kmer2375 	bad	62.56	52.38
+kmer2376 	bad	58.66	42.86
+kmer2377 	bad	60.61	47.62
+kmer2378 	bad	60.61	47.62
+kmer2379 	bad	62.56	52.38
+kmer2380 	bad	60.61	47.62
+kmer2381 	good	62.56	52.38
+kmer2382 	bad	52.80	28.57
+kmer2383 	bad	56.71	38.10
+kmer2384 	bad	56.71	38.10
+kmer2385 	bad	56.71	38.10
+kmer2386 	bad	62.56	52.38
+kmer2387 	bad	60.61	47.62
+kmer2388 	good	60.61	47.62
+kmer2389 	bad	62.56	52.38
+kmer2390 	bad	60.61	47.62
+kmer2391 	bad	64.52	57.14
+kmer2392 	bad	62.56	52.38
+kmer2393 	bad	68.42	66.67
+kmer2394 	bad	58.66	42.86
+kmer2395 	bad	60.61	47.62
+kmer2396 	bad	66.47	61.90
+kmer2397 	bad	64.52	57.14
+kmer2398 	bad	62.56	52.38
+kmer2399 	bad	64.52	57.14
+kmer2400 	bad	62.56	52.38
+kmer2401 	bad	62.56	52.38
+kmer2402 	bad	62.56	52.38
+kmer2403 	bad	58.66	42.86
+kmer2404 	bad	60.61	47.62
+kmer2405 	bad	70.37	71.43
+kmer2406 	bad	64.52	57.14
+kmer2407 	bad	62.56	52.38
+kmer2408 	good	66.47	61.90
+kmer2409 	bad	58.66	42.86
+kmer2410 	bad	54.75	33.33
+kmer2411 	bad	58.66	42.86
+kmer2412 	bad	62.56	52.38
+kmer2413 	bad	58.66	42.86
+kmer2414 	bad	60.61	47.62
+kmer2415 	bad	64.52	57.14
+kmer2416 	bad	60.61	47.62
+kmer2417 	bad	60.61	47.62
+kmer2418 	bad	60.61	47.62
+kmer2419 	bad	64.52	57.14
+kmer2420 	bad	60.61	47.62
+kmer2421 	bad	58.66	42.86
+kmer2422 	good	62.56	52.38
+kmer2423 	bad	64.52	57.14
+kmer2424 	bad	62.56	52.38
+kmer2425 	bad	64.52	57.14
+kmer2426 	bad	62.56	52.38
+kmer2427 	bad	56.71	38.10
+kmer2428 	bad	56.71	38.10
+kmer2429 	bad	64.52	57.14
+kmer2430 	bad	56.71	38.10
+kmer2431 	bad	64.52	57.14
+kmer2432 	bad	64.52	57.14
+kmer2433 	bad	62.56	52.38
+kmer2434 	good	64.52	57.14
+kmer2435 	bad	64.52	57.14
+kmer2436 	bad	62.56	52.38
+kmer2437 	bad	62.56	52.38
+kmer2438 	bad	62.56	52.38
+kmer2439 	bad	58.66	42.86
+kmer2440 	bad	56.71	38.10
+kmer2441 	bad	60.61	47.62
+kmer2442 	bad	64.52	57.14
+kmer2443 	bad	64.52	57.14
+kmer2444 	good	64.52	57.14
+kmer2445 	bad	60.61	47.62
+kmer2446 	bad	66.47	61.90
+kmer2447 	bad	58.66	42.86
+kmer2448 	bad	66.47	61.90
+kmer2449 	bad	66.47	61.90
+kmer2450 	bad	64.52	57.14
+kmer2451 	bad	56.71	38.10
+kmer2452 	bad	60.61	47.62
+kmer2453 	bad	62.56	52.38
+kmer2454 	bad	58.66	42.86
+kmer2455 	bad	60.61	47.62
+kmer2456 	bad	62.56	52.38
+kmer2457 	bad	66.47	61.90
+kmer2458 	bad	58.66	42.86
+kmer2459 	bad	62.56	52.38
+kmer2460 	bad	56.71	38.10
+kmer2461 	bad	60.61	47.62
+kmer2462 	bad	66.47	61.90
+kmer2463 	bad	62.56	52.38
+kmer2464 	bad	66.47	61.90
+kmer2465 	bad	58.66	42.86
+kmer2466 	bad	72.33	76.19
+kmer2467 	bad	62.56	52.38
+kmer2468 	bad	54.75	33.33
+kmer2469 	bad	58.66	42.86
+kmer2470 	bad	66.47	61.90
+kmer2471 	bad	62.56	52.38
+kmer2472 	bad	52.80	28.57
+kmer2473 	bad	66.47	61.90
+kmer2474 	bad	62.56	52.38
+kmer2475 	bad	66.47	61.90
+kmer2476 	bad	68.42	66.67
+kmer2477 	bad	68.42	66.67
+kmer2478 	bad	66.47	61.90
+kmer2479 	bad	64.52	57.14
+kmer2480 	bad	68.42	66.67
+kmer2481 	bad	66.47	61.90
+kmer2482 	bad	62.56	52.38
+kmer2483 	bad	66.47	61.90
+kmer2484 	bad	66.47	61.90
+kmer2485 	bad	64.52	57.14
+kmer2486 	bad	64.52	57.14
+kmer2487 	bad	56.71	38.10
+kmer2488 	bad	60.61	47.62
+kmer2489 	bad	64.52	57.14
+kmer2490 	bad	60.61	47.62
+kmer2491 	bad	62.56	52.38
+kmer2492 	bad	58.66	42.86
+kmer2493 	bad	58.66	42.86
+kmer2494 	bad	64.52	57.14
+kmer2495 	bad	62.56	52.38
+kmer2496 	bad	62.56	52.38
+kmer2497 	bad	60.61	47.62
+kmer2498 	bad	64.52	57.14
+kmer2499 	bad	56.71	38.10
+kmer2500 	bad	62.56	52.38
+kmer2501 	bad	60.61	47.62
+kmer2502 	bad	60.61	47.62
+kmer2503 	bad	54.75	33.33
+kmer2504 	bad	60.61	47.62
+kmer2505 	bad	58.66	42.86
+kmer2506 	bad	54.75	33.33
+kmer2507 	bad	56.71	38.10
+kmer2508 	bad	66.47	61.90
+kmer2509 	bad	64.52	57.14
+kmer2510 	bad	56.71	38.10
+kmer2511 	bad	60.61	47.62
+kmer2512 	bad	58.66	42.86
+kmer2513 	bad	56.71	38.10
+kmer2514 	bad	58.66	42.86
+kmer2515 	bad	56.71	38.10
+kmer2516 	bad	66.47	61.90
+kmer2517 	bad	68.42	66.67
+kmer2518 	bad	64.52	57.14
+kmer2519 	bad	58.66	42.86
+kmer2520 	bad	64.52	57.14
+kmer2521 	bad	56.71	38.10
+kmer2522 	bad	60.61	47.62
+kmer2523 	bad	58.66	42.86
+kmer2524 	bad	62.56	52.38
+kmer2525 	bad	64.52	57.14
+kmer2526 	bad	64.52	57.14
+kmer2527 	bad	66.47	61.90
+kmer2528 	bad	60.61	47.62
+kmer2529 	bad	60.61	47.62
+kmer2530 	bad	60.61	47.62
+kmer2531 	bad	62.56	52.38
+kmer2532 	bad	56.71	38.10
+kmer2533 	bad	58.66	42.86
+kmer2534 	bad	60.61	47.62
+kmer2535 	bad	68.42	66.67
+kmer2536 	bad	66.47	61.90
+kmer2537 	bad	64.52	57.14
+kmer2538 	bad	54.75	33.33
+kmer2539 	bad	58.66	42.86
+kmer2540 	bad	60.61	47.62
+kmer2541 	bad	58.66	42.86
+kmer2542 	bad	62.56	52.38
+kmer2543 	bad	56.71	38.10
+kmer2544 	bad	58.66	42.86
+kmer2545 	bad	60.61	47.62
+kmer2546 	bad	64.52	57.14
+kmer2547 	good	62.56	52.38
+kmer2548 	bad	60.61	47.62
+kmer2549 	bad	62.56	52.38
+kmer2550 	bad	66.47	61.90
+kmer2551 	bad	64.52	57.14
+kmer2552 	bad	62.56	52.38
+kmer2553 	bad	62.56	52.38
+kmer2554 	bad	58.66	42.86
+kmer2555 	bad	50.85	23.81
+kmer2556 	bad	52.80	28.57
+kmer2557 	bad	64.52	57.14
+kmer2558 	bad	56.71	38.10
+kmer2559 	bad	62.56	52.38
+kmer2560 	bad	66.47	61.90
+kmer2561 	bad	60.61	47.62
+kmer2562 	bad	62.56	52.38
+kmer2563 	bad	58.66	42.86
+kmer2564 	bad	56.71	38.10
+kmer2565 	bad	62.56	52.38
+kmer2566 	bad	56.71	38.10
+kmer2567 	bad	58.66	42.86
+kmer2568 	bad	66.47	61.90
+kmer2569 	bad	62.56	52.38
+kmer2570 	bad	60.61	47.62
+kmer2571 	bad	52.80	28.57
+kmer2572 	bad	54.75	33.33
+kmer2573 	bad	56.71	38.10
+kmer2574 	bad	56.71	38.10
+kmer2575 	bad	60.61	47.62
+kmer2576 	bad	54.75	33.33
+kmer2577 	bad	60.61	47.62
+kmer2578 	bad	68.42	66.67
+kmer2579 	bad	64.52	57.14
+kmer2580 	bad	58.66	42.86
+kmer2581 	bad	60.61	47.62
+kmer2582 	bad	62.56	52.38
+kmer2583 	bad	64.52	57.14
+kmer2584 	bad	58.66	42.86
+kmer2585 	bad	66.47	61.90
+kmer2586 	bad	62.56	52.38
+kmer2587 	bad	62.56	52.38
+kmer2588 	bad	68.42	66.67
+kmer2589 	bad	60.61	47.62
+kmer2590 	bad	60.61	47.62
+kmer2591 	good	64.52	57.14
+kmer2592 	good	60.61	47.62
+kmer2593 	bad	62.56	52.38
+kmer2594 	bad	70.37	71.43
+kmer2595 	bad	58.66	42.86
+kmer2596 	bad	68.42	66.67
+kmer2597 	bad	50.85	23.81
+kmer2598 	bad	64.52	57.14
+kmer2599 	bad	60.61	47.62
+kmer2600 	bad	62.56	52.38
+kmer2601 	bad	60.61	47.62
+kmer2602 	bad	64.52	57.14
+kmer2603 	bad	52.80	28.57
+kmer2604 	bad	64.52	57.14
+kmer2605 	bad	56.71	38.10
+kmer2606 	bad	68.42	66.67
+kmer2607 	bad	64.52	57.14
+kmer2608 	bad	60.61	47.62
+kmer2609 	bad	62.56	52.38
+kmer2610 	bad	60.61	47.62
+kmer2611 	bad	58.66	42.86
+kmer2612 	bad	52.80	28.57
+kmer2613 	bad	64.52	57.14
+kmer2614 	bad	64.52	57.14
+kmer2615 	bad	60.61	47.62
+kmer2616 	bad	62.56	52.38
+kmer2617 	bad	62.56	52.38
+kmer2618 	bad	58.66	42.86
+kmer2619 	bad	62.56	52.38
+kmer2620 	bad	66.47	61.90
+kmer2621 	bad	68.42	66.67
+kmer2622 	bad	60.61	47.62
+kmer2623 	bad	50.85	23.81
+kmer2624 	bad	54.75	33.33
+kmer2625 	bad	66.47	61.90
+kmer2626 	bad	60.61	47.62
+kmer2627 	bad	62.56	52.38
+kmer2628 	bad	60.61	47.62
+kmer2629 	bad	58.66	42.86
+kmer2630 	bad	60.61	47.62
+kmer2631 	bad	58.66	42.86
+kmer2632 	bad	66.47	61.90
+kmer2633 	bad	62.56	52.38
+kmer2634 	bad	64.52	57.14
+kmer2635 	bad	62.56	52.38
+kmer2636 	bad	58.66	42.86
+kmer2637 	bad	66.47	61.90
+kmer2638 	bad	62.56	52.38
+kmer2639 	bad	58.66	42.86
+kmer2640 	bad	66.47	61.90
+kmer2641 	bad	70.37	71.43
+kmer2642 	bad	60.61	47.62
+kmer2643 	bad	62.56	52.38
+kmer2644 	bad	62.56	52.38
+kmer2645 	bad	64.52	57.14
+kmer2646 	bad	62.56	52.38
+kmer2647 	bad	64.52	57.14
+kmer2648 	bad	64.52	57.14
+kmer2649 	bad	64.52	57.14
+kmer2650 	bad	64.52	57.14
+kmer2651 	bad	64.52	57.14
+kmer2652 	bad	66.47	61.90
+kmer2653 	bad	68.42	66.67
+kmer2654 	bad	66.47	61.90
+kmer2655 	bad	66.47	61.90
+kmer2656 	bad	68.42	66.67
+kmer2657 	bad	64.52	57.14
+kmer2658 	bad	64.52	57.14
+kmer2659 	bad	60.61	47.62
+kmer2660 	bad	56.71	38.10
+kmer2661 	bad	64.52	57.14
+kmer2662 	bad	58.66	42.86
+kmer2663 	bad	54.75	33.33
+kmer2664 	bad	60.61	47.62
+kmer2665 	bad	60.61	47.62
+kmer2666 	bad	62.56	52.38
+kmer2667 	bad	54.75	33.33
+kmer2668 	bad	62.56	52.38
+kmer2669 	bad	62.56	52.38
+kmer2670 	bad	60.61	47.62
+kmer2671 	bad	62.56	52.38
+kmer2672 	bad	56.71	38.10
+kmer2673 	bad	62.56	52.38
+kmer2674 	bad	64.52	57.14
+kmer2675 	bad	64.52	57.14
+kmer2676 	bad	70.37	71.43
+kmer2677 	bad	68.42	66.67
+kmer2678 	bad	54.75	33.33
+kmer2679 	bad	64.52	57.14
+kmer2680 	bad	58.66	42.86
+kmer2681 	good	60.61	47.62
+kmer2682 	bad	58.66	42.86
+kmer2683 	bad	60.61	47.62
+kmer2684 	bad	60.61	47.62
+kmer2685 	bad	56.71	38.10
+kmer2686 	bad	58.66	42.86
+kmer2687 	bad	66.47	61.90
+kmer2688 	bad	60.61	47.62
+kmer2689 	bad	62.56	52.38
+kmer2690 	bad	62.56	52.38
+kmer2691 	bad	58.66	42.86
+kmer2692 	bad	62.56	52.38
+kmer2693 	bad	66.47	61.90
+kmer2694 	bad	62.56	52.38
+kmer2695 	bad	62.56	52.38
+kmer2696 	bad	66.47	61.90
+kmer2697 	bad	56.71	38.10
+kmer2698 	bad	64.52	57.14
+kmer2699 	bad	64.52	57.14
+kmer2700 	bad	70.37	71.43
+kmer2701 	bad	68.42	66.67
+kmer2702 	bad	68.42	66.67
+kmer2703 	bad	64.52	57.14
+kmer2704 	bad	70.37	71.43
+kmer2705 	bad	64.52	57.14
+kmer2706 	bad	62.56	52.38
+kmer2707 	bad	56.71	38.10
+kmer2708 	bad	64.52	57.14
+kmer2709 	bad	62.56	52.38
+kmer2710 	bad	64.52	57.14
+kmer2711 	bad	62.56	52.38
+kmer2712 	bad	56.71	38.10
+kmer2713 	bad	62.56	52.38
+kmer2714 	bad	66.47	61.90
+kmer2715 	bad	60.61	47.62
+kmer2716 	bad	60.61	47.62
+kmer2717 	bad	58.66	42.86
+kmer2718 	bad	52.80	28.57
+kmer2719 	bad	56.71	38.10
+kmer2720 	bad	64.52	57.14
+kmer2721 	bad	54.75	33.33
+kmer2722 	bad	64.52	57.14
+kmer2723 	bad	56.71	38.10
+kmer2724 	bad	64.52	57.14
+kmer2725 	bad	66.47	61.90
+kmer2726 	bad	58.66	42.86
+kmer2727 	bad	60.61	47.62
+kmer2728 	bad	62.56	52.38
+kmer2729 	bad	60.61	47.62
+kmer2730 	bad	60.61	47.62
+kmer2731 	bad	58.66	42.86
+kmer2732 	bad	56.71	38.10
+kmer2733 	bad	56.71	38.10
+kmer2734 	bad	60.61	47.62
+kmer2735 	bad	54.75	33.33
+kmer2736 	bad	56.71	38.10
+kmer2737 	bad	60.61	47.62
+kmer2738 	bad	64.52	57.14
+kmer2739 	bad	58.66	42.86
+kmer2740 	bad	66.47	61.90
+kmer2741 	bad	66.47	61.90
+kmer2742 	bad	60.61	47.62
+kmer2743 	bad	60.61	47.62
+kmer2744 	bad	54.75	33.33
+kmer2745 	bad	60.61	47.62
+kmer2746 	bad	66.47	61.90
+kmer2747 	bad	62.56	52.38
+kmer2748 	bad	62.56	52.38
+kmer2749 	bad	64.52	57.14
+kmer2750 	bad	64.52	57.14
+kmer2751 	bad	64.52	57.14
+kmer2752 	bad	60.61	47.62
+kmer2753 	bad	62.56	52.38
+kmer2754 	bad	66.47	61.90
+kmer2755 	bad	58.66	42.86
+kmer2756 	bad	60.61	47.62
+kmer2757 	bad	62.56	52.38
+kmer2758 	bad	62.56	52.38
+kmer2759 	bad	62.56	52.38
+kmer2760 	bad	60.61	47.62
+kmer2761 	bad	64.52	57.14
+kmer2762 	bad	60.61	47.62
+kmer2763 	bad	58.66	42.86
+kmer2764 	bad	56.71	38.10
+kmer2765 	bad	66.47	61.90
+kmer2766 	bad	50.85	23.81
+kmer2767 	bad	60.61	47.62
+kmer2768 	bad	62.56	52.38
+kmer2769 	good	66.47	61.90
+kmer2770 	bad	58.66	42.86
+kmer2771 	bad	68.42	66.67
+kmer2772 	bad	64.52	57.14
+kmer2773 	bad	64.52	57.14
+kmer2774 	bad	60.61	47.62
+kmer2775 	bad	62.56	52.38
+kmer2776 	bad	60.61	47.62
+kmer2777 	bad	66.47	61.90
+kmer2778 	bad	70.37	71.43
+kmer2779 	bad	68.42	66.67
+kmer2780 	bad	60.61	47.62
+kmer2781 	bad	66.47	61.90
+kmer2782 	bad	62.56	52.38
+kmer2783 	bad	66.47	61.90
+kmer2784 	bad	66.47	61.90
+kmer2785 	bad	66.47	61.90
+kmer2786 	bad	66.47	61.90
+kmer2787 	bad	60.61	47.62
+kmer2788 	bad	62.56	52.38
+kmer2789 	bad	60.61	47.62
+kmer2790 	bad	60.61	47.62
+kmer2791 	good	70.37	71.43
+kmer2792 	bad	58.66	42.86
+kmer2793 	bad	62.56	52.38
+kmer2794 	bad	62.56	52.38
+kmer2795 	bad	58.66	42.86
+kmer2796 	bad	52.80	28.57
+kmer2797 	bad	62.56	52.38
+kmer2798 	bad	70.37	71.43
+kmer2799 	bad	56.71	38.10
+kmer2800 	good	64.52	57.14
+kmer2801 	bad	56.71	38.10
+kmer2802 	bad	56.71	38.10
+kmer2803 	bad	68.42	66.67
+kmer2804 	bad	64.52	57.14
+kmer2805 	bad	60.61	47.62
+kmer2806 	bad	70.37	71.43
+kmer2807 	bad	62.56	52.38
+kmer2808 	bad	60.61	47.62
+kmer2809 	bad	62.56	52.38
+kmer2810 	bad	62.56	52.38
+kmer2811 	bad	60.61	47.62
+kmer2812 	bad	62.56	52.38
+kmer2813 	bad	64.52	57.14
+kmer2814 	bad	56.71	38.10
+kmer2815 	bad	62.56	52.38
+kmer2816 	bad	66.47	61.90
+kmer2817 	bad	58.66	42.86
+kmer2818 	bad	60.61	47.62
+kmer2819 	bad	62.56	52.38
+kmer2820 	good	64.52	57.14
+kmer2821 	bad	62.56	52.38
+kmer2822 	bad	68.42	66.67
+kmer2823 	bad	62.56	52.38
+kmer2824 	bad	68.42	66.67
+kmer2825 	bad	68.42	66.67
+kmer2826 	good	58.66	42.86
+kmer2827 	bad	66.47	61.90
+kmer2828 	bad	66.47	61.90
+kmer2829 	bad	64.52	57.14
+kmer2830 	bad	64.52	57.14
+kmer2831 	bad	68.42	66.67
+kmer2832 	bad	70.37	71.43
+kmer2833 	bad	70.37	71.43
+kmer2834 	bad	60.61	47.62
+kmer2835 	bad	60.61	47.62
+kmer2836 	bad	58.66	42.86
+kmer2837 	bad	68.42	66.67
+kmer2838 	bad	66.47	61.90
+kmer2839 	bad	60.61	47.62
+kmer2840 	bad	64.52	57.14
+kmer2841 	bad	66.47	61.90
+kmer2842 	bad	64.52	57.14
+kmer2843 	bad	66.47	61.90
+kmer2844 	bad	64.52	57.14
+kmer2845 	bad	60.61	47.62
+kmer2846 	bad	66.47	61.90
+kmer2847 	bad	64.52	57.14
+kmer2848 	bad	56.71	38.10
+kmer2849 	bad	60.61	47.62
+kmer2850 	good	68.42	66.67
+kmer2851 	bad	68.42	66.67
+kmer2852 	bad	66.47	61.90
+kmer2853 	bad	66.47	61.90
+kmer2854 	bad	62.56	52.38
+kmer2855 	bad	60.61	47.62
+kmer2856 	bad	66.47	61.90
+kmer2857 	bad	66.47	61.90
+kmer2858 	bad	62.56	52.38
+kmer2859 	bad	58.66	42.86
+kmer2860 	bad	66.47	61.90
+kmer2861 	bad	64.52	57.14
+kmer2862 	bad	70.37	71.43
+kmer2863 	bad	68.42	66.67
+kmer2864 	bad	66.47	61.90
+kmer2865 	bad	62.56	52.38
+kmer2866 	bad	56.71	38.10
+kmer2867 	bad	68.42	66.67
+kmer2868 	bad	64.52	57.14
+kmer2869 	bad	62.56	52.38
+kmer2870 	bad	62.56	52.38
+kmer2871 	bad	60.61	47.62
+kmer2872 	bad	62.56	52.38
+kmer2873 	bad	68.42	66.67
+kmer2874 	bad	72.33	76.19
+kmer2875 	bad	62.56	52.38
+kmer2876 	good	70.37	71.43
+kmer2877 	bad	64.52	57.14
+kmer2878 	bad	68.42	66.67
+kmer2879 	bad	64.52	57.14
+kmer2880 	bad	58.66	42.86
+kmer2881 	bad	66.47	61.90
+kmer2882 	bad	62.56	52.38
+kmer2883 	bad	62.56	52.38
+kmer2884 	bad	62.56	52.38
+kmer2885 	bad	62.56	52.38
+kmer2886 	bad	62.56	52.38
+kmer2887 	bad	58.66	42.86
+kmer2888 	bad	66.47	61.90
+kmer2889 	bad	62.56	52.38
+kmer2890 	bad	62.56	52.38
+kmer2891 	bad	66.47	61.90
+kmer2892 	bad	64.52	57.14
+kmer2893 	bad	68.42	66.67
+kmer2894 	bad	66.47	61.90
+kmer2895 	bad	60.61	47.62
+kmer2896 	bad	62.56	52.38
+kmer2897 	good	64.52	57.14
+kmer2898 	bad	58.66	42.86
+kmer2899 	bad	64.52	57.14
+kmer2900 	bad	58.66	42.86
+kmer2901 	bad	62.56	52.38
+kmer2902 	bad	64.52	57.14
+kmer2903 	bad	50.85	23.81
+kmer2904 	bad	60.61	47.62
+kmer2905 	bad	58.66	42.86
+kmer2906 	bad	64.52	57.14
+kmer2907 	good	66.47	61.90
+kmer2908 	bad	56.71	38.10
+kmer2909 	bad	58.66	42.86
+kmer2910 	bad	60.61	47.62
+kmer2911 	bad	66.47	61.90
+kmer2912 	bad	64.52	57.14
+kmer2913 	bad	62.56	52.38
+kmer2914 	bad	62.56	52.38
+kmer2915 	bad	70.37	71.43
+kmer2916 	bad	66.47	61.90
+kmer2917 	bad	64.52	57.14
+kmer2918 	bad	66.47	61.90
+kmer2919 	bad	58.66	42.86
+kmer2920 	bad	64.52	57.14
+kmer2921 	bad	66.47	61.90
+kmer2922 	bad	62.56	52.38
+kmer2923 	bad	60.61	47.62
+kmer2924 	bad	62.56	52.38
+kmer2925 	bad	62.56	52.38
+kmer2926 	bad	66.47	61.90
+kmer2927 	bad	68.42	66.67
+kmer2928 	bad	62.56	52.38
+kmer2929 	bad	62.56	52.38
+kmer2930 	bad	70.37	71.43
+kmer2931 	bad	62.56	52.38
+kmer2932 	bad	64.52	57.14
+kmer2933 	bad	62.56	52.38
+kmer2934 	bad	64.52	57.14
+kmer2935 	bad	58.66	42.86
+kmer2936 	bad	62.56	52.38
+kmer2937 	bad	58.66	42.86
+kmer2938 	bad	60.61	47.62
+kmer2939 	bad	66.47	61.90
+kmer2940 	bad	56.71	38.10
+kmer2941 	bad	64.52	57.14
+kmer2942 	bad	62.56	52.38
+kmer2943 	bad	56.71	38.10
+kmer2944 	bad	62.56	52.38
+kmer2945 	bad	70.37	71.43
+kmer2946 	bad	60.61	47.62
+kmer2947 	bad	50.85	23.81
+kmer2948 	bad	54.75	33.33
+kmer2949 	bad	62.56	52.38
+kmer2950 	bad	66.47	61.90
+kmer2951 	bad	64.52	57.14
+kmer2952 	bad	62.56	52.38
+kmer2953 	bad	62.56	52.38
+kmer2954 	bad	58.66	42.86
+kmer2955 	good	66.47	61.90
+kmer2956 	bad	62.56	52.38
+kmer2957 	bad	62.56	52.38
+kmer2958 	bad	64.52	57.14
+kmer2959 	bad	68.42	66.67
+kmer2960 	bad	62.56	52.38
+kmer2961 	bad	60.61	47.62
+kmer2962 	bad	62.56	52.38
+kmer2963 	bad	64.52	57.14
+kmer2964 	bad	60.61	47.62
+kmer2965 	bad	62.56	52.38
+kmer2966 	bad	66.47	61.90
+kmer2967 	bad	62.56	52.38
+kmer2968 	bad	64.52	57.14
+kmer2969 	bad	68.42	66.67
+kmer2970 	bad	64.52	57.14
+kmer2971 	good	62.56	52.38
+kmer2972 	bad	66.47	61.90
+kmer2973 	bad	62.56	52.38
+kmer2974 	bad	58.66	42.86
+kmer2975 	bad	66.47	61.90
+kmer2976 	bad	58.66	42.86
+kmer2977 	bad	58.66	42.86
+kmer2978 	bad	62.56	52.38
+kmer2979 	bad	64.52	57.14
+kmer2980 	bad	64.52	57.14
+kmer2981 	good	72.33	76.19
+kmer2982 	bad	64.52	57.14
+kmer2983 	bad	64.52	57.14
+kmer2984 	bad	56.71	38.10
+kmer2985 	bad	64.52	57.14
+kmer2986 	bad	62.56	52.38
+kmer2987 	bad	56.71	38.10
+kmer2988 	bad	58.66	42.86
+kmer2989 	bad	62.56	52.38
+kmer2990 	bad	64.52	57.14
+kmer2991 	bad	58.66	42.86
+kmer2992 	bad	62.56	52.38
+kmer2993 	bad	58.66	42.86
+kmer2994 	bad	62.56	52.38
+kmer2995 	bad	64.52	57.14
+kmer2996 	bad	64.52	57.14
+kmer2997 	bad	66.47	61.90
+kmer2998 	bad	60.61	47.62
+kmer2999 	bad	62.56	52.38
+kmer3000 	bad	62.56	52.38
+kmer3001 	bad	68.42	66.67
+kmer3002 	bad	62.56	52.38
+kmer3003 	good	58.66	42.86
+kmer3004 	bad	64.52	57.14
+kmer3005 	bad	64.52	57.14
+kmer3006 	bad	64.52	57.14
+kmer3007 	bad	64.52	57.14
+kmer3008 	bad	60.61	47.62
+kmer3009 	bad	68.42	66.67
+kmer3010 	bad	58.66	42.86
+kmer3011 	bad	72.33	76.19
+kmer3012 	bad	64.52	57.14
+kmer3013 	bad	62.56	52.38
+kmer3014 	bad	66.47	61.90
+kmer3015 	bad	66.47	61.90
+kmer3016 	bad	62.56	52.38
+kmer3017 	bad	64.52	57.14
+kmer3018 	bad	66.47	61.90
+kmer3019 	bad	64.52	57.14
+kmer3020 	bad	68.42	66.67
+kmer3021 	bad	60.61	47.62
+kmer3022 	bad	66.47	61.90
+kmer3023 	bad	62.56	52.38
+kmer3024 	bad	62.56	52.38
+kmer3025 	bad	62.56	52.38
+kmer3026 	bad	60.61	47.62
+kmer3027 	bad	62.56	52.38
+kmer3028 	bad	62.56	52.38
+kmer3029 	bad	60.61	47.62
+kmer3030 	bad	60.61	47.62
+kmer3031 	bad	66.47	61.90
+kmer3032 	bad	60.61	47.62
+kmer3033 	bad	64.52	57.14
+kmer3034 	bad	58.66	42.86
+kmer3035 	bad	62.56	52.38
+kmer3036 	bad	70.37	71.43
+kmer3037 	bad	62.56	52.38
+kmer3038 	good	64.52	57.14
+kmer3039 	bad	66.47	61.90
+kmer3040 	bad	62.56	52.38
+kmer3041 	bad	58.66	42.86
+kmer3042 	bad	58.66	42.86
+kmer3043 	bad	64.52	57.14
+kmer3044 	bad	58.66	42.86
+kmer3045 	bad	66.47	61.90
+kmer3046 	bad	66.47	61.90
+kmer3047 	bad	70.37	71.43
+kmer3048 	bad	64.52	57.14
+kmer3049 	bad	66.47	61.90
+kmer3050 	bad	62.56	52.38
+kmer3051 	bad	64.52	57.14
+kmer3052 	bad	60.61	47.62
+kmer3053 	bad	62.56	52.38
+kmer3054 	bad	66.47	61.90
+kmer3055 	bad	66.47	61.90
+kmer3056 	bad	64.52	57.14
+kmer3057 	bad	70.37	71.43
+kmer3058 	bad	68.42	66.67
+kmer3059 	bad	68.42	66.67
+kmer3060 	bad	62.56	52.38
+kmer3061 	bad	64.52	57.14
+kmer3062 	bad	68.42	66.67
+kmer3063 	bad	68.42	66.67
+kmer3064 	bad	60.61	47.62
+kmer3065 	bad	62.56	52.38
+kmer3066 	good	66.47	61.90
+kmer3067 	good	58.66	42.86
+kmer3068 	bad	58.66	42.86
+kmer3069 	good	64.52	57.14
+kmer3070 	bad	62.56	52.38
+kmer3071 	bad	64.52	57.14
+kmer3072 	bad	62.56	52.38
+kmer3073 	bad	70.37	71.43
+kmer3074 	bad	62.56	52.38
+kmer3075 	good	66.47	61.90
+kmer3076 	bad	64.52	57.14
+kmer3077 	bad	64.52	57.14
+kmer3078 	bad	66.47	61.90
+kmer3079 	good	64.52	57.14
+kmer3080 	bad	60.61	47.62
+kmer3081 	bad	58.66	42.86
+kmer3082 	bad	62.56	52.38
+kmer3083 	bad	60.61	47.62
+kmer3084 	bad	60.61	47.62
+kmer3085 	bad	60.61	47.62
+kmer3086 	bad	64.52	57.14
+kmer3087 	bad	62.56	52.38
+kmer3088 	bad	60.61	47.62
+kmer3089 	bad	62.56	52.38
+kmer3090 	bad	62.56	52.38
+kmer3091 	bad	62.56	52.38
+kmer3092 	bad	56.71	38.10
+kmer3093 	good	60.61	47.62
+kmer3094 	bad	60.61	47.62
+kmer3095 	good	66.47	61.90
+kmer3096 	good	62.56	52.38
+kmer3097 	bad	64.52	57.14
+kmer3098 	bad	62.56	52.38
+kmer3099 	bad	62.56	52.38
+kmer3100 	good	62.56	52.38
+kmer3101 	bad	58.66	42.86
+kmer3102 	bad	54.75	33.33
+kmer3103 	bad	64.52	57.14
+kmer3104 	bad	62.56	52.38
+kmer3105 	bad	68.42	66.67
+kmer3106 	bad	64.52	57.14
+kmer3107 	bad	66.47	61.90
+kmer3108 	bad	68.42	66.67
+kmer3109 	bad	60.61	47.62
+kmer3110 	bad	66.47	61.90
+kmer3111 	bad	58.66	42.86
+kmer3112 	bad	64.52	57.14
+kmer3113 	bad	64.52	57.14
+kmer3114 	bad	54.75	33.33
+kmer3115 	bad	66.47	61.90
+kmer3116 	bad	60.61	47.62
+kmer3117 	bad	62.56	52.38
+kmer3118 	bad	62.56	52.38
+kmer3119 	bad	60.61	47.62
+kmer3120 	bad	60.61	47.62
+kmer3121 	good	66.47	61.90
+kmer3122 	bad	62.56	52.38
+kmer3123 	bad	56.71	38.10
+kmer3124 	bad	58.66	42.86
+kmer3125 	bad	58.66	42.86
+kmer3126 	bad	60.61	47.62
+kmer3127 	bad	62.56	52.38
+kmer3128 	bad	50.85	23.81
+kmer3129 	bad	64.52	57.14
+kmer3130 	good	60.61	47.62
+kmer3131 	bad	60.61	47.62
+kmer3132 	bad	60.61	47.62
+kmer3133 	bad	62.56	52.38
+kmer3134 	bad	58.66	42.86
+kmer3135 	bad	62.56	52.38
+kmer3136 	bad	60.61	47.62
+kmer3137 	bad	60.61	47.62
+kmer3138 	bad	64.52	57.14
+kmer3139 	bad	62.56	52.38
+kmer3140 	bad	66.47	61.90
+kmer3141 	bad	60.61	47.62
+kmer3142 	bad	60.61	47.62
+kmer3143 	bad	56.71	38.10
+kmer3144 	bad	60.61	47.62
+kmer3145 	bad	60.61	47.62
+kmer3146 	bad	62.56	52.38
+kmer3147 	bad	68.42	66.67
+kmer3148 	bad	68.42	66.67
+kmer3149 	bad	64.52	57.14
+kmer3150 	bad	64.52	57.14
+kmer3151 	bad	62.56	52.38
+kmer3152 	bad	60.61	47.62
+kmer3153 	bad	60.61	47.62
+kmer3154 	bad	54.75	33.33
+kmer3155 	good	56.71	38.10
+kmer3156 	bad	64.52	57.14
+kmer3157 	bad	64.52	57.14
+kmer3158 	bad	56.71	38.10
+kmer3159 	bad	48.90	19.05
+kmer3160 	bad	62.56	52.38
+kmer3161 	bad	62.56	52.38
+kmer3162 	bad	54.75	33.33
+kmer3163 	good	58.66	42.86
+kmer3164 	bad	58.66	42.86
+kmer3165 	bad	60.61	47.62
+kmer3166 	good	60.61	47.62
+kmer3167 	bad	64.52	57.14
+kmer3168 	bad	64.52	57.14
+kmer3169 	bad	62.56	52.38
+kmer3170 	bad	62.56	52.38
+kmer3171 	bad	62.56	52.38
+kmer3172 	bad	60.61	47.62
+kmer3173 	bad	64.52	57.14
+kmer3174 	bad	60.61	47.62
+kmer3175 	bad	56.71	38.10
+kmer3176 	bad	56.71	38.10
+kmer3177 	bad	56.71	38.10
+kmer3178 	bad	60.61	47.62
+kmer3179 	bad	62.56	52.38
+kmer3180 	bad	66.47	61.90
+kmer3181 	bad	60.61	47.62
+kmer3182 	bad	68.42	66.67
+kmer3183 	bad	62.56	52.38
+kmer3184 	bad	64.52	57.14
+kmer3185 	bad	64.52	57.14
+kmer3186 	bad	68.42	66.67
+kmer3187 	bad	64.52	57.14
+kmer3188 	bad	64.52	57.14
+kmer3189 	bad	64.52	57.14
+kmer3190 	bad	62.56	52.38
+kmer3191 	bad	54.75	33.33
+kmer3192 	bad	60.61	47.62
+kmer3193 	bad	64.52	57.14
+kmer3194 	bad	60.61	47.62
+kmer3195 	bad	64.52	57.14
+kmer3196 	bad	54.75	33.33
+kmer3197 	bad	60.61	47.62
+kmer3198 	bad	66.47	61.90
+kmer3199 	bad	62.56	52.38
+kmer3200 	bad	56.71	38.10
+kmer3201 	bad	56.71	38.10
+kmer3202 	bad	62.56	52.38
+kmer3203 	bad	52.80	28.57
+kmer3204 	bad	58.66	42.86
+kmer3205 	bad	60.61	47.62
+kmer3206 	bad	52.80	28.57
+kmer3207 	bad	64.52	57.14
+kmer3208 	bad	60.61	47.62
+kmer3209 	bad	64.52	57.14
+kmer3210 	bad	58.66	42.86
+kmer3211 	bad	58.66	42.86
+kmer3212 	bad	56.71	38.10
+kmer3213 	bad	62.56	52.38
+kmer3214 	bad	60.61	47.62
+kmer3215 	bad	56.71	38.10
+kmer3216 	bad	60.61	47.62
+kmer3217 	bad	58.66	42.86
+kmer3218 	bad	62.56	52.38
+kmer3219 	good	62.56	52.38
+kmer3220 	good	58.66	42.86
+kmer3221 	bad	60.61	47.62
+kmer3222 	bad	56.71	38.10
+kmer3223 	bad	58.66	42.86
+kmer3224 	bad	64.52	57.14
+kmer3225 	bad	62.56	52.38
+kmer3226 	bad	62.56	52.38
+kmer3227 	bad	66.47	61.90
+kmer3228 	bad	64.52	57.14
+kmer3229 	good	60.61	47.62
+kmer3230 	bad	60.61	47.62
+kmer3231 	bad	58.66	42.86
+kmer3232 	bad	52.80	28.57
+kmer3233 	bad	54.75	33.33
+kmer3234 	bad	64.52	57.14
+kmer3235 	bad	56.71	38.10
+kmer3236 	bad	54.75	33.33
+kmer3237 	bad	62.56	52.38
+kmer3238 	bad	60.61	47.62
+kmer3239 	bad	56.71	38.10
+kmer3240 	bad	58.66	42.86
+kmer3241 	bad	58.66	42.86
+kmer3242 	bad	58.66	42.86
+kmer3243 	bad	56.71	38.10
+kmer3244 	bad	62.56	52.38
+kmer3245 	bad	44.99	9.52
+kmer3246 	bad	48.90	19.05
+kmer3247 	bad	58.66	42.86
+kmer3248 	bad	56.71	38.10
+kmer3249 	bad	50.85	23.81
+kmer3250 	bad	48.90	19.05
+kmer3251 	bad	58.66	42.86
+kmer3252 	bad	62.56	52.38
+kmer3253 	bad	58.66	42.86
+kmer3254 	bad	56.71	38.10
+kmer3255 	bad	62.56	52.38
+kmer3256 	bad	58.66	42.86
+kmer3257 	bad	62.56	52.38
+kmer3258 	bad	52.80	28.57
+kmer3259 	bad	64.52	57.14
+kmer3260 	bad	60.61	47.62
+kmer3261 	bad	60.61	47.62
+kmer3262 	bad	60.61	47.62
+kmer3263 	bad	52.80	28.57
+kmer3264 	bad	62.56	52.38
+kmer3265 	bad	52.80	28.57
+kmer3266 	bad	68.42	66.67
+kmer3267 	bad	60.61	47.62
+kmer3268 	bad	64.52	57.14
+kmer3269 	bad	60.61	47.62
+kmer3270 	bad	64.52	57.14
+kmer3271 	bad	50.85	23.81
+kmer3272 	bad	56.71	38.10
+kmer3273 	bad	48.90	19.05
+kmer3274 	good	58.66	42.86
+kmer3275 	bad	64.52	57.14
+kmer3276 	bad	54.75	33.33
+kmer3277 	bad	58.66	42.86
+kmer3278 	bad	56.71	38.10
+kmer3279 	bad	62.56	52.38
+kmer3280 	bad	58.66	42.86
+kmer3281 	bad	60.61	47.62
+kmer3282 	bad	68.42	66.67
+kmer3283 	bad	68.42	66.67
+kmer3284 	bad	64.52	57.14
+kmer3285 	bad	58.66	42.86
+kmer3286 	bad	56.71	38.10
+kmer3287 	bad	60.61	47.62
+kmer3288 	bad	56.71	38.10
+kmer3289 	bad	62.56	52.38
+kmer3290 	bad	60.61	47.62
+kmer3291 	bad	64.52	57.14
+kmer3292 	bad	58.66	42.86
+kmer3293 	bad	60.61	47.62
+kmer3294 	bad	58.66	42.86
+kmer3295 	bad	50.85	23.81
+kmer3296 	bad	64.52	57.14
+kmer3297 	bad	56.71	38.10
+kmer3298 	bad	54.75	33.33
+kmer3299 	bad	64.52	57.14
+kmer3300 	bad	56.71	38.10
+kmer3301 	bad	58.66	42.86
+kmer3302 	bad	58.66	42.86
+kmer3303 	bad	60.61	47.62
+kmer3304 	bad	60.61	47.62
+kmer3305 	bad	46.94	14.29
+kmer3306 	bad	58.66	42.86
+kmer3307 	bad	54.75	33.33
+kmer3308 	bad	58.66	42.86
+kmer3309 	bad	60.61	47.62
+kmer3310 	bad	56.71	38.10
+kmer3311 	bad	60.61	47.62
+kmer3312 	bad	50.85	23.81
+kmer3313 	bad	52.80	28.57
+kmer3314 	bad	60.61	47.62
+kmer3315 	bad	56.71	38.10
+kmer3316 	bad	64.52	57.14
+kmer3317 	bad	54.75	33.33
+kmer3318 	bad	56.71	38.10
+kmer3319 	bad	60.61	47.62
+kmer3320 	bad	54.75	33.33
+kmer3321 	good	54.75	33.33
+kmer3322 	good	60.61	47.62
+kmer3323 	bad	64.52	57.14
+kmer3324 	bad	56.71	38.10
+kmer3325 	bad	46.94	14.29
+kmer3326 	bad	52.80	28.57
+kmer3327 	bad	58.66	42.86
+kmer3328 	bad	60.61	47.62
+kmer3329 	bad	52.80	28.57
+kmer3330 	good	58.66	42.86
+kmer3331 	bad	54.75	33.33
+kmer3332 	bad	62.56	52.38
+kmer3333 	bad	56.71	38.10
+kmer3334 	good	56.71	38.10
+kmer3335 	bad	60.61	47.62
+kmer3336 	bad	62.56	52.38
+kmer3337 	bad	66.47	61.90
+kmer3338 	bad	56.71	38.10
+kmer3339 	bad	58.66	42.86
+kmer3340 	bad	62.56	52.38
+kmer3341 	bad	62.56	52.38
+kmer3342 	bad	66.47	61.90
+kmer3343 	bad	54.75	33.33
+kmer3344 	bad	62.56	52.38
+kmer3345 	bad	56.71	38.10
+kmer3346 	bad	58.66	42.86
+kmer3347 	good	60.61	47.62
+kmer3348 	bad	60.61	47.62
+kmer3349 	bad	60.61	47.62
+kmer3350 	bad	64.52	57.14
+kmer3351 	bad	52.80	28.57
+kmer3352 	bad	64.52	57.14
+kmer3353 	bad	58.66	42.86
+kmer3354 	bad	58.66	42.86
+kmer3355 	bad	62.56	52.38
+kmer3356 	bad	66.47	61.90
+kmer3357 	bad	62.56	52.38
+kmer3358 	bad	60.61	47.62
+kmer3359 	bad	62.56	52.38
+kmer3360 	bad	66.47	61.90
+kmer3361 	bad	58.66	42.86
+kmer3362 	bad	66.47	61.90
+kmer3363 	bad	62.56	52.38
+kmer3364 	bad	64.52	57.14
+kmer3365 	bad	56.71	38.10
+kmer3366 	bad	64.52	57.14
+kmer3367 	bad	60.61	47.62
+kmer3368 	bad	64.52	57.14
+kmer3369 	bad	60.61	47.62
+kmer3370 	bad	60.61	47.62
+kmer3371 	bad	60.61	47.62
+kmer3372 	bad	62.56	52.38
+kmer3373 	bad	60.61	47.62
+kmer3374 	bad	48.90	19.05
+kmer3375 	bad	54.75	33.33
+kmer3376 	bad	60.61	47.62
+kmer3377 	bad	60.61	47.62
+kmer3378 	bad	50.85	23.81
+kmer3379 	bad	54.75	33.33
+kmer3380 	bad	62.56	52.38
+kmer3381 	bad	60.61	47.62
+kmer3382 	bad	62.56	52.38
+kmer3383 	bad	58.66	42.86
+kmer3384 	bad	60.61	47.62
+kmer3385 	bad	56.71	38.10
+kmer3386 	bad	62.56	52.38
+kmer3387 	bad	64.52	57.14
+kmer3388 	bad	52.80	28.57
+kmer3389 	bad	60.61	47.62
+kmer3390 	bad	58.66	42.86
+kmer3391 	bad	54.75	33.33
+kmer3392 	bad	60.61	47.62
+kmer3393 	bad	54.75	33.33
+kmer3394 	bad	58.66	42.86
+kmer3395 	bad	58.66	42.86
+kmer3396 	bad	56.71	38.10
+kmer3397 	bad	60.61	47.62
+kmer3398 	bad	52.80	28.57
+kmer3399 	bad	64.52	57.14
+kmer3400 	bad	62.56	52.38
+kmer3401 	bad	56.71	38.10
+kmer3402 	bad	64.52	57.14
+kmer3403 	bad	64.52	57.14
+kmer3404 	bad	70.37	71.43
+kmer3405 	bad	66.47	61.90
+kmer3406 	bad	58.66	42.86
+kmer3407 	bad	52.80	28.57
+kmer3408 	bad	58.66	42.86
+kmer3409 	bad	60.61	47.62
+kmer3410 	good	66.47	61.90
+kmer3411 	bad	60.61	47.62
+kmer3412 	bad	52.80	28.57
+kmer3413 	bad	54.75	33.33
+kmer3414 	bad	62.56	52.38
+kmer3415 	bad	58.66	42.86
+kmer3416 	bad	62.56	52.38
+kmer3417 	bad	60.61	47.62
+kmer3418 	bad	60.61	47.62
+kmer3419 	bad	54.75	33.33
+kmer3420 	bad	64.52	57.14
+kmer3421 	bad	60.61	47.62
+kmer3422 	bad	52.80	28.57
+kmer3423 	bad	60.61	47.62
+kmer3424 	bad	62.56	52.38
+kmer3425 	bad	62.56	52.38
+kmer3426 	bad	66.47	61.90
+kmer3427 	good	60.61	47.62
+kmer3428 	bad	66.47	61.90
+kmer3429 	bad	62.56	52.38
+kmer3430 	bad	66.47	61.90
+kmer3431 	bad	54.75	33.33
+kmer3432 	bad	56.71	38.10
+kmer3433 	bad	62.56	52.38
+kmer3434 	bad	58.66	42.86
+kmer3435 	bad	62.56	52.38
+kmer3436 	bad	64.52	57.14
+kmer3437 	bad	58.66	42.86
+kmer3438 	bad	64.52	57.14
+kmer3439 	bad	58.66	42.86
+kmer3440 	bad	54.75	33.33
+kmer3441 	bad	62.56	52.38
+kmer3442 	bad	52.80	28.57
+kmer3443 	bad	50.85	23.81
+kmer3444 	bad	54.75	33.33
+kmer3445 	bad	50.85	23.81
+kmer3446 	bad	54.75	33.33
+kmer3447 	good	56.71	38.10
+kmer3448 	bad	56.71	38.10
+kmer3449 	bad	62.56	52.38
+kmer3450 	bad	48.90	19.05
+kmer3451 	bad	56.71	38.10
+kmer3452 	bad	56.71	38.10
+kmer3453 	bad	58.66	42.86
+kmer3454 	bad	54.75	33.33
+kmer3455 	bad	60.61	47.62
+kmer3456 	bad	62.56	52.38
+kmer3457 	bad	62.56	52.38
+kmer3458 	bad	56.71	38.10
+kmer3459 	bad	58.66	42.86
+kmer3460 	bad	58.66	42.86
+kmer3461 	bad	56.71	38.10
+kmer3462 	bad	54.75	33.33
+kmer3463 	bad	52.80	28.57
+kmer3464 	bad	58.66	42.86
+kmer3465 	bad	54.75	33.33
+kmer3466 	bad	56.71	38.10
+kmer3467 	bad	43.04	4.76
