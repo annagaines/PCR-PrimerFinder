@@ -18,13 +18,17 @@ from multiprocessing import Pool
 from collections import Counter
 from itertools import islice
 
+uniq_kmer_file = ""
+uniq_filtered_kmers = ""
+nt_blast_results = ""
+
 @click.command()
 @click.option('-i', '--input','genomelist', help="File with list of target genomes. Yhis is the filename only and does not include the path to where the files are located, that is given with the -a option" , type=click.File(mode='r'))
 @click.option('-w','--whiteList','whiteList', help="File containing taxids categorized as 'Good' and 'Acceptable' target matches for the identified k-mers",type=click.File(mode='r'))
 @click.option('-b','--blackList','blackList', help="File containing taxids categorized as 'Bad' target matches for the identified k-mers",type=click.File(mode='r'))
 @click.option('--log', 'log', default="parseBlast.log", type=click.File(mode='w'))
 @click.option('-pident','percentIdentity',default=100, help="The minimum percent identity for k-mer match against NCBI nucleotide database")
-def start_environment(genomelist, whiteList,blackList,percentIdentity, log):
+def main(genomelist, whiteList,blackList,percentIdentity, log):
 	#read in the filelist of target genomes
 	filelist = [line.rstrip('\n') for line in genomelist]
 	#Check is a kmer directory exists, if it does delete it, if it doesn't make one
@@ -33,12 +37,13 @@ def start_environment(genomelist, whiteList,blackList,percentIdentity, log):
 	if os.path.isfile("kmers"):
 		os.remove("kmers")
 	os.mkdir("kmers")
-		# with Pool(10) as pool:
-	# 	pool.map(get_kmers, filelist)
-	# combine_and_freq()
-	# calc_tm(uniq_kmer_file)
-	# off_target_check(uniq_filtered_kmers,percentIdentity)
-	check_nt_blast_results(whiteList,blackList)
+
+	with Pool(10) as pool:
+		pool.map(get_kmers, filelist)
+	combine_freq_and_filt()
+	calc_tm(uniq_kmer_file)
+	off_target_check(uniq_filtered_kmers,percentIdentity)
+	check_nt_blast_results(whiteList,blackList,nt_blast_results)
 
 #Take each file in filelist and break create .jf and then .kmer files
 def get_kmers(file):
@@ -73,7 +78,7 @@ def calc_tm(file):
 			if m or m2:
 				pass
 			else:
-		#Look at sequences to get Tm and GC content	
+			#Look at sequences to get Tm and GC content	
 				l = len(seq)
 				counts = Counter(seq.upper())
 				#This Tm equation was taken from https://primerdigital.com/fastpcr/m7.html with 2.75 added because it brings the Tm closest to the Tm reported by the tool used by RDB http://www.operon.com/tools/oligo-analysis-tool.aspx
@@ -86,17 +91,40 @@ def calc_tm(file):
 uniq_filtered_kmers = "uniq_kmers_freq_bio_filt.fasta"
 
 def off_target_check(uniq_filtered_kmers, percent_identity):
-	'''Use the kmer file filtered by frequency and GC content, melting temperature, and homopolymers as blast query against nt database.
+	'''Use the kmer file filtered by frequency, GC content, melting temperature, and homopolymers as blast query against nt database.
 	'''
-	blast_command = f"blastn -query {uniq_filtered_kmers} -db /storage/blast/v5/nt_v5 -outfmt -outfmt '6 qaccver saccver sscinames staxid pident length mismatch gapopen qstart qend sstart send evalue bitscore -qcov_hsp_perc {percent_identity} -perc_identity {percent_identity} -word_size 10 -out nt_blast.results -num_threads 20 -max_target_seqs 300"
+	blast_command = f"blastn -query {uniq_filtered_kmers} -db /storage/blastdb/v5/nt_v5 -outfmt '6 qaccver qseq saccver sscinames staxids pident length mismatch gapopen qstart qend sstart send evalue bitscore' -qcov_hsp_perc {percent_identity} -perc_identity {percent_identity} -word_size 10 -out nt_blast.results -num_threads 20 -max_target_seqs 300"
+	#print(blast_command)
 	subprocess.run(blast_command, shell=True)
 
-#nt_blast_results = open("nt_blast.results",'r')
+nt_blast_results = "nt_blast.results"
 
-def check_nt_blast_results(whiteList,blackList):
+def check_nt_blast_results(whiteList,blackList, nt_blast_results):
+	'''
+	Look at the k-mer to nt database blast results
+	Use whitelist (bordetella and eventually accetable contaminants) and blacklist (bacteria and mammals) taxids
+	Count hits to whitelist as on
+	'''
+	kmer_blasthit_count = {}
 	pass_taxids = [line.strip() for line in whiteList]
 	no_pass_taxids = [line.strip() for line in blackList]
-	
+	with open(nt_blast_results, 'r') as in_file:
+		for line in in_file:
+			# print(line)
+			line = line.rstrip().split('\t')
+			if line[0] not in kmer_blasthit_count:
+				kmer_blasthit_count[line[0]] = {}
+				kmer_blasthit_count[line[0]]['pass_count'] = 0
+				kmer_blasthit_count[line[0]]['no_pass_count'] = 0
+			if line[4] in pass_taxids:
+				kmer_blasthit_count[line[0]]['pass_count'] += 1
+			elif line[4] in no_pass_taxids:
+				kmer_blasthit_count[line[0]]['no_pass_count'] += 1
+			else:
+				kmer_blasthit_count[line[0]]['no_pass_count'] += 1
+		percet_off_target = (int(kmer_blasthit_count[line[0]]['no_pass_count'])*100/int(kmer_blasthit_count[line[0]]['pass_count']))
+		if percet_off_target < 10:
+			print(f">{line[0]}\n{line[1]}")
 
 	
 
@@ -118,12 +146,6 @@ def check_nt_blast_results(whiteList,blackList):
 # 		sys.stderr.write("\n WARNING: Cannot find Jellyfish. Check that Jellyfish is downloaded and in your PATH\n\n")
 # 		sys.exit()
 
-"""
-Program execution starts here
-"""
-
-def main():
-	start_environment()
 
 
 
