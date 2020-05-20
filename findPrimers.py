@@ -23,14 +23,19 @@ uniq_filtered_kmers = ""
 nt_blast_results = ""
 
 @click.command()
-@click.option('-i', '--input','genomelist', help="File with list of target genomes. Yhis is the filename only and does not include the path to where the files are located, that is given with the -a option" , type=click.File(mode='r'))
+@click.option('-1', '--input1','genomelist1', help="File with list of target genomes. This is the filename only and does not include the path to where the files are located.All genomes should be located in current working directory in assemblies/" , type=click.File(mode='r'))
+@click.option('-2', '--input2','genomelist2', help="File with list of target genomes. This is the filename only and does not include the path to where the files are located. All genomes should be located in current working directory in assemblies/" , type=click.File(mode='r'))
 @click.option('-w','--whiteList','whiteList', help="File containing taxids categorized as 'Good' and 'Acceptable' target matches for the identified k-mers",type=click.File(mode='r'))
 @click.option('-b','--blackList','blackList', help="File containing taxids categorized as 'Bad' target matches for the identified k-mers",type=click.File(mode='r'))
 @click.option('--log', 'log', default="parseBlast.log", type=click.File(mode='w'))
 @click.option('-pident','percentIdentity',default=100, help="The minimum percent identity for k-mer match against NCBI nucleotide database")
-def main(genomelist, whiteList,blackList,percentIdentity, log):
+@click.option('-f','--frequency','frequency' , default=.9 ,help='Desired frequency of k-mer in target genomes. (float value)')
+def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, frequency):
 	#read in the filelist of target genomes
-	filelist = [line.rstrip('\n') for line in genomelist]
+	filelist1 = [line.rstrip('\n') for line in genomelist1]
+	filelist2 = [line.rstrip('\n') for line in genomelist2]
+	kmer_frequency_1 = len(filelist1) * frequency 
+	kmer_frequency_2 = len(filelist1) - kmer_frequency_1
 	#Check is a kmer directory exists, if it does delete it, if it doesn't make one
 	if os.path.isdir("kmers"):
 		shutil.rmtree("kmers")
@@ -40,7 +45,7 @@ def main(genomelist, whiteList,blackList,percentIdentity, log):
 
 	with Pool(10) as pool:
 		pool.map(get_kmers, filelist)
-	combine_freq_and_filt()
+	combine_freq_and_filt(kmer_frequency_1, kmer_frequency_2 )
 	calc_tm(uniq_kmer_file)
 	off_target_check(uniq_filtered_kmers,percentIdentity)
 	check_nt_blast_results(whiteList,blackList,nt_blast_results)
