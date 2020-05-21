@@ -128,10 +128,6 @@ def check_nt_blast_results(whiteList,blackList, nt_blast_results):
 		if percet_off_target < 10:
 			print(f">{line[0]}\n{line[1]}")
 
-	
-
-
-
 
 # def check_dependencies():
 # 	try:
