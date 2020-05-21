@@ -23,14 +23,16 @@ uniq_filtered_kmers = ""
 nt_blast_results = ""
 
 @click.command()
-@click.option('-i', '--input','genomelist', help="File with list of target genomes. Yhis is the filename only and does not include the path to where the files are located, that is given with the -a option" , type=click.File(mode='r'))
+@click.option('-i', '--input','genomelist', help="File with list of target genomes. This is the filename only and does not include the path to where the files are located. All genomes should be located in assemblies/ in the current working directory." , type=click.File(mode='r'))
 @click.option('-w','--whiteList','whiteList', help="File containing taxids categorized as 'Good' and 'Acceptable' target matches for the identified k-mers",type=click.File(mode='r'))
 @click.option('-b','--blackList','blackList', help="File containing taxids categorized as 'Bad' target matches for the identified k-mers",type=click.File(mode='r'))
 @click.option('--log', 'log', default="parseBlast.log", type=click.File(mode='w'))
 @click.option('-pident','percentIdentity',default=100, help="The minimum percent identity for k-mer match against NCBI nucleotide database")
-def main(genomelist, whiteList,blackList,percentIdentity, log):
+@click.option('-f', '--frequency','frequency', default=.9, help='Desired frequency of k-mer in target genomes. (Float value)')
+def main(genomelist, whiteList,blackList,percentIdentity, log, frequency):
 	#read in the filelist of target genomes
 	filelist = [line.rstrip('\n') for line in genomelist]
+	kmer_frequency = len(filelist) * frequency
 	#Check is a kmer directory exists, if it does delete it, if it doesn't make one
 	if os.path.isdir("kmers"):
 		shutil.rmtree("kmers")
@@ -40,7 +42,7 @@ def main(genomelist, whiteList,blackList,percentIdentity, log):
 
 	with Pool(10) as pool:
 		pool.map(get_kmers, filelist)
-	combine_freq_and_filt()
+	combine_freq_and_filt(kmer_frequency)
 	calc_tm(uniq_kmer_file)
 	off_target_check(uniq_filtered_kmers,percentIdentity)
 	check_nt_blast_results(whiteList,blackList,nt_blast_results)
@@ -57,9 +59,9 @@ def get_kmers(file):
 	subprocess.check_output(get_kmers, shell=True)
 
 #Combine seperate .kmer files and filter it based on the given frequency	
-def combine_freq_and_filt():
-	combine_kmers = "cat kmers/*.kmers |sort |uniq -c > combined_uniq_kmers.txt" 
-	freq_filt_kmers = " cat combined_uniq_kmers.txt |awk '$1 >= 3 {print  $2}'  |nl |awk '{print \">kmer_\"$1 \"\\n\"$2}' >uniq_kmers_freq_filt.fasta"
+def combine_freq_and_filt(kmer_frequency):
+	combine_kmers = "cat kmers/*.kmers |sort --parallel 30 |uniq -c > combined_uniq_kmers.txt" 
+	freq_filt_kmers = f" cat combined_uniq_kmers.txt |awk '$1 >= {kmer_frequency} {{print  $2}}'  |nl |awk '{{print \">kmer_\"$1 \"\\n\"$2}}' >uniq_kmers_freq_filt.fasta"
 	subprocess.check_output(combine_kmers, shell=True)
 	subprocess.call(freq_filt_kmers, shell=True)
 
