@@ -60,7 +60,7 @@ def get_kmers(file):
 
 #Combine seperate .kmer files and filter it based on the given frequency	
 def combine_freq_and_filt(kmer_frequency):
-	combine_kmers = "cat kmers/*.kmers |sort --parallel 30 |uniq -c > combined_uniq_kmers.txt" 
+	combine_kmers = "cat kmers/*.kmers |sort --parallel 30 -S 10G|uniq -c > combined_uniq_kmers.txt" 
 	freq_filt_kmers = f" cat combined_uniq_kmers.txt |awk '$1 >= {kmer_frequency} {{print  $2}}'  |nl |awk '{{print \">kmer_\"$1 \"\\n\"$2}}' >uniq_kmers_freq_filt.fasta"
 	subprocess.check_output(combine_kmers, shell=True)
 	subprocess.call(freq_filt_kmers, shell=True)
