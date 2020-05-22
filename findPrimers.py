@@ -39,32 +39,34 @@ def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, freq
 	if os.path.isfile("kmers"):
 		os.remove("kmers")
 	os.mkdir("kmers")
-	#if mode == 'p':
-	# filelist1 = [line.rstrip('\n') for line in genomelist1]	
-	# with Pool(10) as pool:
-	# 	pool.map(get_kmers, filelist)
-	# combine_freq_and_filt(kmer_frequency_1)
-	# calc_tm(uniq_kmer_file)
-	# off_target_check(uniq_filtered_kmers,percentIdentity)
-	# check_nt_blast_results(whiteList,blackList,nt_blast_results)
 
 	#read in the filelist of target genomes
 	filelist1 = [line.rstrip('\n') for line in genomelist1]
 	filelist2 = [line.rstrip('\n') for line in genomelist2]
 	kmer_frequency_1 = len(filelist1) * frequency 
-	#kmer_frequency_2 = len(filelist1) - kmer_frequency_1
-
-	#get_genome_groups(filelist1, filelist2)
+	
+	group1_genome, group2_genome = get_genome_groups(filelist1, filelist2)
 	with Pool(10) as pool:
+		pool.map(partial(get_kmers, group='g1'), filelist1)
 		pool.map(partial(get_kmers, group='g1'), filelist1)
 	# combine_freq_and_filt(kmer_frequency_1 )
 	# calc_tm(uniq_kmer_file)
 	# off_target_check(uniq_filtered_kmers,percentIdentity)
 	# check_nt_blast_results(whiteList,blackList,nt_blast_results)
 
-#def get_genome_groups(filelist1, filelist2):
+def get_genome_groups(filelist1, filelist2):
+	group1_genome = {}
+	group2_genome = {}
+	for file in filelist1:
+		get_genome_cmd = f"head -n 1 assemblies/{file}|cut -d' ' -f1 |sed 's/>//' "
+		genome = subprocess.check_output(get_genome_cmd, shell=True, universal_newlines=True)
+		group1_genome[genome] = "g1"
 
-
+	for file in filelist2:
+		get_genome_cmd = f"head -n 1 assemblies/{file}|cut -d' ' -f1 |sed 's/>//' "
+		genome = subprocess.check_output(get_genome_cmd, shell=True, universal_newlines=True)
+		group2_genome[genome] = "g2"
+	return	(group1_genome, group2_genome)
 
 #Take each file in filelist and break create .jf and then .kmer files
 def get_kmers(file, group):
