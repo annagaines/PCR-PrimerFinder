@@ -17,12 +17,14 @@ import shutil
 from multiprocessing import Pool
 from collections import Counter
 from itertools import islice
+from functools import partial
 
 uniq_kmer_file = ""
 uniq_filtered_kmers = ""
 nt_blast_results = ""
 
 @click.command()
+#@click.option('-m','--mode','mode', help="Desired mode for primer prediction.'p' for pan-genus prediction (provide assemblies for genomes in this genus and file list of all genomes). 's' for species prediction (provide assemblies for genomes in this genus and two filelist, one for the speices and one with genus other than target species. 'd' for differentiating between two species. (Provide assemblies for both species, supply a file list for each species)")
 @click.option('-1', '--input1','genomelist1', help="File with list of target genomes. This is the filename only and does not include the path to where the files are located.All genomes should be located in current working directory in assemblies/" , type=click.File(mode='r'))
 @click.option('-2', '--input2','genomelist2', help="File with list of target genomes. This is the filename only and does not include the path to where the files are located. All genomes should be located in current working directory in assemblies/" , type=click.File(mode='r'))
 @click.option('-w','--whiteList','whiteList', help="File containing taxids categorized as 'Good' and 'Acceptable' target matches for the identified k-mers",type=click.File(mode='r'))
@@ -31,35 +33,49 @@ nt_blast_results = ""
 @click.option('-pident','percentIdentity',default=100, help="The minimum percent identity for k-mer match against NCBI nucleotide database")
 @click.option('-f','--frequency','frequency' , default=.9 ,help='Desired frequency of k-mer in target genomes. (float value)')
 def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, frequency):
-	#read in the filelist of target genomes
-	filelist1 = [line.rstrip('\n') for line in genomelist1]
-	filelist2 = [line.rstrip('\n') for line in genomelist2]
-	kmer_frequency_1 = len(filelist1) * frequency 
-	kmer_frequency_2 = len(filelist1) - kmer_frequency_1
 	#Check is a kmer directory exists, if it does delete it, if it doesn't make one
 	if os.path.isdir("kmers"):
 		shutil.rmtree("kmers")
 	if os.path.isfile("kmers"):
 		os.remove("kmers")
 	os.mkdir("kmers")
+	#if mode == 'p':
+	# filelist1 = [line.rstrip('\n') for line in genomelist1]	
+	# with Pool(10) as pool:
+	# 	pool.map(get_kmers, filelist)
+	# combine_freq_and_filt(kmer_frequency_1)
+	# calc_tm(uniq_kmer_file)
+	# off_target_check(uniq_filtered_kmers,percentIdentity)
+	# check_nt_blast_results(whiteList,blackList,nt_blast_results)
 
+	#read in the filelist of target genomes
+	filelist1 = [line.rstrip('\n') for line in genomelist1]
+	filelist2 = [line.rstrip('\n') for line in genomelist2]
+	kmer_frequency_1 = len(filelist1) * frequency 
+	#kmer_frequency_2 = len(filelist1) - kmer_frequency_1
+
+	#get_genome_groups(filelist1, filelist2)
 	with Pool(10) as pool:
-		pool.map(get_kmers, filelist)
-	combine_freq_and_filt(kmer_frequency_1, kmer_frequency_2 )
-	calc_tm(uniq_kmer_file)
-	off_target_check(uniq_filtered_kmers,percentIdentity)
-	check_nt_blast_results(whiteList,blackList,nt_blast_results)
+		pool.map(partial(get_kmers, group='g1'), filelist1)
+	# combine_freq_and_filt(kmer_frequency_1 )
+	# calc_tm(uniq_kmer_file)
+	# off_target_check(uniq_filtered_kmers,percentIdentity)
+	# check_nt_blast_results(whiteList,blackList,nt_blast_results)
+
+#def get_genome_groups(filelist1, filelist2):
+
+
 
 #Take each file in filelist and break create .jf and then .kmer files
-def get_kmers(file):
+def get_kmers(file, group):
 	file = file.rstrip()
 	#Jellyfish commands to generate the kmers
-	get_kmer_count = f"jellyfish count -C -m 21 -s 100M -o kmers/{(file).replace('_genomic.fna','')}.jf assemblies/{file}"
-	get_kmers = f"jellyfish dump kmers/{(file).replace('_genomic.fna','')}.jf |grep -v '>' > kmers/{(file).replace('_genomic.fna','')}.kmers"
+	get_kmer_count = f"jellyfish count -C -m 21 -s 100M -o kmers/{group}/{(file).replace('_genomic.fna','')}.jf assemblies/{file}"
+	get_kmers = f"jellyfish dump kmers/{group}/{(file).replace('_genomic.fna','')}.jf |grep -v '>' > kmers/{group}/{(file).replace('_genomic.fna','')}.kmers"
 	print(get_kmer_count)
-	subprocess.check_output(get_kmer_count, shell=True)		
+	#subprocess.check_output(get_kmer_count, shell=True)		
 	print(get_kmers)
-	subprocess.check_output(get_kmers, shell=True)
+	#subprocess.check_output(get_kmers, shell=True)
 
 #Combine seperate .kmer files and filter it based on the given frequency	
 def combine_freq_and_filt():
@@ -68,7 +84,7 @@ def combine_freq_and_filt():
 	subprocess.check_output(combine_kmers, shell=True)
 	subprocess.call(freq_filt_kmers, shell=True)
 
-uniq_kmer_file = open("uniq_kmers_freq_filt.fasta","r")
+# uniq_kmer_file = open("uniq_kmers_freq_filt.fasta","r")
 
 def calc_tm(file):
 	#Read the kmer fasta file in 2 lines at a time, generate dictionary that will save: kmer, kmer seq, qual, Tm, GC
@@ -93,7 +109,7 @@ def calc_tm(file):
 						out_file.write(f"{line[0]}\n{line[1]}")
 					out_file.close()
 
-uniq_filtered_kmers = "uniq_kmers_freq_bio_filt.fasta"
+# uniq_filtered_kmers = "uniq_kmers_freq_bio_filt.fasta"
 
 def off_target_check(uniq_filtered_kmers, percent_identity):
 	'''Use the kmer file filtered by frequency, GC content, melting temperature, and homopolymers as blast query against nt database.
@@ -102,7 +118,7 @@ def off_target_check(uniq_filtered_kmers, percent_identity):
 	#print(blast_command)
 	subprocess.run(blast_command, shell=True)
 
-nt_blast_results = "nt_blast.results"
+# nt_blast_results = "nt_blast.results"
 
 def check_nt_blast_results(whiteList,blackList, nt_blast_results):
 	'''
