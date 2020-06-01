@@ -29,7 +29,7 @@ nt_blast_results = ""
 @click.option('-2', '--input2','genomelist2', help="File with list of target genomes. This is the filename only and does not include the path to where the files are located. All genomes should be located in current working directory in assemblies/" , type=click.File(mode='r'))
 @click.option('-w','--whiteList','whiteList', help="File containing taxids categorized as 'Good' and 'Acceptable' target matches for the identified k-mers",type=click.File(mode='r'))
 @click.option('-b','--blackList','blackList', help="File containing taxids categorized as 'Bad' target matches for the identified k-mers",type=click.File(mode='r'))
-@click.option('--log', 'log', default="primerFinder.log", type=click.File(mode='w'))
+@click.option('--log', 'log', default=None, type=click.File(mode='w'))
 @click.option('-pident','percentIdentity',default=100, help="The minimum percent identity for k-mer match against NCBI nucleotide database")
 @click.option('-f','--frequency','frequency' , default=.9 ,help='Desired frequency of k-mer in target genomes. (float value)')
 def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, frequency):
@@ -41,15 +41,16 @@ def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, freq
 	os.mkdir("kmers")
 
 	#create log file
-	logging.basicConfig(filename=log, level=logging.DEBUG, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
-	sys.stderr.write(f"\nWriting log file to: {LOG}\n")
+	if log is None: log = "primerFinder.log"
+	logging.basicConfig(filename=log, filemode='w', level=logging.DEBUG, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+	sys.stderr.write(f"\nWriting log file to: {log}\n")
 	logging.debug(f"Command: {' '.join(sys.argv)}")
 
 	#read in the filelist of target genomes
 	filelist1 = [line.rstrip('\n') for line in genomelist1]
 	filelist2 = [line.rstrip('\n') for line in genomelist2]
 	kmer_frequency_1 = len(filelist1) * frequency 
-	kmer_frequency_2 = 1- int(kmer_frequency_1)
+	kmer_frequency_2 = 1 - int(frequency)
 
 	group1_genomes, group2_genomes = get_genome_groups(filelist1, filelist2)
 	make_jellyfish_directories("g1")
@@ -58,7 +59,7 @@ def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, freq
 		pool.map(partial(get_kmers, group='g1'), filelist1)
 		pool.map(partial(get_kmers, group='g2'), filelist2)
 	combine_freq_and_filt(kmer_frequency_1, 'g1')
-	combine_freq_and_filt(kmer_frequency_1, 'g2')
+	combine_freq_and_filt(kmer_frequency_2, 'g2')
 	calc_tm("g1_uniq_kmers_freq_filt.fasta", 'g1')
 	calc_tm("g2_uniq_kmers_freq_filt.fasta", 'g2')
 	compare_kmers("g1_uniq_kmers_freq_bio_filt.fasta","g2_uniq_kmers_freq_bio_filt.fasta")
@@ -90,14 +91,14 @@ def make_jellyfish_directories(group):
 
 #Take each file in filelist and break create .jf and then .kmer files
 def get_kmers(file, group):
-	logging.debug(f"\tCreating k-mers for {group}")
+	logging.debug(f"\tCreating k-mers for {group}: {file}")
 	file = file.rstrip()	
 	#Jellyfish commands to generate the kmers
 	get_kmer_count = f"jellyfish count -C -m 21 -s 100M -o kmers/{group}/{(file).replace('_genomic.fna','')}.jf assemblies/{file}"
 	get_kmers = f"jellyfish dump kmers/{group}/{(file).replace('_genomic.fna','')}.jf |grep -v '>' > kmers/{group}/{(file).replace('_genomic.fna','')}.kmers"
-	print(get_kmer_count)
+	#print(get_kmer_count)
 	subprocess.check_output(get_kmer_count, shell=True)		
-	print(get_kmers)
+	#print(get_kmers)
 	subprocess.check_output(get_kmers, shell=True)
 
 #Combine seperate .kmer files and filter it based on the given frequency	
@@ -137,21 +138,23 @@ def calc_tm(file, group):
 
 def compare_kmers(group1, group2):
 	logging.debug(f"\tCreating list of uniq different k-mers.")
-	combine_kmer_cmd = f"cat {group1} {group2}| sort --parallel 20 -S 10G| uniq -c | awk '$1 == 1 {{print $2}}' |n1 | awk '{{print \">kmer_\"$1\"\\n\" $2 }}' > diffKmers.fasta "
+	combine_kmer_cmd = f"cat {group1}_uniq_kmers_freq_bio_filt.fasta {group2}_uniq_kmers_freq_bio_filt.fasta| sort --parallel 20 -S 10G| uniq -c | awk '$1 == 1 {{print $2}}' |n1 | awk '{{print \">kmer_\"$1\"\\n\" $2 }}' > diffKmers.fasta "
+	subprocess.run(combine_kmer_cmd, shell=True)
 
 def blast_against_genomes():
 	#create the combined genome database
 	logging.debug("Creating genome database and BLASTing uniq k-mers.")
 	combine_assemblies_cmd = f"cat assemblies/* > db.fna"
-	subprocess.run(combine_assemblies_cmd)
+	subprocess.run(combine_assemblies_cmd, shell=True)
 	create_db_cmd = f"makeblastdb -in db.fna -dbtype nucl"
-	subprocess.run(create_db_cmd)
+	subprocess.run(create_db_cmd, shell=True)
 	#blast uniq k-mers 
 	blast_cmd = f"blastn -query diffKmers.fasta -db db.fna -outfmt 6 -qcov_hsp_perc 90 -perc_identity 90 -word_size 10 -out diff_kmer_blast_results.tsv -num_threads 30"
+	subprocess.run(blast_cmd, shell=True)
 
 def find_group_specific_kmers():
 	kmers = {}
-	with open("different_kmer_blast_results.tsv", 'r') as in_file:
+	with open("diff_kmer_blast_results.tsv", 'r') as in_file:
 		for line in in_file:
 			line = line.rstrip().split("\t")
 			if line[0] not in kmers:
@@ -199,7 +202,8 @@ def check_nt_blast_results(whiteList,blackList, nt_blast_results):
 				kmer_blasthit_count[line[0]]['no_pass_count'] += 1
 		percet_off_target = (int(kmer_blasthit_count[line[0]]['no_pass_count'])*100/int(kmer_blasthit_count[line[0]]['pass_count']))
 		if percet_off_target < 10:
-			print(f">{line[0]}\n{line[1]}")
+			with open("candidate_primers.fasta",'w') as out_file:
+			out_file.write(f">{line[0]}\n{line[1]}")
 
 	
 
