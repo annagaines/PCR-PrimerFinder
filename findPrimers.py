@@ -34,6 +34,12 @@ nt_blast_results = ""
 @click.option('-f','--frequency','frequency' , default=.9 ,help='Desired frequency of k-mer in target genomes. (float value)')
 def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, frequency):
 	#Check is a kmer directory exists, if it does delete it, if it doesn't make one
+	if os.path.isdir("tmp"):
+		shutil.rmtree("tmp")
+	if os.path.isfile("tmp"):
+		os.remove("tmp")
+	os.mkdir("tmp")
+
 	if os.path.isdir("kmers"):
 		shutil.rmtree("kmers")
 	if os.path.isfile("kmers"):
@@ -45,12 +51,12 @@ def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, freq
 	logging.basicConfig(filename=log, filemode='w', level=logging.DEBUG, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 	sys.stderr.write(f"\nWriting log file to: {log}\n")
 	logging.debug(f"Command: {' '.join(sys.argv)}")
-
+	#if mode == 's':
 	#read in the filelist of target genomes
 	filelist1 = [line.rstrip('\n') for line in genomelist1]
 	filelist2 = [line.rstrip('\n') for line in genomelist2]
 	kmer_frequency_1 = len(filelist1) * frequency 
-	kmer_frequency_2 = 1 - int(frequency)
+	kmer_frequency_2 = len(filelist2) * frequency 
 
 	group1_genomes, group2_genomes = get_genome_groups(filelist1, filelist2)
 	make_jellyfish_directories("g1")
@@ -60,9 +66,15 @@ def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, freq
 		pool.map(partial(get_kmers, group='g2'), filelist2)
 	combine_freq_and_filt(kmer_frequency_1, 'g1')
 	combine_freq_and_filt(kmer_frequency_2, 'g2')
-	calc_tm("g1_uniq_kmers_freq_filt.fasta", 'g1')
-	calc_tm("g2_uniq_kmers_freq_filt.fasta", 'g2')
-	compare_kmers("g1_uniq_kmers_freq_bio_filt.fasta","g2_uniq_kmers_freq_bio_filt.fasta")
+	file_list1 = split_kmer_files("tmp/g1_uniq_kmers_freq_filt.fasta", 'g1')
+	file_list2 = split_kmer_files("tmp/g2_uniq_kmers_freq_filt.fasta", 'g2')
+	with Pool(10) as pool:	
+		pool.map(partial(calc_tm, group='g1'), file_list1)
+		pool.map(partial(calc_tm, group='g2'), file_list2)
+	
+	compare_kmers("g1","g2")
+	blast_against_genomes()
+
 	#off_target_check("g1_uniq_kmers_freq_bio_filt.fasta",percentIdentity)
 	# check_nt_blast_results(whiteList,blackList,nt_blast_results)
 
@@ -82,7 +94,7 @@ def get_genome_groups(filelist1, filelist2):
 	return	(group1_genomes, group2_genomes)
 
 def make_jellyfish_directories(group):
-	logging.debug(f"\tCreating directory for k-mer in {group}: tmp/kmers/{group}")
+	logging.debug(f"\tCreating directory for k-mer in {group}: kmers/{group}")
 	if os.path.isdir(f"kmers/{group}"):
 		shutil.rmtree(f"kmers/{group}")
 	if os.path.isfile(f"kmers/{group}"):
@@ -104,16 +116,24 @@ def get_kmers(file, group):
 #Combine seperate .kmer files and filter it based on the given frequency	
 def combine_freq_and_filt(frequency, group):
 	logging.debug(f"\tFiltering k-mers in {group} using a frequency threshold of {frequency}")
-	combine_kmers = f"cat kmers/{group}/*.kmers |sort |uniq -c > {group}_combined_uniq_kmers.txt" 
-	freq_filt_kmers = f"cat {group}_combined_uniq_kmers.txt |awk '$1 >= {frequency} {{print  $2}}'  |nl |awk '{{print \">kmer_\"$1 \"\\n\"$2}}' > {group}_uniq_kmers_freq_filt.fasta"
+	combine_kmers = f"cat kmers/{group}/*.kmers |sort |uniq -c > tmp/{group}_combined_uniq_kmers.txt" 
+	freq_filt_kmers = f"cat tmp/{group}_combined_uniq_kmers.txt |awk '$1 >= {frequency} {{print  $2}}'  |nl |awk '{{print \">kmer_\"$1 \"\\n\"$2}}' > tmp/{group}_uniq_kmers_freq_filt.fasta"
 	subprocess.check_output(combine_kmers, shell=True)
 	subprocess.call(freq_filt_kmers, shell=True)
 
+def split_kmer_files(file,group):
+	logging.debug(f"Spliting kmers from {file} in to files prefixed with {group}_kmers_")
+	split_cmd = f"split -l 500000 {file} tmp/{group}_kmers_"
+	subprocess.run(split_cmd, shell=True)
+	#directory = os.getcwd()
+	file_list = [x for x in os.listdir("tmp") if "g1_kmers_" in x]
+	return file_list
 
 def calc_tm(file, group):
 	#Read the kmer fasta file in 2 lines at a time, generate dictionary that will save: kmer, kmer seq, qual, Tm, GC
-	logging.debug(f"\tFiltering k-mers in {group} using a Tm range of 50 to 66 and removing k-mers with homopolymers > 3 or repeats of G and/or C > 3. ")
-	with open(file,'r') as in_file:
+	logging.debug(f"\tFiltering k-mers in tmp/{file} using a Tm range of 50 to 66 and removing k-mers with homopolymers > 3 or repeats of G and/or C > 3. ")
+	
+	with open(f"tmp/{file}",'r') as in_file:
 		for line in iter(lambda: list(islice(in_file,2)),()):
 			line = [l.strip() for l in line]
 			if len(line) <2:
@@ -131,30 +151,31 @@ def calc_tm(file, group):
 				#This Tm equation was taken from https://primerdigital.com/fastpcr/m7.html with 2.75 added because it brings the Tm closest to the Tm reported by the tool used by RDB http://www.operon.com/tools/oligo-analysis-tool.aspx
 				temp = 69.3 +((41*(counts['G']+counts['C'])-650)/l) 
 				if 49 < float(temp) < 66:
-					with open(f"{group}_uniq_kmers_freq_bio_filt.fasta", 'w') as out_file:
+					with open(f"tmp/{group}_uniq_kmers_freq_bio_filt.fasta", 'w') as out_file:
 						out_file.write(f"{line[0]}\n{line[1]}")
 					out_file.close()
 
 
 def compare_kmers(group1, group2):
 	logging.debug(f"\tCreating list of uniq different k-mers.")
-	combine_kmer_cmd = f"cat {group1}_uniq_kmers_freq_bio_filt.fasta {group2}_uniq_kmers_freq_bio_filt.fasta| sort --parallel 20 -S 10G| uniq -c | awk '$1 == 1 {{print $2}}' |n1 | awk '{{print \">kmer_\"$1\"\\n\" $2 }}' > diffKmers.fasta "
+	combine_kmer_cmd = f"cat tmp/{group1}_uniq_kmers_freq_bio_filt.fasta tmp/{group2}_uniq_kmers_freq_bio_filt.fasta| sort --parallel 20 -S 10G| uniq -c | awk '$1 == 1 {{print $2}}' |nl | awk '{{print \">kmer_\"$1\"\\n\" $2 }}' > tmp/diffKmers.fasta "
 	subprocess.run(combine_kmer_cmd, shell=True)
 
 def blast_against_genomes():
 	#create the combined genome database
 	logging.debug("Creating genome database and BLASTing uniq k-mers.")
-	combine_assemblies_cmd = f"cat assemblies/* > db.fna"
+	combine_assemblies_cmd = f"cat assemblies/*fna > db.fna"
 	subprocess.run(combine_assemblies_cmd, shell=True)
 	create_db_cmd = f"makeblastdb -in db.fna -dbtype nucl"
 	subprocess.run(create_db_cmd, shell=True)
 	#blast uniq k-mers 
-	blast_cmd = f"blastn -query diffKmers.fasta -db db.fna -outfmt 6 -qcov_hsp_perc 90 -perc_identity 90 -word_size 10 -out diff_kmer_blast_results.tsv -num_threads 30"
+	blast_cmd = f"blastn -query tmp/diffKmers.fasta -db db.fna -outfmt 6 -qcov_hsp_perc 90 -perc_identity 90 -word_size 10 -out tmp/diff_kmer_blast_results.tsv -num_threads 30"
 	subprocess.run(blast_cmd, shell=True)
 
 def find_group_specific_kmers():
+	logging.debug("Counting kmer presence in genome groups.")
 	kmers = {}
-	with open("diff_kmer_blast_results.tsv", 'r') as in_file:
+	with open("tmp/diff_kmer_blast_results.tsv", 'r') as in_file:
 		for line in in_file:
 			line = line.rstrip().split("\t")
 			if line[0] not in kmers:
@@ -162,15 +183,18 @@ def find_group_specific_kmers():
 				kmers[line[0]]['group1'] = 0
 				kmers[line[0]]['group2'] = 0
 			if group1_genomes[kmers[line[0]]] == 'g1':
-				kmers[line[0]]['group1'] = 0
+				kmers[line[0]]['group1'] += 0
 			if group2_genomes[kmers[line[0]]] == 'g2':
-				kmers[line[0]]['group2'] = 0
+				kmers[line[0]]['group2'] += 0
+			print(line[0])
+			print(f"Group 1 count: kmers[line[0]]['group1']")
+			print(f"Group 2 count: kmers[line[0]]['group2']")
 
 def off_target_check(uniq_filtered_kmers, percent_identity):
 	'''Use the kmer file filtered by frequency, GC content, melting temperature, and homopolymers as blast query against nt database.
 	'''
 	logging.debug(f"\tBLASTing selected k-mers against nt database to find off target hits.")
-	blast_command = f"blastn -query {uniq_filtered_kmers} -db /storage/blastdb/v5/nt_v5 -outfmt '6 qaccver qseq saccver sscinames staxids pident length mismatch gapopen qstart qend sstart send evalue bitscore' -qcov_hsp_perc {percent_identity} -perc_identity {percent_identity} -word_size 10 -out nt_blast.results -num_threads 20 -max_target_seqs 300"
+	blast_command = f"blastn -query tmp/{uniq_filtered_kmers} -db /storage/blastdb/v5/nt_v5 -outfmt '6 qaccver qseq saccver sscinames staxids pident length mismatch gapopen qstart qend sstart send evalue bitscore' -qcov_hsp_perc {percent_identity} -perc_identity {percent_identity} -word_size 10 -out tmp/nt_blast.results -num_threads 20 -max_target_seqs 300"
 	#print(blast_command)
 	subprocess.run(blast_command, shell=True)
 
@@ -186,7 +210,7 @@ def check_nt_blast_results(whiteList,blackList, nt_blast_results):
 	kmer_blasthit_count = {}
 	pass_taxids = [line.strip() for line in whiteList]
 	no_pass_taxids = [line.strip() for line in blackList]
-	with open(nt_blast_results, 'r') as in_file:
+	with open(f"tmp/{nt_blast_results}", 'r') as in_file:
 		for line in in_file:
 			# print(line)
 			line = line.rstrip().split('\t')
@@ -202,8 +226,8 @@ def check_nt_blast_results(whiteList,blackList, nt_blast_results):
 				kmer_blasthit_count[line[0]]['no_pass_count'] += 1
 		percet_off_target = (int(kmer_blasthit_count[line[0]]['no_pass_count'])*100/int(kmer_blasthit_count[line[0]]['pass_count']))
 		if percet_off_target < 10:
-			with open("candidate_primers.fasta",'w') as out_file:
-			out_file.write(f">{line[0]}\n{line[1]}")
+			with open("tmp/candidate_primers.fasta",'w') as out_file:
+				out_file.write(f">{line[0]}\n{line[1]}")
 
 	
 

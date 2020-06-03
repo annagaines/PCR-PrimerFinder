@@ -2,22 +2,32 @@
 
 from multiprocessing import Pool
 import sys
+import os
 from functools import partial
 from collections import Counter
 from itertools import islice
+import subprocess
 import re
 
 #g1_uniq_kmers_freq_filt.fasta
 
-def read_kmer_file(lines, group):
-		print(lines.rstrip())
-		if lines.startswith('>'):	
-			kmer = lines[0].replace(">","") 
-		else:
-			seq = lines[1]
-		print(kmer)
-		print(seq)
+def split_kmer_files(file,group):
+	split_cmd = f"split -l 500000 {file} {group}_kmers_"
+	subprocess.run(split_cmd, shell=True)
+	directory = os.getcwd()
+	#all_first_reads = [x for x in os.listdir(directory) if "_R1_" in x]
+	file_list = [x for x in os.listdir(directory) if "g1_kmers_" in x]
+	return file_list
 
+def read_kmer_file(file, group):
+	print(f"Filtering kmers from {file}")
+	with open(file,'r') as in_file:
+		for line in iter(lambda: list(islice(in_file,2)),()):
+			line = [l.strip() for l in line]
+			if len(line) <2:
+				break
+			kmer = line[0].replace(">","")
+			seq = line[1]
 		m = re.search(r'([ACGT])\1{3,}',seq)
 		m2 = re.search(r'([CG]){3,}',seq)
 		if m or m2:
@@ -39,11 +49,11 @@ def file_reader(in_file):
 		yield islice(file_in,2)
 
 def main():
+	# split_kmer_files("g1_uniq_kmers_freq_filt.fasta", 'g1')
 	pool = Pool(10)
-	infile = "g1_uniq_kmers_freq_filt.fasta"
-	lines = file_reader(infile)
-	pool.map(partial(read_kmer_file, group='g1'),next(lines))			
-	#infile.close()
+	infile_list = split_kmer_files("g1_uniq_kmers_freq_filt.fasta", 'g1')
+	pool.map(partial(read_kmer_file, group='g1'),infile_list)			
+	
 
 
 if __name__ == '__main__':
