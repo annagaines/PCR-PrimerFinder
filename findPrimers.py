@@ -58,7 +58,7 @@ def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, freq
 	kmer_frequency_1 = len(filelist1) * frequency 
 	kmer_frequency_2 = len(filelist2) * frequency 
 
-	genome_group = get_genome_groups(filelist1, filelist2)
+	genome_groups = get_genome_groups(filelist1, filelist2)
 	make_jellyfish_directories("g1")
 	make_jellyfish_directories("g2")
 	with Pool(10) as pool:
@@ -75,7 +75,7 @@ def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, freq
 	calc_handler(file_list2,'g2')
 	compare_kmers("g1","g2")
 	blast_against_genomes()
-	find_group_specific_kmers(genome_group)
+	find_group_specific_kmers(genome_groups)
 	#off_target_check("g1_uniq_kmers_freq_bio_filt.fasta",percentIdentity)
 	# check_nt_blast_results(whiteList,blackList,nt_blast_results)
 
@@ -85,13 +85,12 @@ def get_genome_groups(filelist1, filelist2):
 	#group2_genomes = {}
 	for file in filelist1:
 		get_genome_cmd = f"head -n 1 assemblies/{file}|cut -d' ' -f1 |sed 's/>//' "
-		genome = subprocess.check_output(get_genome_cmd, shell=True, universal_newlines=True)
+		genome = subprocess.check_output(get_genome_cmd, shell=True, universal_newlines=True).rstrip()
 		if genome not in genome_group:
 			genome_group[genome] = 'g1'
-
 	for file in filelist2:
 		get_genome_cmd = f"head -n 1 assemblies/{file}|cut -d' ' -f1 |sed 's/>//' "
-		genome = subprocess.check_output(get_genome_cmd, shell=True, universal_newlines=True)
+		genome = subprocess.check_output(get_genome_cmd, shell=True, universal_newlines=True).rstrip()
 		if genome not in genome_group:
 			genome_group[genome] = 'g2'
 	return	(genome_group)
@@ -138,29 +137,23 @@ def calc_tm(file, group):
 	
 	with open(f"tmp/{group}_uniq_kmers_freq_bio_filt.fasta", 'a') as out_file:
 		with open(f"tmp/{file}",'r') as in_file:
-			for line in iter(lambda: list(islice(in_file,2)),()):
-				line = [l.strip() for l in line]
-				#print(line)
-				if len(line) <2:
-					break
-				kmer = line[0].replace(">","")
-				seq = line[1]
-				#print(kmer)
-				#print(seq)
-				m = re.search(r'([ACGT])\1{4,}',seq)
-				m2 = re.search(r'([CG]){3,}',seq)
+			for line in in_file:
+				line = line.rstrip()
+				#kmer = line[0].replace(">","")
+				m = re.search(r'([ACGT])\1{4,}',line)
+				m2 = re.search(r'([CG]){3,}',line)
 				if m or m2:
 					pass
 				else:
 				#Look at sequences to get Tm and GC content	
-					l = len(seq)
-					counts = Counter(seq.upper())
+					l = len(line)
+					counts = Counter(line.upper())
 					#This Tm equation was taken from https://primerdigital.com/fastpcr/m7.html with 2.75 added because it brings the Tm closest to the Tm reported by the tool used by RDB http://www.operon.com/tools/oligo-analysis-tool.aspx
 					temp = 69.3 +((41*(counts['G']+counts['C'])-650)/l) 
 					if 49 < float(temp) < 66:
 							#out_file.write(f"{line[0]}\n{line[1]}")
 							#print(f"{line[0]}\n{line[1]}")
-							return f"{line[0]}\n{line[1]}\n"
+							return f"{line}\n"
 	out_file.close()
 
 def calc_handler(file_list,group):
@@ -195,16 +188,15 @@ def find_group_specific_kmers(genome_group):
 		for line in in_file:
 			line = line.rstrip().split("\t")
 			if line[0] not in kmers:
-				kmers[line[0]] = line[1]
+				kmers[line[0]] = {}
+				kmers[line[0]]['genome'] = line[1]
 				kmers[line[0]]['group1'] = 0
 				kmers[line[0]]['group2'] = 0
-			if genome_group[kmers[line[1]]] == 'g1':
-				kmers[line[0]]['group1'] += 0
-			elif genome_group[kmers[line[1]]] == 'g2':
-				kmers[line[0]]['group2'] += 0
-			print(line[0])
-			print(f"Group 1 count: kmers[line[0]]['group1']")
-			print(f"Group 2 count: kmers[line[0]]['group2']")
+			if genome_group[kmers[line[0]]['genome']] == 'g1':
+				kmers[line[0]]['group1'] += 1
+			elif genome_group[kmers[line[0]]['genome']] == 'g2':
+				kmers[line[0]]['group2'] += 1
+		
 
 def off_target_check(uniq_filtered_kmers, percent_identity):
 	'''Use the kmer file filtered by frequency, GC content, melting temperature, and homopolymers as blast query against nt database.
