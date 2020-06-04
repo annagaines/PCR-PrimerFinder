@@ -72,6 +72,7 @@ def main(genomelist1,genomelist2, whiteList,blackList,percentIdentity, log, freq
 	# 	pool.map(partial(calc_tm, group='g1'), file_list1)
 	# 	pool.map(partial(calc_tm, group='g2'), file_list2)
 	calc_handler(file_list1,'g1')
+	calc_handler(file_list2,'g2')
 	compare_kmers("g1","g2")
 	blast_against_genomes()
 	find_group_specific_kmers(genome_group)
@@ -119,7 +120,7 @@ def get_kmers(file, group):
 def combine_freq_and_filt(frequency, group):
 	logging.debug(f"\tFiltering k-mers in {group} using a frequency threshold of {frequency}")
 	combine_kmers = f"cat kmers/{group}/*.kmers |sort --parallel 30 -S 10G |uniq -c > tmp/{group}_combined_uniq_kmers.txt" 
-	freq_filt_kmers = f"cat tmp/{group}_combined_uniq_kmers.txt |awk '$1 >= {frequency} {{print  $2}}'  |nl |awk '{{print \">kmer_\"$1 \"\\n\"$2}}' > tmp/{group}_uniq_kmers_freq_filt.fasta"
+	freq_filt_kmers = f"cat tmp/{group}_combined_uniq_kmers.txt |awk '$1 >= {frequency} {{print  $2}}' > tmp/{group}_uniq_kmers_freq_filt.fasta"
 	subprocess.check_output(combine_kmers, shell=True)
 	subprocess.call(freq_filt_kmers, shell=True)
 
@@ -128,7 +129,7 @@ def split_kmer_files(file,group):
 	split_cmd = f"split -l 500000 {file} tmp/{group}_kmers_"
 	subprocess.run(split_cmd, shell=True)
 	#directory = os.getcwd()
-	file_list = [x for x in os.listdir("tmp") if "g1_kmers_" in x]
+	file_list = [x for x in os.listdir("tmp") if f"{group}_kmers_" in x]
 	return file_list
 
 def calc_tm(file, group):
@@ -139,13 +140,13 @@ def calc_tm(file, group):
 		with open(f"tmp/{file}",'r') as in_file:
 			for line in iter(lambda: list(islice(in_file,2)),()):
 				line = [l.strip() for l in line]
-				print(line)
+				#print(line)
 				if len(line) <2:
 					break
 				kmer = line[0].replace(">","")
 				seq = line[1]
-				print(kmer)
-				print(seq)
+				#print(kmer)
+				#print(seq)
 				m = re.search(r'([ACGT])\1{4,}',seq)
 				m2 = re.search(r'([CG]){3,}',seq)
 				if m or m2:
@@ -159,15 +160,17 @@ def calc_tm(file, group):
 					if 49 < float(temp) < 66:
 							#out_file.write(f"{line[0]}\n{line[1]}")
 							#print(f"{line[0]}\n{line[1]}")
-							return f"{line[0]}\n{line[1]}"
+							return f"{line[0]}\n{line[1]}\n"
 	out_file.close()
 
 def calc_handler(file_list,group):
 	p = Pool(20)
 	with open(f"tmp/{group}_uniq_kmers_freq_bio_filt.fasta", 'a') as out_file:
-		for result in p.imap(partial(calc_tm, group-'g1'),file_list):
-			out_file.write(result)
-
+		for result in p.imap(partial(calc_tm, group=group),file_list):
+			if result is not None:
+				out_file.write(result)
+			else:
+				pass	
 
 def compare_kmers(group1, group2):
 	logging.debug(f"\tCreating list of uniq different k-mers.")
