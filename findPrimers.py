@@ -196,7 +196,15 @@ def find_group_specific_kmers(genome_group):
 				kmers[line[0]]['group1'] += 1
 			elif genome_group[kmers[line[0]]['genome']] == 'g2':
 				kmers[line[0]]['group2'] += 1
-		
+			
+		for kmer in kmers:
+			if kmers[kmer]['group1'] > 0 and kmers[kmer]['group2'] == 0:
+				print(f"High - g1: {kmer}")
+			elif kmers[kmer]['group2'] > 0 and kmers[kmer]['group1'] == 0:
+				print(f"High - g2: {kmer}")
+			
+			
+ 
 
 def off_target_check(uniq_filtered_kmers, percent_identity):
 	'''Use the kmer file filtered by frequency, GC content, melting temperature, and homopolymers as blast query against nt database.
